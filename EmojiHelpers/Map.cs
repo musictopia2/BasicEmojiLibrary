@@ -11,1331 +11,1341 @@ public static class Map
     static Map()
     {
         ii1.Init();
-        _nameToEmoji = new Dictionary<string, string>
+        _nameToEmoji = [];
+        TryAdd(EmojiCustomStrings.CompleteList.Abacus, EmojiSymbols.CompleteList.Abacus);
+        TryAdd(EmojiCustomStrings.CompleteList.AbButtonBloodType, EmojiSymbols.CompleteList.AbButtonBloodType);
+        TryAdd(EmojiCustomStrings.CompleteList.AButtonBloodType, EmojiSymbols.CompleteList.AButtonBloodType);
+        TryAdd(EmojiCustomStrings.CompleteList.Accordion, EmojiSymbols.CompleteList.Accordion);
+        TryAdd(EmojiCustomStrings.CompleteList.AdhesiveBandage, EmojiSymbols.CompleteList.AdhesiveBandage);
+        TryAdd(EmojiCustomStrings.CompleteList.AdmissionTickets, EmojiSymbols.CompleteList.AdmissionTickets);
+        TryAdd(EmojiCustomStrings.CompleteList.AerialTramway, EmojiSymbols.CompleteList.AerialTramway);
+        TryAdd(EmojiCustomStrings.CompleteList.Airplane, EmojiSymbols.CompleteList.Airplane);
+        TryAdd(EmojiCustomStrings.CompleteList.AirplaneArrival, EmojiSymbols.CompleteList.AirplaneArrival);
+        TryAdd(EmojiCustomStrings.CompleteList.AirplaneDeparture, EmojiSymbols.CompleteList.AirplaneDeparture);
+        TryAdd(EmojiCustomStrings.CompleteList.AlarmClock, EmojiSymbols.CompleteList.AlarmClock);
+        TryAdd(EmojiCustomStrings.CompleteList.Alembic, EmojiSymbols.CompleteList.Alembic);
+        TryAdd(EmojiCustomStrings.CompleteList.Alien, EmojiSymbols.CompleteList.Alien);
+        TryAdd(EmojiCustomStrings.CompleteList.AlienMonster, EmojiSymbols.CompleteList.AlienMonster);
+        TryAdd(EmojiCustomStrings.CompleteList.Ambulance, EmojiSymbols.CompleteList.Ambulance);
+        TryAdd(EmojiCustomStrings.CompleteList.AmericanFootball, EmojiSymbols.CompleteList.AmericanFootball);
+        TryAdd(EmojiCustomStrings.CompleteList.Amphora, EmojiSymbols.CompleteList.Amphora);
+        TryAdd(EmojiCustomStrings.CompleteList.AnatomicalHeart, EmojiSymbols.CompleteList.AnatomicalHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.Anchor, EmojiSymbols.CompleteList.Anchor);
+        TryAdd(EmojiCustomStrings.CompleteList.AngerSymbol, EmojiSymbols.CompleteList.AngerSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.AngryFace, EmojiSymbols.CompleteList.AngryFace);
+        TryAdd(EmojiCustomStrings.CompleteList.AngryFaceWithHorns, EmojiSymbols.CompleteList.AngryFaceWithHorns);
+        TryAdd(EmojiCustomStrings.CompleteList.AnguishedFace, EmojiSymbols.CompleteList.AnguishedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Ant, EmojiSymbols.CompleteList.Ant);
+        TryAdd(EmojiCustomStrings.CompleteList.AntennaBars, EmojiSymbols.CompleteList.AntennaBars);
+        TryAdd(EmojiCustomStrings.CompleteList.AnxiousFaceWithSweat, EmojiSymbols.CompleteList.AnxiousFaceWithSweat);
+        TryAdd(EmojiCustomStrings.CompleteList.Aquarius, EmojiSymbols.CompleteList.Aquarius);
+        TryAdd(EmojiCustomStrings.CompleteList.Aries, EmojiSymbols.CompleteList.Aries);
+        TryAdd(EmojiCustomStrings.CompleteList.ArticulatedLorry, EmojiSymbols.CompleteList.ArticulatedLorry);
+        TryAdd(EmojiCustomStrings.CompleteList.ArtistPalette, EmojiSymbols.CompleteList.ArtistPalette);
+        TryAdd(EmojiCustomStrings.CompleteList.AstonishedFace, EmojiSymbols.CompleteList.AstonishedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.AtmSign, EmojiSymbols.CompleteList.AtmSign);
+        TryAdd(EmojiCustomStrings.CompleteList.AtomSymbol, EmojiSymbols.CompleteList.AtomSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.Automobile, EmojiSymbols.CompleteList.Automobile);
+        TryAdd(EmojiCustomStrings.CompleteList.AutoRickshaw, EmojiSymbols.CompleteList.AutoRickshaw);
+        TryAdd(EmojiCustomStrings.CompleteList.Avocado, EmojiSymbols.CompleteList.Avocado);
+        TryAdd(EmojiCustomStrings.CompleteList.Axe, EmojiSymbols.CompleteList.Axe);
+        TryAdd(EmojiCustomStrings.CompleteList.Baby, EmojiSymbols.CompleteList.Baby);
+        TryAdd(EmojiCustomStrings.CompleteList.BabyAngel, EmojiSymbols.CompleteList.BabyAngel);
+        TryAdd(EmojiCustomStrings.CompleteList.BabyBottle, EmojiSymbols.CompleteList.BabyBottle);
+        TryAdd(EmojiCustomStrings.CompleteList.BabyChick, EmojiSymbols.CompleteList.BabyChick);
+        TryAdd(EmojiCustomStrings.CompleteList.BabySymbol, EmojiSymbols.CompleteList.BabySymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.BackArrow, EmojiSymbols.CompleteList.BackArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.BackhandIndexPointingDown, EmojiSymbols.CompleteList.BackhandIndexPointingDown);
+        TryAdd(EmojiCustomStrings.CompleteList.BackhandIndexPointingLeft, EmojiSymbols.CompleteList.BackhandIndexPointingLeft);
+        TryAdd(EmojiCustomStrings.CompleteList.BackhandIndexPointingRight, EmojiSymbols.CompleteList.BackhandIndexPointingRight);
+        TryAdd(EmojiCustomStrings.CompleteList.BackhandIndexPointingUp, EmojiSymbols.CompleteList.BackhandIndexPointingUp);
+        TryAdd(EmojiCustomStrings.CompleteList.Backpack, EmojiSymbols.CompleteList.Backpack);
+        TryAdd(EmojiCustomStrings.CompleteList.Bacon, EmojiSymbols.CompleteList.Bacon);
+        TryAdd(EmojiCustomStrings.CompleteList.Badger, EmojiSymbols.CompleteList.Badger);
+        TryAdd(EmojiCustomStrings.CompleteList.Badminton, EmojiSymbols.CompleteList.Badminton);
+        TryAdd(EmojiCustomStrings.CompleteList.Bagel, EmojiSymbols.CompleteList.Bagel);
+        TryAdd(EmojiCustomStrings.CompleteList.BaggageClaim, EmojiSymbols.CompleteList.BaggageClaim);
+        TryAdd(EmojiCustomStrings.CompleteList.BaguetteBread, EmojiSymbols.CompleteList.BaguetteBread);
+        TryAdd(EmojiCustomStrings.CompleteList.BalanceScale, EmojiSymbols.CompleteList.BalanceScale);
+        TryAdd(EmojiCustomStrings.CompleteList.Bald, EmojiSymbols.CompleteList.Bald);
+        TryAdd(EmojiCustomStrings.CompleteList.BalletShoes, EmojiSymbols.CompleteList.BalletShoes);
+        TryAdd(EmojiCustomStrings.CompleteList.Balloon, EmojiSymbols.CompleteList.Balloon);
+        TryAdd(EmojiCustomStrings.CompleteList.BallotBoxWithBallot, EmojiSymbols.CompleteList.BallotBoxWithBallot);
+        TryAdd(EmojiCustomStrings.CompleteList.Banana, EmojiSymbols.CompleteList.Banana);
+        TryAdd(EmojiCustomStrings.CompleteList.Banjo, EmojiSymbols.CompleteList.Banjo);
+        TryAdd(EmojiCustomStrings.CompleteList.Bank, EmojiSymbols.CompleteList.Bank);
+        TryAdd(EmojiCustomStrings.CompleteList.BarberPole, EmojiSymbols.CompleteList.BarberPole);
+        TryAdd(EmojiCustomStrings.CompleteList.BarChart, EmojiSymbols.CompleteList.BarChart);
+        TryAdd(EmojiCustomStrings.CompleteList.Baseball, EmojiSymbols.CompleteList.Baseball);
+        TryAdd(EmojiCustomStrings.CompleteList.Basket, EmojiSymbols.CompleteList.Basket);
+        TryAdd(EmojiCustomStrings.CompleteList.Basketball, EmojiSymbols.CompleteList.Basketball);
+        TryAdd(EmojiCustomStrings.CompleteList.Bat, EmojiSymbols.CompleteList.Bat);
+        TryAdd(EmojiCustomStrings.CompleteList.Bathtub, EmojiSymbols.CompleteList.Bathtub);
+        TryAdd(EmojiCustomStrings.CompleteList.Battery, EmojiSymbols.CompleteList.Battery);
+        TryAdd(EmojiCustomStrings.CompleteList.BButtonBloodType, EmojiSymbols.CompleteList.BButtonBloodType);
+        TryAdd(EmojiCustomStrings.CompleteList.BeachWithUmbrella, EmojiSymbols.CompleteList.BeachWithUmbrella);
+        TryAdd(EmojiCustomStrings.CompleteList.BeamingFaceWithSmilingEyes, EmojiSymbols.CompleteList.BeamingFaceWithSmilingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.Bear, EmojiSymbols.CompleteList.Bear);
+        TryAdd(EmojiCustomStrings.CompleteList.BeatingHeart, EmojiSymbols.CompleteList.BeatingHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.Beaver, EmojiSymbols.CompleteList.Beaver);
+        TryAdd(EmojiCustomStrings.CompleteList.Bed, EmojiSymbols.CompleteList.Bed);
+        TryAdd(EmojiCustomStrings.CompleteList.Beetle, EmojiSymbols.CompleteList.Beetle);
+        TryAdd(EmojiCustomStrings.CompleteList.Bell, EmojiSymbols.CompleteList.Bell);
+        TryAdd(EmojiCustomStrings.CompleteList.BellhopBell, EmojiSymbols.CompleteList.BellhopBell);
+        TryAdd(EmojiCustomStrings.CompleteList.BellPepper, EmojiSymbols.CompleteList.BellPepper);
+        TryAdd(EmojiCustomStrings.CompleteList.BellWithSlash, EmojiSymbols.CompleteList.BellWithSlash);
+        TryAdd(EmojiCustomStrings.CompleteList.BentoBox, EmojiSymbols.CompleteList.BentoBox);
+        TryAdd(EmojiCustomStrings.CompleteList.BeverageBox, EmojiSymbols.CompleteList.BeverageBox);
+        TryAdd(EmojiCustomStrings.CompleteList.Bicycle, EmojiSymbols.CompleteList.Bicycle);
+        TryAdd(EmojiCustomStrings.CompleteList.Bikini, EmojiSymbols.CompleteList.Bikini);
+        TryAdd(EmojiCustomStrings.CompleteList.BilledCap, EmojiSymbols.CompleteList.BilledCap);
+        TryAdd(EmojiCustomStrings.CompleteList.Biohazard, EmojiSymbols.CompleteList.Biohazard);
+        TryAdd(EmojiCustomStrings.CompleteList.Bird, EmojiSymbols.CompleteList.Bird);
+        TryAdd(EmojiCustomStrings.CompleteList.BirthdayCake, EmojiSymbols.CompleteList.BirthdayCake);
+        TryAdd(EmojiCustomStrings.CompleteList.Bison, EmojiSymbols.CompleteList.Bison);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackCircle, EmojiSymbols.CompleteList.BlackCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackFlag, EmojiSymbols.CompleteList.BlackFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackHeart, EmojiSymbols.CompleteList.BlackHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackLargeSquare, EmojiSymbols.CompleteList.BlackLargeSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackMediumSmallSquare, EmojiSymbols.CompleteList.BlackMediumSmallSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackMediumSquare, EmojiSymbols.CompleteList.BlackMediumSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackNib, EmojiSymbols.CompleteList.BlackNib);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackSmallSquare, EmojiSymbols.CompleteList.BlackSmallSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.BlackSquareButton, EmojiSymbols.CompleteList.BlackSquareButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Blossom, EmojiSymbols.CompleteList.Blossom);
+        TryAdd(EmojiCustomStrings.CompleteList.Blowfish, EmojiSymbols.CompleteList.Blowfish);
+        TryAdd(EmojiCustomStrings.CompleteList.Blueberries, EmojiSymbols.CompleteList.Blueberries);
+        TryAdd(EmojiCustomStrings.CompleteList.BlueBook, EmojiSymbols.CompleteList.BlueBook);
+        TryAdd(EmojiCustomStrings.CompleteList.BlueCircle, EmojiSymbols.CompleteList.BlueCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.BlueHeart, EmojiSymbols.CompleteList.BlueHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.BlueSquare, EmojiSymbols.CompleteList.BlueSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.Boar, EmojiSymbols.CompleteList.Boar);
+        TryAdd(EmojiCustomStrings.CompleteList.Bomb, EmojiSymbols.CompleteList.Bomb);
+        TryAdd(EmojiCustomStrings.CompleteList.Bone, EmojiSymbols.CompleteList.Bone);
+        TryAdd(EmojiCustomStrings.CompleteList.Bookmark, EmojiSymbols.CompleteList.Bookmark);
+        TryAdd(EmojiCustomStrings.CompleteList.BookmarkTabs, EmojiSymbols.CompleteList.BookmarkTabs);
+        TryAdd(EmojiCustomStrings.CompleteList.Books, EmojiSymbols.CompleteList.Books);
+        TryAdd(EmojiCustomStrings.CompleteList.Boomerang, EmojiSymbols.CompleteList.Boomerang);
+        TryAdd(EmojiCustomStrings.CompleteList.BottleWithPoppingCork, EmojiSymbols.CompleteList.BottleWithPoppingCork);
+        TryAdd(EmojiCustomStrings.CompleteList.Bouquet, EmojiSymbols.CompleteList.Bouquet);
+        TryAdd(EmojiCustomStrings.CompleteList.BowAndArrow, EmojiSymbols.CompleteList.BowAndArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.Bowling, EmojiSymbols.CompleteList.Bowling);
+        TryAdd(EmojiCustomStrings.CompleteList.BowlWithSpoon, EmojiSymbols.CompleteList.BowlWithSpoon);
+        TryAdd(EmojiCustomStrings.CompleteList.BoxingGlove, EmojiSymbols.CompleteList.BoxingGlove);
+        TryAdd(EmojiCustomStrings.CompleteList.Boy, EmojiSymbols.CompleteList.Boy);
+        TryAdd(EmojiCustomStrings.CompleteList.Brain, EmojiSymbols.CompleteList.Brain);
+        TryAdd(EmojiCustomStrings.CompleteList.Bread, EmojiSymbols.CompleteList.Bread);
+        TryAdd(EmojiCustomStrings.CompleteList.BreastFeeding, EmojiSymbols.CompleteList.BreastFeeding);
+        TryAdd(EmojiCustomStrings.CompleteList.Brick, EmojiSymbols.CompleteList.Brick);
+        TryAdd(EmojiCustomStrings.CompleteList.BridgeAtNight, EmojiSymbols.CompleteList.BridgeAtNight);
+        TryAdd(EmojiCustomStrings.CompleteList.Briefcase, EmojiSymbols.CompleteList.Briefcase);
+        TryAdd(EmojiCustomStrings.CompleteList.Briefs, EmojiSymbols.CompleteList.Briefs);
+        TryAdd(EmojiCustomStrings.CompleteList.BrightButton, EmojiSymbols.CompleteList.BrightButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Broccoli, EmojiSymbols.CompleteList.Broccoli);
+        TryAdd(EmojiCustomStrings.CompleteList.BrokenHeart, EmojiSymbols.CompleteList.BrokenHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.Broom, EmojiSymbols.CompleteList.Broom);
+        TryAdd(EmojiCustomStrings.CompleteList.BrownCircle, EmojiSymbols.CompleteList.BrownCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.BrownHeart, EmojiSymbols.CompleteList.BrownHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.BrownSquare, EmojiSymbols.CompleteList.BrownSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.BubbleTea, EmojiSymbols.CompleteList.BubbleTea);
+        TryAdd(EmojiCustomStrings.CompleteList.Bucket, EmojiSymbols.CompleteList.Bucket);
+        TryAdd(EmojiCustomStrings.CompleteList.Bug, EmojiSymbols.CompleteList.Bug);
+        TryAdd(EmojiCustomStrings.CompleteList.BuildingConstruction, EmojiSymbols.CompleteList.BuildingConstruction);
+        TryAdd(EmojiCustomStrings.CompleteList.BulletTrain, EmojiSymbols.CompleteList.BulletTrain);
+        TryAdd(EmojiCustomStrings.CompleteList.Bullseye, EmojiSymbols.CompleteList.Bullseye);
+        TryAdd(EmojiCustomStrings.CompleteList.Burrito, EmojiSymbols.CompleteList.Burrito);
+        TryAdd(EmojiCustomStrings.CompleteList.Bus, EmojiSymbols.CompleteList.Bus);
+        TryAdd(EmojiCustomStrings.CompleteList.BusStop, EmojiSymbols.CompleteList.BusStop);
+        TryAdd(EmojiCustomStrings.CompleteList.BustInSilhouette, EmojiSymbols.CompleteList.BustInSilhouette);
+        TryAdd(EmojiCustomStrings.CompleteList.BustsInSilhouette, EmojiSymbols.CompleteList.BustsInSilhouette);
+        TryAdd(EmojiCustomStrings.CompleteList.Butter, EmojiSymbols.CompleteList.Butter);
+        TryAdd(EmojiCustomStrings.CompleteList.Butterfly, EmojiSymbols.CompleteList.Butterfly);
+        TryAdd(EmojiCustomStrings.CompleteList.Cactus, EmojiSymbols.CompleteList.Cactus);
+        TryAdd(EmojiCustomStrings.CompleteList.Calendar, EmojiSymbols.CompleteList.Calendar);
+        TryAdd(EmojiCustomStrings.CompleteList.CallMeHand, EmojiSymbols.CompleteList.CallMeHand);
+        TryAdd(EmojiCustomStrings.CompleteList.Camel, EmojiSymbols.CompleteList.Camel);
+        TryAdd(EmojiCustomStrings.CompleteList.Camera, EmojiSymbols.CompleteList.Camera);
+        TryAdd(EmojiCustomStrings.CompleteList.CameraWithFlash, EmojiSymbols.CompleteList.CameraWithFlash);
+        TryAdd(EmojiCustomStrings.CompleteList.Camping, EmojiSymbols.CompleteList.Camping);
+        TryAdd(EmojiCustomStrings.CompleteList.Cancer, EmojiSymbols.CompleteList.Cancer);
+        TryAdd(EmojiCustomStrings.CompleteList.Candle, EmojiSymbols.CompleteList.Candle);
+        TryAdd(EmojiCustomStrings.CompleteList.Candy, EmojiSymbols.CompleteList.Candy);
+        TryAdd(EmojiCustomStrings.CompleteList.CannedFood, EmojiSymbols.CompleteList.CannedFood);
+        TryAdd(EmojiCustomStrings.CompleteList.Canoe, EmojiSymbols.CompleteList.Canoe);
+        TryAdd(EmojiCustomStrings.CompleteList.Capricorn, EmojiSymbols.CompleteList.Capricorn);
+        TryAdd(EmojiCustomStrings.CompleteList.CardFileBox, EmojiSymbols.CompleteList.CardFileBox);
+        TryAdd(EmojiCustomStrings.CompleteList.CardIndex, EmojiSymbols.CompleteList.CardIndex);
+        TryAdd(EmojiCustomStrings.CompleteList.CardIndexDividers, EmojiSymbols.CompleteList.CardIndexDividers);
+        TryAdd(EmojiCustomStrings.CompleteList.CarouselHorse, EmojiSymbols.CompleteList.CarouselHorse);
+        TryAdd(EmojiCustomStrings.CompleteList.CarpentrySaw, EmojiSymbols.CompleteList.CarpentrySaw);
+        TryAdd(EmojiCustomStrings.CompleteList.CarpStreamer, EmojiSymbols.CompleteList.CarpStreamer);
+        TryAdd(EmojiCustomStrings.CompleteList.Carrot, EmojiSymbols.CompleteList.Carrot);
+        TryAdd(EmojiCustomStrings.CompleteList.Castle, EmojiSymbols.CompleteList.Castle);
+        TryAdd(EmojiCustomStrings.CompleteList.Cat, EmojiSymbols.CompleteList.Cat);
+        TryAdd(EmojiCustomStrings.CompleteList.CatFace, EmojiSymbols.CompleteList.CatFace);
+        TryAdd(EmojiCustomStrings.CompleteList.CatWithTearsOfJoy, EmojiSymbols.CompleteList.CatWithTearsOfJoy);
+        TryAdd(EmojiCustomStrings.CompleteList.CatWithWrySmile, EmojiSymbols.CompleteList.CatWithWrySmile);
+        TryAdd(EmojiCustomStrings.CompleteList.Chains, EmojiSymbols.CompleteList.Chains);
+        TryAdd(EmojiCustomStrings.CompleteList.Chair, EmojiSymbols.CompleteList.Chair);
+        TryAdd(EmojiCustomStrings.CompleteList.ChartDecreasing, EmojiSymbols.CompleteList.ChartDecreasing);
+        TryAdd(EmojiCustomStrings.CompleteList.ChartIncreasing, EmojiSymbols.CompleteList.ChartIncreasing);
+        TryAdd(EmojiCustomStrings.CompleteList.ChartIncreasingWithYen, EmojiSymbols.CompleteList.ChartIncreasingWithYen);
+        TryAdd(EmojiCustomStrings.CompleteList.CheckBoxWithCheck, EmojiSymbols.CompleteList.CheckBoxWithCheck);
+        TryAdd(EmojiCustomStrings.CompleteList.CheckMark, EmojiSymbols.CompleteList.CheckMark);
+        TryAdd(EmojiCustomStrings.CompleteList.CheckMarkButton, EmojiSymbols.CompleteList.CheckMarkButton);
+        TryAdd(EmojiCustomStrings.CompleteList.CheeseWedge, EmojiSymbols.CompleteList.CheeseWedge);
+        TryAdd(EmojiCustomStrings.CompleteList.ChequeredFlag, EmojiSymbols.CompleteList.ChequeredFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.Cherries, EmojiSymbols.CompleteList.Cherries);
+        TryAdd(EmojiCustomStrings.CompleteList.CherryBlossom, EmojiSymbols.CompleteList.CherryBlossom);
+        TryAdd(EmojiCustomStrings.CompleteList.ChessPawn, EmojiSymbols.CompleteList.ChessPawn);
+        TryAdd(EmojiCustomStrings.CompleteList.Chestnut, EmojiSymbols.CompleteList.Chestnut);
+        TryAdd(EmojiCustomStrings.CompleteList.Chicken, EmojiSymbols.CompleteList.Chicken);
+        TryAdd(EmojiCustomStrings.CompleteList.Child, EmojiSymbols.CompleteList.Child);
+        TryAdd(EmojiCustomStrings.CompleteList.ChildrenCrossing, EmojiSymbols.CompleteList.ChildrenCrossing);
+        TryAdd(EmojiCustomStrings.CompleteList.Chipmunk, EmojiSymbols.CompleteList.Chipmunk);
+        TryAdd(EmojiCustomStrings.CompleteList.ChocolateBar, EmojiSymbols.CompleteList.ChocolateBar);
+        TryAdd(EmojiCustomStrings.CompleteList.Chopsticks, EmojiSymbols.CompleteList.Chopsticks);
+        TryAdd(EmojiCustomStrings.CompleteList.ChristmasTree, EmojiSymbols.CompleteList.ChristmasTree);
+        TryAdd(EmojiCustomStrings.CompleteList.Church, EmojiSymbols.CompleteList.Church);
+        TryAdd(EmojiCustomStrings.CompleteList.Cigarette, EmojiSymbols.CompleteList.Cigarette);
+        TryAdd(EmojiCustomStrings.CompleteList.Cinema, EmojiSymbols.CompleteList.Cinema);
+        TryAdd(EmojiCustomStrings.CompleteList.CircledM, EmojiSymbols.CompleteList.CircledM);
+        TryAdd(EmojiCustomStrings.CompleteList.CircusTent, EmojiSymbols.CompleteList.CircusTent);
+        TryAdd(EmojiCustomStrings.CompleteList.Cityscape, EmojiSymbols.CompleteList.Cityscape);
+        TryAdd(EmojiCustomStrings.CompleteList.CityscapeAtDusk, EmojiSymbols.CompleteList.CityscapeAtDusk);
+        TryAdd(EmojiCustomStrings.CompleteList.Clamp, EmojiSymbols.CompleteList.Clamp);
+        TryAdd(EmojiCustomStrings.CompleteList.ClapperBoard, EmojiSymbols.CompleteList.ClapperBoard);
+        TryAdd(EmojiCustomStrings.CompleteList.ClappingHands, EmojiSymbols.CompleteList.ClappingHands);
+        TryAdd(EmojiCustomStrings.CompleteList.ClassicalBuilding, EmojiSymbols.CompleteList.ClassicalBuilding);
+        TryAdd(EmojiCustomStrings.CompleteList.ClButton, EmojiSymbols.CompleteList.ClButton);
+        TryAdd(EmojiCustomStrings.CompleteList.ClinkingBeerMugs, EmojiSymbols.CompleteList.ClinkingBeerMugs);
+        TryAdd(EmojiCustomStrings.CompleteList.ClinkingGlasses, EmojiSymbols.CompleteList.ClinkingGlasses);
+        TryAdd(EmojiCustomStrings.CompleteList.Clipboard, EmojiSymbols.CompleteList.Clipboard);
+        TryAdd(EmojiCustomStrings.CompleteList.ClockwiseVerticalArrows, EmojiSymbols.CompleteList.ClockwiseVerticalArrows);
+        TryAdd(EmojiCustomStrings.CompleteList.ClosedBook, EmojiSymbols.CompleteList.ClosedBook);
+        TryAdd(EmojiCustomStrings.CompleteList.ClosedMailboxWithLoweredFlag, EmojiSymbols.CompleteList.ClosedMailboxWithLoweredFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.ClosedMailboxWithRaisedFlag, EmojiSymbols.CompleteList.ClosedMailboxWithRaisedFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.ClosedUmbrella, EmojiSymbols.CompleteList.ClosedUmbrella);
+        TryAdd(EmojiCustomStrings.CompleteList.Cloud, EmojiSymbols.CompleteList.Cloud);
+        TryAdd(EmojiCustomStrings.CompleteList.CloudWithLightning, EmojiSymbols.CompleteList.CloudWithLightning);
+        TryAdd(EmojiCustomStrings.CompleteList.CloudWithLightningAndRain, EmojiSymbols.CompleteList.CloudWithLightningAndRain);
+        TryAdd(EmojiCustomStrings.CompleteList.CloudWithRain, EmojiSymbols.CompleteList.CloudWithRain);
+        TryAdd(EmojiCustomStrings.CompleteList.CloudWithSnow, EmojiSymbols.CompleteList.CloudWithSnow);
+        TryAdd(EmojiCustomStrings.CompleteList.ClownFace, EmojiSymbols.CompleteList.ClownFace);
+        TryAdd(EmojiCustomStrings.CompleteList.ClubSuit, EmojiSymbols.CompleteList.ClubSuit);
+        TryAdd(EmojiCustomStrings.CompleteList.ClutchBag, EmojiSymbols.CompleteList.ClutchBag);
+        TryAdd(EmojiCustomStrings.CompleteList.Coat, EmojiSymbols.CompleteList.Coat);
+        TryAdd(EmojiCustomStrings.CompleteList.Cockroach, EmojiSymbols.CompleteList.Cockroach);
+        TryAdd(EmojiCustomStrings.CompleteList.CocktailGlass, EmojiSymbols.CompleteList.CocktailGlass);
+        TryAdd(EmojiCustomStrings.CompleteList.Coconut, EmojiSymbols.CompleteList.Coconut);
+        TryAdd(EmojiCustomStrings.CompleteList.Coffin, EmojiSymbols.CompleteList.Coffin);
+        TryAdd(EmojiCustomStrings.CompleteList.Coin, EmojiSymbols.CompleteList.Coin);
+        TryAdd(EmojiCustomStrings.CompleteList.ColdFace, EmojiSymbols.CompleteList.ColdFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Collision, EmojiSymbols.CompleteList.Collision);
+        TryAdd(EmojiCustomStrings.CompleteList.Comet, EmojiSymbols.CompleteList.Comet);
+        TryAdd(EmojiCustomStrings.CompleteList.Compass, EmojiSymbols.CompleteList.Compass);
+        TryAdd(EmojiCustomStrings.CompleteList.ComputerDisk, EmojiSymbols.CompleteList.ComputerDisk);
+        TryAdd(EmojiCustomStrings.CompleteList.ComputerMouse, EmojiSymbols.CompleteList.ComputerMouse);
+        TryAdd(EmojiCustomStrings.CompleteList.ConfettiBall, EmojiSymbols.CompleteList.ConfettiBall);
+        TryAdd(EmojiCustomStrings.CompleteList.ConfoundedFace, EmojiSymbols.CompleteList.ConfoundedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.ConfusedFace, EmojiSymbols.CompleteList.ConfusedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Construction, EmojiSymbols.CompleteList.Construction);
+        TryAdd(EmojiCustomStrings.CompleteList.ConstructionWorker, EmojiSymbols.CompleteList.ConstructionWorker);
+        TryAdd(EmojiCustomStrings.CompleteList.ControlKnobs, EmojiSymbols.CompleteList.ControlKnobs);
+        TryAdd(EmojiCustomStrings.CompleteList.ConvenienceStore, EmojiSymbols.CompleteList.ConvenienceStore);
+        TryAdd(EmojiCustomStrings.CompleteList.CookedRice, EmojiSymbols.CompleteList.CookedRice);
+        TryAdd(EmojiCustomStrings.CompleteList.Cookie, EmojiSymbols.CompleteList.Cookie);
+        TryAdd(EmojiCustomStrings.CompleteList.Cooking, EmojiSymbols.CompleteList.Cooking);
+        TryAdd(EmojiCustomStrings.CompleteList.CoolButton, EmojiSymbols.CompleteList.CoolButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Copyright, EmojiSymbols.CompleteList.Copyright);
+        TryAdd(EmojiCustomStrings.CompleteList.CouchAndLamp, EmojiSymbols.CompleteList.CouchAndLamp);
+        TryAdd(EmojiCustomStrings.CompleteList.CounterclockwiseArrowsButton, EmojiSymbols.CompleteList.CounterclockwiseArrowsButton);
+        TryAdd(EmojiCustomStrings.CompleteList.CoupleWithHeart, EmojiSymbols.CompleteList.CoupleWithHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.Cow, EmojiSymbols.CompleteList.Cow);
+        TryAdd(EmojiCustomStrings.CompleteList.CowboyHatFace, EmojiSymbols.CompleteList.CowboyHatFace);
+        TryAdd(EmojiCustomStrings.CompleteList.CowFace, EmojiSymbols.CompleteList.CowFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Crab, EmojiSymbols.CompleteList.Crab);
+        TryAdd(EmojiCustomStrings.CompleteList.Crayon, EmojiSymbols.CompleteList.Crayon);
+        TryAdd(EmojiCustomStrings.CompleteList.CreditCard, EmojiSymbols.CompleteList.CreditCard);
+        TryAdd(EmojiCustomStrings.CompleteList.CrescentMoon, EmojiSymbols.CompleteList.CrescentMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.Cricket, EmojiSymbols.CompleteList.Cricket);
+        TryAdd(EmojiCustomStrings.CompleteList.CricketGame, EmojiSymbols.CompleteList.CricketGame);
+        TryAdd(EmojiCustomStrings.CompleteList.Crocodile, EmojiSymbols.CompleteList.Crocodile);
+        TryAdd(EmojiCustomStrings.CompleteList.Croissant, EmojiSymbols.CompleteList.Croissant);
+        TryAdd(EmojiCustomStrings.CompleteList.CrossedFingers, EmojiSymbols.CompleteList.CrossedFingers);
+        TryAdd(EmojiCustomStrings.CompleteList.CrossedFlags, EmojiSymbols.CompleteList.CrossedFlags);
+        TryAdd(EmojiCustomStrings.CompleteList.CrossedSwords, EmojiSymbols.CompleteList.CrossedSwords);
+        TryAdd(EmojiCustomStrings.CompleteList.CrossMark, EmojiSymbols.CompleteList.CrossMark);
+        TryAdd(EmojiCustomStrings.CompleteList.CrossMarkButton, EmojiSymbols.CompleteList.CrossMarkButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Crown, EmojiSymbols.CompleteList.Crown);
+        TryAdd(EmojiCustomStrings.CompleteList.CryingCat, EmojiSymbols.CompleteList.CryingCat);
+        TryAdd(EmojiCustomStrings.CompleteList.CryingFace, EmojiSymbols.CompleteList.CryingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.CrystalBall, EmojiSymbols.CompleteList.CrystalBall);
+        TryAdd(EmojiCustomStrings.CompleteList.Cucumber, EmojiSymbols.CompleteList.Cucumber);
+        TryAdd(EmojiCustomStrings.CompleteList.Cupcake, EmojiSymbols.CompleteList.Cupcake);
+        TryAdd(EmojiCustomStrings.CompleteList.CupWithStraw, EmojiSymbols.CompleteList.CupWithStraw);
+        TryAdd(EmojiCustomStrings.CompleteList.CurlingStone, EmojiSymbols.CompleteList.CurlingStone);
+        TryAdd(EmojiCustomStrings.CompleteList.CurlyHair, EmojiSymbols.CompleteList.CurlyHair);
+        TryAdd(EmojiCustomStrings.CompleteList.CurlyLoop, EmojiSymbols.CompleteList.CurlyLoop);
+        TryAdd(EmojiCustomStrings.CompleteList.CurrencyExchange, EmojiSymbols.CompleteList.CurrencyExchange);
+        TryAdd(EmojiCustomStrings.CompleteList.CurryRice, EmojiSymbols.CompleteList.CurryRice);
+        TryAdd(EmojiCustomStrings.CompleteList.Custard, EmojiSymbols.CompleteList.Custard);
+        TryAdd(EmojiCustomStrings.CompleteList.Customs, EmojiSymbols.CompleteList.Customs);
+        TryAdd(EmojiCustomStrings.CompleteList.CutOfMeat, EmojiSymbols.CompleteList.CutOfMeat);
+        TryAdd(EmojiCustomStrings.CompleteList.Cyclone, EmojiSymbols.CompleteList.Cyclone);
+        TryAdd(EmojiCustomStrings.CompleteList.Dagger, EmojiSymbols.CompleteList.Dagger);
+        TryAdd(EmojiCustomStrings.CompleteList.Dango, EmojiSymbols.CompleteList.Dango);
+        TryAdd(EmojiCustomStrings.CompleteList.DashingAway, EmojiSymbols.CompleteList.DashingAway);
+        TryAdd(EmojiCustomStrings.CompleteList.DeafPerson, EmojiSymbols.CompleteList.DeafPerson);
+        TryAdd(EmojiCustomStrings.CompleteList.DeciduousTree, EmojiSymbols.CompleteList.DeciduousTree);
+        TryAdd(EmojiCustomStrings.CompleteList.Deer, EmojiSymbols.CompleteList.Deer);
+        TryAdd(EmojiCustomStrings.CompleteList.DeliveryTruck, EmojiSymbols.CompleteList.DeliveryTruck);
+        TryAdd(EmojiCustomStrings.CompleteList.DepartmentStore, EmojiSymbols.CompleteList.DepartmentStore);
+        TryAdd(EmojiCustomStrings.CompleteList.DerelictHouse, EmojiSymbols.CompleteList.DerelictHouse);
+        TryAdd(EmojiCustomStrings.CompleteList.Desert, EmojiSymbols.CompleteList.Desert);
+        TryAdd(EmojiCustomStrings.CompleteList.DesertIsland, EmojiSymbols.CompleteList.DesertIsland);
+        TryAdd(EmojiCustomStrings.CompleteList.DesktopComputer, EmojiSymbols.CompleteList.DesktopComputer);
+        TryAdd(EmojiCustomStrings.CompleteList.Detective, EmojiSymbols.CompleteList.Detective);
+        TryAdd(EmojiCustomStrings.CompleteList.DiamondSuit, EmojiSymbols.CompleteList.DiamondSuit);
+        TryAdd(EmojiCustomStrings.CompleteList.DiamondWithADot, EmojiSymbols.CompleteList.DiamondWithADot);
+        TryAdd(EmojiCustomStrings.CompleteList.DimButton, EmojiSymbols.CompleteList.DimButton);
+        TryAdd(EmojiCustomStrings.CompleteList.DisappointedFace, EmojiSymbols.CompleteList.DisappointedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.DisguisedFace, EmojiSymbols.CompleteList.DisguisedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Divide, EmojiSymbols.CompleteList.Divide);
+        TryAdd(EmojiCustomStrings.CompleteList.DivingMask, EmojiSymbols.CompleteList.DivingMask);
+        TryAdd(EmojiCustomStrings.CompleteList.DiyaLamp, EmojiSymbols.CompleteList.DiyaLamp);
+        TryAdd(EmojiCustomStrings.CompleteList.Dizzy, EmojiSymbols.CompleteList.Dizzy);
+        TryAdd(EmojiCustomStrings.CompleteList.Dna, EmojiSymbols.CompleteList.Dna);
+        TryAdd(EmojiCustomStrings.CompleteList.Dodo, EmojiSymbols.CompleteList.Dodo);
+        TryAdd(EmojiCustomStrings.CompleteList.Dog, EmojiSymbols.CompleteList.Dog);
+        TryAdd(EmojiCustomStrings.CompleteList.DogFace, EmojiSymbols.CompleteList.DogFace);
+        TryAdd(EmojiCustomStrings.CompleteList.DollarBanknote, EmojiSymbols.CompleteList.DollarBanknote);
+        TryAdd(EmojiCustomStrings.CompleteList.Dolphin, EmojiSymbols.CompleteList.Dolphin);
+        TryAdd(EmojiCustomStrings.CompleteList.Door, EmojiSymbols.CompleteList.Door);
+        TryAdd(EmojiCustomStrings.CompleteList.DottedSixPointedStar, EmojiSymbols.CompleteList.DottedSixPointedStar);
+        TryAdd(EmojiCustomStrings.CompleteList.DoubleCurlyLoop, EmojiSymbols.CompleteList.DoubleCurlyLoop);
+        TryAdd(EmojiCustomStrings.CompleteList.DoubleExclamationMark, EmojiSymbols.CompleteList.DoubleExclamationMark);
+        TryAdd(EmojiCustomStrings.CompleteList.Doughnut, EmojiSymbols.CompleteList.Doughnut);
+        TryAdd(EmojiCustomStrings.CompleteList.Dove, EmojiSymbols.CompleteList.Dove);
+        TryAdd(EmojiCustomStrings.CompleteList.DownArrow, EmojiSymbols.CompleteList.DownArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.DowncastFaceWithSweat, EmojiSymbols.CompleteList.DowncastFaceWithSweat);
+        TryAdd(EmojiCustomStrings.CompleteList.DownLeftArrow, EmojiSymbols.CompleteList.DownLeftArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.DownRightArrow, EmojiSymbols.CompleteList.DownRightArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.DownwardsButton, EmojiSymbols.CompleteList.DownwardsButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Dragon, EmojiSymbols.CompleteList.Dragon);
+        TryAdd(EmojiCustomStrings.CompleteList.DragonFace, EmojiSymbols.CompleteList.DragonFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Dress, EmojiSymbols.CompleteList.Dress);
+        TryAdd(EmojiCustomStrings.CompleteList.DroolingFace, EmojiSymbols.CompleteList.DroolingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Droplet, EmojiSymbols.CompleteList.Droplet);
+        TryAdd(EmojiCustomStrings.CompleteList.DropOfBlood, EmojiSymbols.CompleteList.DropOfBlood);
+        TryAdd(EmojiCustomStrings.CompleteList.Drum, EmojiSymbols.CompleteList.Drum);
+        TryAdd(EmojiCustomStrings.CompleteList.Duck, EmojiSymbols.CompleteList.Duck);
+        TryAdd(EmojiCustomStrings.CompleteList.Dumpling, EmojiSymbols.CompleteList.Dumpling);
+        TryAdd(EmojiCustomStrings.CompleteList.Dvd, EmojiSymbols.CompleteList.Dvd);
+        TryAdd(EmojiCustomStrings.CompleteList.Eagle, EmojiSymbols.CompleteList.Eagle);
+        TryAdd(EmojiCustomStrings.CompleteList.Ear, EmojiSymbols.CompleteList.Ear);
+        TryAdd(EmojiCustomStrings.CompleteList.EarOfCorn, EmojiSymbols.CompleteList.EarOfCorn);
+        TryAdd(EmojiCustomStrings.CompleteList.EarWithHearingAid, EmojiSymbols.CompleteList.EarWithHearingAid);
+        TryAdd(EmojiCustomStrings.CompleteList.Egg, EmojiSymbols.CompleteList.Egg);
+        TryAdd(EmojiCustomStrings.CompleteList.Eggplant, EmojiSymbols.CompleteList.Eggplant);
+        TryAdd(EmojiCustomStrings.CompleteList.EightOClock, EmojiSymbols.CompleteList.EightOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.EightPointedStar, EmojiSymbols.CompleteList.EightPointedStar);
+        TryAdd(EmojiCustomStrings.CompleteList.EightSpokedAsterisk, EmojiSymbols.CompleteList.EightSpokedAsterisk);
+        TryAdd(EmojiCustomStrings.CompleteList.EightThirty, EmojiSymbols.CompleteList.EightThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.EjectButton, EmojiSymbols.CompleteList.EjectButton);
+        TryAdd(EmojiCustomStrings.CompleteList.ElectricPlug, EmojiSymbols.CompleteList.ElectricPlug);
+        TryAdd(EmojiCustomStrings.CompleteList.Elephant, EmojiSymbols.CompleteList.Elephant);
+        TryAdd(EmojiCustomStrings.CompleteList.Elevator, EmojiSymbols.CompleteList.Elevator);
+        TryAdd(EmojiCustomStrings.CompleteList.ElevenOClock, EmojiSymbols.CompleteList.ElevenOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.ElevenThirty, EmojiSymbols.CompleteList.ElevenThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Elf, EmojiSymbols.CompleteList.Elf);
+        TryAdd(EmojiCustomStrings.CompleteList.EMail, EmojiSymbols.CompleteList.EMail);
+        TryAdd(EmojiCustomStrings.CompleteList.EndArrow, EmojiSymbols.CompleteList.EndArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.Envelope, EmojiSymbols.CompleteList.Envelope);
+        TryAdd(EmojiCustomStrings.CompleteList.EnvelopeWithArrow, EmojiSymbols.CompleteList.EnvelopeWithArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.EuroBanknote, EmojiSymbols.CompleteList.EuroBanknote);
+        TryAdd(EmojiCustomStrings.CompleteList.EvergreenTree, EmojiSymbols.CompleteList.EvergreenTree);
+        TryAdd(EmojiCustomStrings.CompleteList.Ewe, EmojiSymbols.CompleteList.Ewe);
+        TryAdd(EmojiCustomStrings.CompleteList.ExclamationQuestionMark, EmojiSymbols.CompleteList.ExclamationQuestionMark);
+        TryAdd(EmojiCustomStrings.CompleteList.ExplodingHead, EmojiSymbols.CompleteList.ExplodingHead);
+        TryAdd(EmojiCustomStrings.CompleteList.ExpressionlessFace, EmojiSymbols.CompleteList.ExpressionlessFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Eye, EmojiSymbols.CompleteList.Eye);
+        TryAdd(EmojiCustomStrings.CompleteList.Eyes, EmojiSymbols.CompleteList.Eyes);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceBlowingAKiss, EmojiSymbols.CompleteList.FaceBlowingAKiss);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceSavoringFood, EmojiSymbols.CompleteList.FaceSavoringFood);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceScreamingInFear, EmojiSymbols.CompleteList.FaceScreamingInFear);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceVomiting, EmojiSymbols.CompleteList.FaceVomiting);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithHandOverMouth, EmojiSymbols.CompleteList.FaceWithHandOverMouth);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithHeadBandage, EmojiSymbols.CompleteList.FaceWithHeadBandage);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithMedicalMask, EmojiSymbols.CompleteList.FaceWithMedicalMask);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithMonocle, EmojiSymbols.CompleteList.FaceWithMonocle);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithOpenMouth, EmojiSymbols.CompleteList.FaceWithOpenMouth);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithoutMouth, EmojiSymbols.CompleteList.FaceWithoutMouth);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithRaisedEyebrow, EmojiSymbols.CompleteList.FaceWithRaisedEyebrow);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithRollingEyes, EmojiSymbols.CompleteList.FaceWithRollingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithSteamFromNose, EmojiSymbols.CompleteList.FaceWithSteamFromNose);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithSymbolsOnMouth, EmojiSymbols.CompleteList.FaceWithSymbolsOnMouth);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithTearsOfJoy, EmojiSymbols.CompleteList.FaceWithTearsOfJoy);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithThermometer, EmojiSymbols.CompleteList.FaceWithThermometer);
+        TryAdd(EmojiCustomStrings.CompleteList.FaceWithTongue, EmojiSymbols.CompleteList.FaceWithTongue);
+        TryAdd(EmojiCustomStrings.CompleteList.Factory, EmojiSymbols.CompleteList.Factory);
+        TryAdd(EmojiCustomStrings.CompleteList.Fairy, EmojiSymbols.CompleteList.Fairy);
+        TryAdd(EmojiCustomStrings.CompleteList.Falafel, EmojiSymbols.CompleteList.Falafel);
+        TryAdd(EmojiCustomStrings.CompleteList.FallenLeaf, EmojiSymbols.CompleteList.FallenLeaf);
+        TryAdd(EmojiCustomStrings.CompleteList.Family, EmojiSymbols.CompleteList.Family);
+        TryAdd(EmojiCustomStrings.CompleteList.FastDownButton, EmojiSymbols.CompleteList.FastDownButton);
+        TryAdd(EmojiCustomStrings.CompleteList.FastForwardButton, EmojiSymbols.CompleteList.FastForwardButton);
+        TryAdd(EmojiCustomStrings.CompleteList.FastReverseButton, EmojiSymbols.CompleteList.FastReverseButton);
+        TryAdd(EmojiCustomStrings.CompleteList.FastUpButton, EmojiSymbols.CompleteList.FastUpButton);
+        TryAdd(EmojiCustomStrings.CompleteList.FaxMachine, EmojiSymbols.CompleteList.FaxMachine);
+        TryAdd(EmojiCustomStrings.CompleteList.FearfulFace, EmojiSymbols.CompleteList.FearfulFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Feather, EmojiSymbols.CompleteList.Feather);
+        TryAdd(EmojiCustomStrings.CompleteList.FemaleSign, EmojiSymbols.CompleteList.FemaleSign);
+        TryAdd(EmojiCustomStrings.CompleteList.FerrisWheel, EmojiSymbols.CompleteList.FerrisWheel);
+        TryAdd(EmojiCustomStrings.CompleteList.Ferry, EmojiSymbols.CompleteList.Ferry);
+        TryAdd(EmojiCustomStrings.CompleteList.FieldHockey, EmojiSymbols.CompleteList.FieldHockey);
+        TryAdd(EmojiCustomStrings.CompleteList.FileCabinet, EmojiSymbols.CompleteList.FileCabinet);
+        TryAdd(EmojiCustomStrings.CompleteList.FileFolder, EmojiSymbols.CompleteList.FileFolder);
+        TryAdd(EmojiCustomStrings.CompleteList.FilmFrames, EmojiSymbols.CompleteList.FilmFrames);
+        TryAdd(EmojiCustomStrings.CompleteList.FilmProjector, EmojiSymbols.CompleteList.FilmProjector);
+        TryAdd(EmojiCustomStrings.CompleteList.Fire, EmojiSymbols.CompleteList.Fire);
+        TryAdd(EmojiCustomStrings.CompleteList.Firecracker, EmojiSymbols.CompleteList.Firecracker);
+        TryAdd(EmojiCustomStrings.CompleteList.FireEngine, EmojiSymbols.CompleteList.FireEngine);
+        TryAdd(EmojiCustomStrings.CompleteList.FireExtinguisher, EmojiSymbols.CompleteList.FireExtinguisher);
+        TryAdd(EmojiCustomStrings.CompleteList.Fireworks, EmojiSymbols.CompleteList.Fireworks);
+        TryAdd(EmojiCustomStrings.CompleteList.FirstPlaceMedal, EmojiSymbols.CompleteList.FirstPlaceMedal);
+        TryAdd(EmojiCustomStrings.CompleteList.FirstQuarterMoon, EmojiSymbols.CompleteList.FirstQuarterMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.FirstQuarterMoonFace, EmojiSymbols.CompleteList.FirstQuarterMoonFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Fish, EmojiSymbols.CompleteList.Fish);
+        TryAdd(EmojiCustomStrings.CompleteList.FishCakeWithSwirl, EmojiSymbols.CompleteList.FishCakeWithSwirl);
+        TryAdd(EmojiCustomStrings.CompleteList.FishingPole, EmojiSymbols.CompleteList.FishingPole);
+        TryAdd(EmojiCustomStrings.CompleteList.FiveOClock, EmojiSymbols.CompleteList.FiveOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.FiveThirty, EmojiSymbols.CompleteList.FiveThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.FlagInHole, EmojiSymbols.CompleteList.FlagInHole);
+        TryAdd(EmojiCustomStrings.CompleteList.Flamingo, EmojiSymbols.CompleteList.Flamingo);
+        TryAdd(EmojiCustomStrings.CompleteList.Flashlight, EmojiSymbols.CompleteList.Flashlight);
+        TryAdd(EmojiCustomStrings.CompleteList.Flatbread, EmojiSymbols.CompleteList.Flatbread);
+        TryAdd(EmojiCustomStrings.CompleteList.FlatShoe, EmojiSymbols.CompleteList.FlatShoe);
+        TryAdd(EmojiCustomStrings.CompleteList.FleurDeLis, EmojiSymbols.CompleteList.FleurDeLis);
+        TryAdd(EmojiCustomStrings.CompleteList.FlexedBiceps, EmojiSymbols.CompleteList.FlexedBiceps);
+        TryAdd(EmojiCustomStrings.CompleteList.FloppyDisk, EmojiSymbols.CompleteList.FloppyDisk);
+        TryAdd(EmojiCustomStrings.CompleteList.FlowerPlayingCards, EmojiSymbols.CompleteList.FlowerPlayingCards);
+        TryAdd(EmojiCustomStrings.CompleteList.FlushedFace, EmojiSymbols.CompleteList.FlushedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Fly, EmojiSymbols.CompleteList.Fly);
+        TryAdd(EmojiCustomStrings.CompleteList.FlyingDisc, EmojiSymbols.CompleteList.FlyingDisc);
+        TryAdd(EmojiCustomStrings.CompleteList.FlyingSaucer, EmojiSymbols.CompleteList.FlyingSaucer);
+        TryAdd(EmojiCustomStrings.CompleteList.Fog, EmojiSymbols.CompleteList.Fog);
+        TryAdd(EmojiCustomStrings.CompleteList.Foggy, EmojiSymbols.CompleteList.Foggy);
+        TryAdd(EmojiCustomStrings.CompleteList.FoldedHands, EmojiSymbols.CompleteList.FoldedHands);
+        TryAdd(EmojiCustomStrings.CompleteList.Fondue, EmojiSymbols.CompleteList.Fondue);
+        TryAdd(EmojiCustomStrings.CompleteList.Foot, EmojiSymbols.CompleteList.Foot);
+        TryAdd(EmojiCustomStrings.CompleteList.Footprints, EmojiSymbols.CompleteList.Footprints);
+        TryAdd(EmojiCustomStrings.CompleteList.ForkAndKnife, EmojiSymbols.CompleteList.ForkAndKnife);
+        TryAdd(EmojiCustomStrings.CompleteList.ForkAndKnifeWithPlate, EmojiSymbols.CompleteList.ForkAndKnifeWithPlate);
+        TryAdd(EmojiCustomStrings.CompleteList.FortuneCookie, EmojiSymbols.CompleteList.FortuneCookie);
+        TryAdd(EmojiCustomStrings.CompleteList.Fountain, EmojiSymbols.CompleteList.Fountain);
+        TryAdd(EmojiCustomStrings.CompleteList.FountainPen, EmojiSymbols.CompleteList.FountainPen);
+        TryAdd(EmojiCustomStrings.CompleteList.FourLeafClover, EmojiSymbols.CompleteList.FourLeafClover);
+        TryAdd(EmojiCustomStrings.CompleteList.FourOClock, EmojiSymbols.CompleteList.FourOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.FourThirty, EmojiSymbols.CompleteList.FourThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Fox, EmojiSymbols.CompleteList.Fox);
+        TryAdd(EmojiCustomStrings.CompleteList.FramedPicture, EmojiSymbols.CompleteList.FramedPicture);
+        TryAdd(EmojiCustomStrings.CompleteList.FreeButton, EmojiSymbols.CompleteList.FreeButton);
+        TryAdd(EmojiCustomStrings.CompleteList.FrenchFries, EmojiSymbols.CompleteList.FrenchFries);
+        TryAdd(EmojiCustomStrings.CompleteList.FriedShrimp, EmojiSymbols.CompleteList.FriedShrimp);
+        TryAdd(EmojiCustomStrings.CompleteList.Frog, EmojiSymbols.CompleteList.Frog);
+        TryAdd(EmojiCustomStrings.CompleteList.FrontFacingBabyChick, EmojiSymbols.CompleteList.FrontFacingBabyChick);
+        TryAdd(EmojiCustomStrings.CompleteList.FrowningFace, EmojiSymbols.CompleteList.FrowningFace);
+        TryAdd(EmojiCustomStrings.CompleteList.FrowningFaceWithOpenMouth, EmojiSymbols.CompleteList.FrowningFaceWithOpenMouth);
+        TryAdd(EmojiCustomStrings.CompleteList.FuelPump, EmojiSymbols.CompleteList.FuelPump);
+        TryAdd(EmojiCustomStrings.CompleteList.FullMoon, EmojiSymbols.CompleteList.FullMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.FullMoonFace, EmojiSymbols.CompleteList.FullMoonFace);
+        TryAdd(EmojiCustomStrings.CompleteList.FuneralUrn, EmojiSymbols.CompleteList.FuneralUrn);
+        TryAdd(EmojiCustomStrings.CompleteList.GameDie, EmojiSymbols.CompleteList.GameDie);
+        TryAdd(EmojiCustomStrings.CompleteList.Garlic, EmojiSymbols.CompleteList.Garlic);
+        TryAdd(EmojiCustomStrings.CompleteList.Gear, EmojiSymbols.CompleteList.Gear);
+        TryAdd(EmojiCustomStrings.CompleteList.Gemini, EmojiSymbols.CompleteList.Gemini);
+        TryAdd(EmojiCustomStrings.CompleteList.GemStone, EmojiSymbols.CompleteList.GemStone);
+        TryAdd(EmojiCustomStrings.CompleteList.Genie, EmojiSymbols.CompleteList.Genie);
+        TryAdd(EmojiCustomStrings.CompleteList.Ghost, EmojiSymbols.CompleteList.Ghost);
+        TryAdd(EmojiCustomStrings.CompleteList.Giraffe, EmojiSymbols.CompleteList.Giraffe);
+        TryAdd(EmojiCustomStrings.CompleteList.Girl, EmojiSymbols.CompleteList.Girl);
+        TryAdd(EmojiCustomStrings.CompleteList.Glasses, EmojiSymbols.CompleteList.Glasses);
+        TryAdd(EmojiCustomStrings.CompleteList.GlassOfMilk, EmojiSymbols.CompleteList.GlassOfMilk);
+        TryAdd(EmojiCustomStrings.CompleteList.GlobeShowingAmericas, EmojiSymbols.CompleteList.GlobeShowingAmericas);
+        TryAdd(EmojiCustomStrings.CompleteList.GlobeShowingAsiaAustralia, EmojiSymbols.CompleteList.GlobeShowingAsiaAustralia);
+        TryAdd(EmojiCustomStrings.CompleteList.GlobeShowingEuropeAfrica, EmojiSymbols.CompleteList.GlobeShowingEuropeAfrica);
+        TryAdd(EmojiCustomStrings.CompleteList.GlobeWithMeridians, EmojiSymbols.CompleteList.GlobeWithMeridians);
+        TryAdd(EmojiCustomStrings.CompleteList.Gloves, EmojiSymbols.CompleteList.Gloves);
+        TryAdd(EmojiCustomStrings.CompleteList.GlowingStar, EmojiSymbols.CompleteList.GlowingStar);
+        TryAdd(EmojiCustomStrings.CompleteList.GoalNet, EmojiSymbols.CompleteList.GoalNet);
+        TryAdd(EmojiCustomStrings.CompleteList.Goat, EmojiSymbols.CompleteList.Goat);
+        TryAdd(EmojiCustomStrings.CompleteList.Goblin, EmojiSymbols.CompleteList.Goblin);
+        TryAdd(EmojiCustomStrings.CompleteList.Goggles, EmojiSymbols.CompleteList.Goggles);
+        TryAdd(EmojiCustomStrings.CompleteList.Gorilla, EmojiSymbols.CompleteList.Gorilla);
+        TryAdd(EmojiCustomStrings.CompleteList.GraduationCap, EmojiSymbols.CompleteList.GraduationCap);
+        TryAdd(EmojiCustomStrings.CompleteList.Grapes, EmojiSymbols.CompleteList.Grapes);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenApple, EmojiSymbols.CompleteList.GreenApple);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenBook, EmojiSymbols.CompleteList.GreenBook);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenCircle, EmojiSymbols.CompleteList.GreenCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenHeart, EmojiSymbols.CompleteList.GreenHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenSalad, EmojiSymbols.CompleteList.GreenSalad);
+        TryAdd(EmojiCustomStrings.CompleteList.GreenSquare, EmojiSymbols.CompleteList.GreenSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.GrimacingFace, EmojiSymbols.CompleteList.GrimacingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningCat, EmojiSymbols.CompleteList.GrinningCat);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningCatWithSmilingEyes, EmojiSymbols.CompleteList.GrinningCatWithSmilingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningFace, EmojiSymbols.CompleteList.GrinningFace);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningFaceWithBigEyes, EmojiSymbols.CompleteList.GrinningFaceWithBigEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningFaceWithSmilingEyes, EmojiSymbols.CompleteList.GrinningFaceWithSmilingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningFaceWithSweat, EmojiSymbols.CompleteList.GrinningFaceWithSweat);
+        TryAdd(EmojiCustomStrings.CompleteList.GrinningSquintingFace, EmojiSymbols.CompleteList.GrinningSquintingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.GrowingHeart, EmojiSymbols.CompleteList.GrowingHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.Guard, EmojiSymbols.CompleteList.Guard);
+        TryAdd(EmojiCustomStrings.CompleteList.GuideDog, EmojiSymbols.CompleteList.GuideDog);
+        TryAdd(EmojiCustomStrings.CompleteList.Guitar, EmojiSymbols.CompleteList.Guitar);
+        TryAdd(EmojiCustomStrings.CompleteList.Hamburger, EmojiSymbols.CompleteList.Hamburger);
+        TryAdd(EmojiCustomStrings.CompleteList.Hammer, EmojiSymbols.CompleteList.Hammer);
+        TryAdd(EmojiCustomStrings.CompleteList.HammerAndPick, EmojiSymbols.CompleteList.HammerAndPick);
+        TryAdd(EmojiCustomStrings.CompleteList.HammerAndWrench, EmojiSymbols.CompleteList.HammerAndWrench);
+        TryAdd(EmojiCustomStrings.CompleteList.Hamster, EmojiSymbols.CompleteList.Hamster);
+        TryAdd(EmojiCustomStrings.CompleteList.Handbag, EmojiSymbols.CompleteList.Handbag);
+        TryAdd(EmojiCustomStrings.CompleteList.Handshake, EmojiSymbols.CompleteList.Handshake);
+        TryAdd(EmojiCustomStrings.CompleteList.HandWithFingersSplayed, EmojiSymbols.CompleteList.HandWithFingersSplayed);
+        TryAdd(EmojiCustomStrings.CompleteList.HatchingChick, EmojiSymbols.CompleteList.HatchingChick);
+        TryAdd(EmojiCustomStrings.CompleteList.Headphone, EmojiSymbols.CompleteList.Headphone);
+        TryAdd(EmojiCustomStrings.CompleteList.Headstone, EmojiSymbols.CompleteList.Headstone);
+        TryAdd(EmojiCustomStrings.CompleteList.HearNoEvilMonkey, EmojiSymbols.CompleteList.HearNoEvilMonkey);
+        TryAdd(EmojiCustomStrings.CompleteList.HeartDecoration, EmojiSymbols.CompleteList.HeartDecoration);
+        TryAdd(EmojiCustomStrings.CompleteList.HeartExclamation, EmojiSymbols.CompleteList.HeartExclamation);
+        TryAdd(EmojiCustomStrings.CompleteList.HeartSuit, EmojiSymbols.CompleteList.HeartSuit);
+        TryAdd(EmojiCustomStrings.CompleteList.HeartWithArrow, EmojiSymbols.CompleteList.HeartWithArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.HeartWithRibbon, EmojiSymbols.CompleteList.HeartWithRibbon);
+        TryAdd(EmojiCustomStrings.CompleteList.HeavyDollarSign, EmojiSymbols.CompleteList.HeavyDollarSign);
+        TryAdd(EmojiCustomStrings.CompleteList.Hedgehog, EmojiSymbols.CompleteList.Hedgehog);
+        TryAdd(EmojiCustomStrings.CompleteList.Helicopter, EmojiSymbols.CompleteList.Helicopter);
+        TryAdd(EmojiCustomStrings.CompleteList.Herb, EmojiSymbols.CompleteList.Herb);
+        TryAdd(EmojiCustomStrings.CompleteList.Hibiscus, EmojiSymbols.CompleteList.Hibiscus);
+        TryAdd(EmojiCustomStrings.CompleteList.HighHeeledShoe, EmojiSymbols.CompleteList.HighHeeledShoe);
+        TryAdd(EmojiCustomStrings.CompleteList.HighSpeedTrain, EmojiSymbols.CompleteList.HighSpeedTrain);
+        TryAdd(EmojiCustomStrings.CompleteList.HighVoltage, EmojiSymbols.CompleteList.HighVoltage);
+        TryAdd(EmojiCustomStrings.CompleteList.HikingBoot, EmojiSymbols.CompleteList.HikingBoot);
+        TryAdd(EmojiCustomStrings.CompleteList.HinduTemple, EmojiSymbols.CompleteList.HinduTemple);
+        TryAdd(EmojiCustomStrings.CompleteList.Hippopotamus, EmojiSymbols.CompleteList.Hippopotamus);
+        TryAdd(EmojiCustomStrings.CompleteList.Hole, EmojiSymbols.CompleteList.Hole);
+        TryAdd(EmojiCustomStrings.CompleteList.HollowRedCircle, EmojiSymbols.CompleteList.HollowRedCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.Honeybee, EmojiSymbols.CompleteList.Honeybee);
+        TryAdd(EmojiCustomStrings.CompleteList.HoneyPot, EmojiSymbols.CompleteList.HoneyPot);
+        TryAdd(EmojiCustomStrings.CompleteList.Hook, EmojiSymbols.CompleteList.Hook);
+        TryAdd(EmojiCustomStrings.CompleteList.HorizontalTrafficLight, EmojiSymbols.CompleteList.HorizontalTrafficLight);
+        TryAdd(EmojiCustomStrings.CompleteList.Horse, EmojiSymbols.CompleteList.Horse);
+        TryAdd(EmojiCustomStrings.CompleteList.HorseFace, EmojiSymbols.CompleteList.HorseFace);
+        TryAdd(EmojiCustomStrings.CompleteList.HorseRacing, EmojiSymbols.CompleteList.HorseRacing);
+        TryAdd(EmojiCustomStrings.CompleteList.Hospital, EmojiSymbols.CompleteList.Hospital);
+        TryAdd(EmojiCustomStrings.CompleteList.HotBeverage, EmojiSymbols.CompleteList.HotBeverage);
+        TryAdd(EmojiCustomStrings.CompleteList.HotDog, EmojiSymbols.CompleteList.HotDog);
+        TryAdd(EmojiCustomStrings.CompleteList.Hotel, EmojiSymbols.CompleteList.Hotel);
+        TryAdd(EmojiCustomStrings.CompleteList.HotFace, EmojiSymbols.CompleteList.HotFace);
+        TryAdd(EmojiCustomStrings.CompleteList.HotPepper, EmojiSymbols.CompleteList.HotPepper);
+        TryAdd(EmojiCustomStrings.CompleteList.HotSprings, EmojiSymbols.CompleteList.HotSprings);
+        TryAdd(EmojiCustomStrings.CompleteList.HourglassDone, EmojiSymbols.CompleteList.HourglassDone);
+        TryAdd(EmojiCustomStrings.CompleteList.HourglassNotDone, EmojiSymbols.CompleteList.HourglassNotDone);
+        TryAdd(EmojiCustomStrings.CompleteList.House, EmojiSymbols.CompleteList.House);
+        TryAdd(EmojiCustomStrings.CompleteList.Houses, EmojiSymbols.CompleteList.Houses);
+        TryAdd(EmojiCustomStrings.CompleteList.HouseWithGarden, EmojiSymbols.CompleteList.HouseWithGarden);
+        TryAdd(EmojiCustomStrings.CompleteList.HuggingFace, EmojiSymbols.CompleteList.HuggingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.HundredPoints, EmojiSymbols.CompleteList.HundredPoints);
+        TryAdd(EmojiCustomStrings.CompleteList.HushedFace, EmojiSymbols.CompleteList.HushedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Hut, EmojiSymbols.CompleteList.Hut);
+        TryAdd(EmojiCustomStrings.CompleteList.Ice, EmojiSymbols.CompleteList.Ice);
+        TryAdd(EmojiCustomStrings.CompleteList.IceCream, EmojiSymbols.CompleteList.IceCream);
+        TryAdd(EmojiCustomStrings.CompleteList.IceHockey, EmojiSymbols.CompleteList.IceHockey);
+        TryAdd(EmojiCustomStrings.CompleteList.IceSkate, EmojiSymbols.CompleteList.IceSkate);
+        TryAdd(EmojiCustomStrings.CompleteList.IdButton, EmojiSymbols.CompleteList.IdButton);
+        TryAdd(EmojiCustomStrings.CompleteList.InboxTray, EmojiSymbols.CompleteList.InboxTray);
+        TryAdd(EmojiCustomStrings.CompleteList.IncomingEnvelope, EmojiSymbols.CompleteList.IncomingEnvelope);
+        TryAdd(EmojiCustomStrings.CompleteList.IndexPointingUp, EmojiSymbols.CompleteList.IndexPointingUp);
+        TryAdd(EmojiCustomStrings.CompleteList.Infinity, EmojiSymbols.CompleteList.Infinity);
+        TryAdd(EmojiCustomStrings.CompleteList.Information, EmojiSymbols.CompleteList.Information);
+        TryAdd(EmojiCustomStrings.CompleteList.InputLatinLetters, EmojiSymbols.CompleteList.InputLatinLetters);
+        TryAdd(EmojiCustomStrings.CompleteList.InputLatinLowercase, EmojiSymbols.CompleteList.InputLatinLowercase);
+        TryAdd(EmojiCustomStrings.CompleteList.InputLatinUppercase, EmojiSymbols.CompleteList.InputLatinUppercase);
+        TryAdd(EmojiCustomStrings.CompleteList.InputNumbers, EmojiSymbols.CompleteList.InputNumbers);
+        TryAdd(EmojiCustomStrings.CompleteList.InputSymbols, EmojiSymbols.CompleteList.InputSymbols);
+        TryAdd(EmojiCustomStrings.CompleteList.JackOLantern, EmojiSymbols.CompleteList.JackOLantern);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseAcceptableButton, EmojiSymbols.CompleteList.JapaneseAcceptableButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseApplicationButton, EmojiSymbols.CompleteList.JapaneseApplicationButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseBargainButton, EmojiSymbols.CompleteList.JapaneseBargainButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseCastle, EmojiSymbols.CompleteList.JapaneseCastle);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseCongratulationsButton, EmojiSymbols.CompleteList.JapaneseCongratulationsButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseDiscountButton, EmojiSymbols.CompleteList.JapaneseDiscountButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseDolls, EmojiSymbols.CompleteList.JapaneseDolls);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseFreeOfChargeButton, EmojiSymbols.CompleteList.JapaneseFreeOfChargeButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseHereButton, EmojiSymbols.CompleteList.JapaneseHereButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseMonthlyAmountButton, EmojiSymbols.CompleteList.JapaneseMonthlyAmountButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseNotFreeOfChargeButton, EmojiSymbols.CompleteList.JapaneseNotFreeOfChargeButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseNoVacancyButton, EmojiSymbols.CompleteList.JapaneseNoVacancyButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseOpenForBusinessButton, EmojiSymbols.CompleteList.JapaneseOpenForBusinessButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapanesePassingGradeButton, EmojiSymbols.CompleteList.JapanesePassingGradeButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapanesePostOffice, EmojiSymbols.CompleteList.JapanesePostOffice);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseProhibitedButton, EmojiSymbols.CompleteList.JapaneseProhibitedButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseReservedButton, EmojiSymbols.CompleteList.JapaneseReservedButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseSecretButton, EmojiSymbols.CompleteList.JapaneseSecretButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseServiceChargeButton, EmojiSymbols.CompleteList.JapaneseServiceChargeButton);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseSymbolForBeginner, EmojiSymbols.CompleteList.JapaneseSymbolForBeginner);
+        TryAdd(EmojiCustomStrings.CompleteList.JapaneseVacancyButton, EmojiSymbols.CompleteList.JapaneseVacancyButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Jeans, EmojiSymbols.CompleteList.Jeans);
+        TryAdd(EmojiCustomStrings.CompleteList.Joker, EmojiSymbols.CompleteList.Joker);
+        TryAdd(EmojiCustomStrings.CompleteList.Joystick, EmojiSymbols.CompleteList.Joystick);
+        TryAdd(EmojiCustomStrings.CompleteList.Kaaba, EmojiSymbols.CompleteList.Kaaba);
+        TryAdd(EmojiCustomStrings.CompleteList.Kangaroo, EmojiSymbols.CompleteList.Kangaroo);
+        TryAdd(EmojiCustomStrings.CompleteList.Key, EmojiSymbols.CompleteList.Key);
+        TryAdd(EmojiCustomStrings.CompleteList.Keyboard, EmojiSymbols.CompleteList.Keyboard);
+        TryAdd(EmojiCustomStrings.CompleteList.Keycap10, EmojiSymbols.CompleteList.Keycap10);
+        TryAdd(EmojiCustomStrings.CompleteList.KickScooter, EmojiSymbols.CompleteList.KickScooter);
+        TryAdd(EmojiCustomStrings.CompleteList.Kimono, EmojiSymbols.CompleteList.Kimono);
+        TryAdd(EmojiCustomStrings.CompleteList.Kiss, EmojiSymbols.CompleteList.Kiss);
+        TryAdd(EmojiCustomStrings.CompleteList.KissingCat, EmojiSymbols.CompleteList.KissingCat);
+        TryAdd(EmojiCustomStrings.CompleteList.KissingFace, EmojiSymbols.CompleteList.KissingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.KissingFaceWithClosedEyes, EmojiSymbols.CompleteList.KissingFaceWithClosedEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.KissingFaceWithSmilingEyes, EmojiSymbols.CompleteList.KissingFaceWithSmilingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.KissMark, EmojiSymbols.CompleteList.KissMark);
+        TryAdd(EmojiCustomStrings.CompleteList.KitchenKnife, EmojiSymbols.CompleteList.KitchenKnife);
+        TryAdd(EmojiCustomStrings.CompleteList.Kite, EmojiSymbols.CompleteList.Kite);
+        TryAdd(EmojiCustomStrings.CompleteList.KiwiFruit, EmojiSymbols.CompleteList.KiwiFruit);
+        TryAdd(EmojiCustomStrings.CompleteList.KnockedOutFace, EmojiSymbols.CompleteList.KnockedOutFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Knot, EmojiSymbols.CompleteList.Knot);
+        TryAdd(EmojiCustomStrings.CompleteList.Koala, EmojiSymbols.CompleteList.Koala);
+        TryAdd(EmojiCustomStrings.CompleteList.LabCoat, EmojiSymbols.CompleteList.LabCoat);
+        TryAdd(EmojiCustomStrings.CompleteList.Label, EmojiSymbols.CompleteList.Label);
+        TryAdd(EmojiCustomStrings.CompleteList.Lacrosse, EmojiSymbols.CompleteList.Lacrosse);
+        TryAdd(EmojiCustomStrings.CompleteList.Ladder, EmojiSymbols.CompleteList.Ladder);
+        TryAdd(EmojiCustomStrings.CompleteList.LadyBeetle, EmojiSymbols.CompleteList.LadyBeetle);
+        TryAdd(EmojiCustomStrings.CompleteList.Laptop, EmojiSymbols.CompleteList.Laptop);
+        TryAdd(EmojiCustomStrings.CompleteList.LargeBlueDiamond, EmojiSymbols.CompleteList.LargeBlueDiamond);
+        TryAdd(EmojiCustomStrings.CompleteList.LargeOrangeDiamond, EmojiSymbols.CompleteList.LargeOrangeDiamond);
+        TryAdd(EmojiCustomStrings.CompleteList.LastQuarterMoon, EmojiSymbols.CompleteList.LastQuarterMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.LastQuarterMoonFace, EmojiSymbols.CompleteList.LastQuarterMoonFace);
+        TryAdd(EmojiCustomStrings.CompleteList.LastTrackButton, EmojiSymbols.CompleteList.LastTrackButton);
+        TryAdd(EmojiCustomStrings.CompleteList.LatinCross, EmojiSymbols.CompleteList.LatinCross);
+        TryAdd(EmojiCustomStrings.CompleteList.LeafFlutteringInWind, EmojiSymbols.CompleteList.LeafFlutteringInWind);
+        TryAdd(EmojiCustomStrings.CompleteList.LeafyGreen, EmojiSymbols.CompleteList.LeafyGreen);
+        TryAdd(EmojiCustomStrings.CompleteList.Ledger, EmojiSymbols.CompleteList.Ledger);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftArrow, EmojiSymbols.CompleteList.LeftArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftArrowCurvingRight, EmojiSymbols.CompleteList.LeftArrowCurvingRight);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftFacingFist, EmojiSymbols.CompleteList.LeftFacingFist);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftLuggage, EmojiSymbols.CompleteList.LeftLuggage);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftRightArrow, EmojiSymbols.CompleteList.LeftRightArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.LeftSpeechBubble, EmojiSymbols.CompleteList.LeftSpeechBubble);
+        TryAdd(EmojiCustomStrings.CompleteList.Leg, EmojiSymbols.CompleteList.Leg);
+        TryAdd(EmojiCustomStrings.CompleteList.Lemon, EmojiSymbols.CompleteList.Lemon);
+        TryAdd(EmojiCustomStrings.CompleteList.Leo, EmojiSymbols.CompleteList.Leo);
+        TryAdd(EmojiCustomStrings.CompleteList.Leopard, EmojiSymbols.CompleteList.Leopard);
+        TryAdd(EmojiCustomStrings.CompleteList.LevelSlider, EmojiSymbols.CompleteList.LevelSlider);
+        TryAdd(EmojiCustomStrings.CompleteList.Libra, EmojiSymbols.CompleteList.Libra);
+        TryAdd(EmojiCustomStrings.CompleteList.LightBulb, EmojiSymbols.CompleteList.LightBulb);
+        TryAdd(EmojiCustomStrings.CompleteList.LightRail, EmojiSymbols.CompleteList.LightRail);
+        TryAdd(EmojiCustomStrings.CompleteList.Link, EmojiSymbols.CompleteList.Link);
+        TryAdd(EmojiCustomStrings.CompleteList.LinkedPaperclips, EmojiSymbols.CompleteList.LinkedPaperclips);
+        TryAdd(EmojiCustomStrings.CompleteList.Lion, EmojiSymbols.CompleteList.Lion);
+        TryAdd(EmojiCustomStrings.CompleteList.Lipstick, EmojiSymbols.CompleteList.Lipstick);
+        TryAdd(EmojiCustomStrings.CompleteList.LitterInBinSign, EmojiSymbols.CompleteList.LitterInBinSign);
+        TryAdd(EmojiCustomStrings.CompleteList.Lizard, EmojiSymbols.CompleteList.Lizard);
+        TryAdd(EmojiCustomStrings.CompleteList.Llama, EmojiSymbols.CompleteList.Llama);
+        TryAdd(EmojiCustomStrings.CompleteList.Lobster, EmojiSymbols.CompleteList.Lobster);
+        TryAdd(EmojiCustomStrings.CompleteList.Locked, EmojiSymbols.CompleteList.Locked);
+        TryAdd(EmojiCustomStrings.CompleteList.LockedWithKey, EmojiSymbols.CompleteList.LockedWithKey);
+        TryAdd(EmojiCustomStrings.CompleteList.LockedWithPen, EmojiSymbols.CompleteList.LockedWithPen);
+        TryAdd(EmojiCustomStrings.CompleteList.Locomotive, EmojiSymbols.CompleteList.Locomotive);
+        TryAdd(EmojiCustomStrings.CompleteList.Lollipop, EmojiSymbols.CompleteList.Lollipop);
+        TryAdd(EmojiCustomStrings.CompleteList.LongDrum, EmojiSymbols.CompleteList.LongDrum);
+        TryAdd(EmojiCustomStrings.CompleteList.LotionBottle, EmojiSymbols.CompleteList.LotionBottle);
+        TryAdd(EmojiCustomStrings.CompleteList.LoudlyCryingFace, EmojiSymbols.CompleteList.LoudlyCryingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Loudspeaker, EmojiSymbols.CompleteList.Loudspeaker);
+        TryAdd(EmojiCustomStrings.CompleteList.LoveHotel, EmojiSymbols.CompleteList.LoveHotel);
+        TryAdd(EmojiCustomStrings.CompleteList.LoveLetter, EmojiSymbols.CompleteList.LoveLetter);
+        TryAdd(EmojiCustomStrings.CompleteList.LoveYouGesture, EmojiSymbols.CompleteList.LoveYouGesture);
+        TryAdd(EmojiCustomStrings.CompleteList.Luggage, EmojiSymbols.CompleteList.Luggage);
+        TryAdd(EmojiCustomStrings.CompleteList.Lungs, EmojiSymbols.CompleteList.Lungs);
+        TryAdd(EmojiCustomStrings.CompleteList.LyingFace, EmojiSymbols.CompleteList.LyingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Mage, EmojiSymbols.CompleteList.Mage);
+        TryAdd(EmojiCustomStrings.CompleteList.MagicWand, EmojiSymbols.CompleteList.MagicWand);
+        TryAdd(EmojiCustomStrings.CompleteList.Magnet, EmojiSymbols.CompleteList.Magnet);
+        TryAdd(EmojiCustomStrings.CompleteList.MagnifyingGlassTiltedLeft, EmojiSymbols.CompleteList.MagnifyingGlassTiltedLeft);
+        TryAdd(EmojiCustomStrings.CompleteList.MagnifyingGlassTiltedRight, EmojiSymbols.CompleteList.MagnifyingGlassTiltedRight);
+        TryAdd(EmojiCustomStrings.CompleteList.MahjongRedDragon, EmojiSymbols.CompleteList.MahjongRedDragon);
+        TryAdd(EmojiCustomStrings.CompleteList.MaleSign, EmojiSymbols.CompleteList.MaleSign);
+        TryAdd(EmojiCustomStrings.CompleteList.Mammoth, EmojiSymbols.CompleteList.Mammoth);
+        TryAdd(EmojiCustomStrings.CompleteList.Man, EmojiSymbols.CompleteList.Man);
+        TryAdd(EmojiCustomStrings.CompleteList.ManDancing, EmojiSymbols.CompleteList.ManDancing);
+        TryAdd(EmojiCustomStrings.CompleteList.Mango, EmojiSymbols.CompleteList.Mango);
+        TryAdd(EmojiCustomStrings.CompleteList.MansShoe, EmojiSymbols.CompleteList.MansShoe);
+        TryAdd(EmojiCustomStrings.CompleteList.MantelpieceClock, EmojiSymbols.CompleteList.MantelpieceClock);
+        TryAdd(EmojiCustomStrings.CompleteList.ManualWheelchair, EmojiSymbols.CompleteList.ManualWheelchair);
+        TryAdd(EmojiCustomStrings.CompleteList.MapleLeaf, EmojiSymbols.CompleteList.MapleLeaf);
+        TryAdd(EmojiCustomStrings.CompleteList.MapOfJapan, EmojiSymbols.CompleteList.MapOfJapan);
+        TryAdd(EmojiCustomStrings.CompleteList.MartialArtsUniform, EmojiSymbols.CompleteList.MartialArtsUniform);
+        TryAdd(EmojiCustomStrings.CompleteList.Mate, EmojiSymbols.CompleteList.Mate);
+        TryAdd(EmojiCustomStrings.CompleteList.MeatOnBone, EmojiSymbols.CompleteList.MeatOnBone);
+        TryAdd(EmojiCustomStrings.CompleteList.MechanicalArm, EmojiSymbols.CompleteList.MechanicalArm);
+        TryAdd(EmojiCustomStrings.CompleteList.MechanicalLeg, EmojiSymbols.CompleteList.MechanicalLeg);
+        TryAdd(EmojiCustomStrings.CompleteList.MedicalSymbol, EmojiSymbols.CompleteList.MedicalSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.Megaphone, EmojiSymbols.CompleteList.Megaphone);
+        TryAdd(EmojiCustomStrings.CompleteList.Melon, EmojiSymbols.CompleteList.Melon);
+        TryAdd(EmojiCustomStrings.CompleteList.Memo, EmojiSymbols.CompleteList.Memo);
+        TryAdd(EmojiCustomStrings.CompleteList.MenHoldingHands, EmojiSymbols.CompleteList.MenHoldingHands);
+        TryAdd(EmojiCustomStrings.CompleteList.Menorah, EmojiSymbols.CompleteList.Menorah);
+        TryAdd(EmojiCustomStrings.CompleteList.MensRoom, EmojiSymbols.CompleteList.MensRoom);
+        TryAdd(EmojiCustomStrings.CompleteList.Merperson, EmojiSymbols.CompleteList.Merperson);
+        TryAdd(EmojiCustomStrings.CompleteList.Metro, EmojiSymbols.CompleteList.Metro);
+        TryAdd(EmojiCustomStrings.CompleteList.Microbe, EmojiSymbols.CompleteList.Microbe);
+        TryAdd(EmojiCustomStrings.CompleteList.Microphone, EmojiSymbols.CompleteList.Microphone);
+        TryAdd(EmojiCustomStrings.CompleteList.Microscope, EmojiSymbols.CompleteList.Microscope);
+        TryAdd(EmojiCustomStrings.CompleteList.MilitaryHelmet, EmojiSymbols.CompleteList.MilitaryHelmet);
+        TryAdd(EmojiCustomStrings.CompleteList.MilitaryMedal, EmojiSymbols.CompleteList.MilitaryMedal);
+        TryAdd(EmojiCustomStrings.CompleteList.MilkyWay, EmojiSymbols.CompleteList.MilkyWay);
+        TryAdd(EmojiCustomStrings.CompleteList.Minibus, EmojiSymbols.CompleteList.Minibus);
+        TryAdd(EmojiCustomStrings.CompleteList.Minus, EmojiSymbols.CompleteList.Minus);
+        TryAdd(EmojiCustomStrings.CompleteList.Mirror, EmojiSymbols.CompleteList.Mirror);
+        TryAdd(EmojiCustomStrings.CompleteList.Moai, EmojiSymbols.CompleteList.Moai);
+        TryAdd(EmojiCustomStrings.CompleteList.MobilePhone, EmojiSymbols.CompleteList.MobilePhone);
+        TryAdd(EmojiCustomStrings.CompleteList.MobilePhoneOff, EmojiSymbols.CompleteList.MobilePhoneOff);
+        TryAdd(EmojiCustomStrings.CompleteList.MobilePhoneWithArrow, EmojiSymbols.CompleteList.MobilePhoneWithArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.MoneyBag, EmojiSymbols.CompleteList.MoneyBag);
+        TryAdd(EmojiCustomStrings.CompleteList.MoneyMouthFace, EmojiSymbols.CompleteList.MoneyMouthFace);
+        TryAdd(EmojiCustomStrings.CompleteList.MoneyWithWings, EmojiSymbols.CompleteList.MoneyWithWings);
+        TryAdd(EmojiCustomStrings.CompleteList.Monkey, EmojiSymbols.CompleteList.Monkey);
+        TryAdd(EmojiCustomStrings.CompleteList.MonkeyFace, EmojiSymbols.CompleteList.MonkeyFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Monorail, EmojiSymbols.CompleteList.Monorail);
+        TryAdd(EmojiCustomStrings.CompleteList.MoonCake, EmojiSymbols.CompleteList.MoonCake);
+        TryAdd(EmojiCustomStrings.CompleteList.MoonViewingCeremony, EmojiSymbols.CompleteList.MoonViewingCeremony);
+        TryAdd(EmojiCustomStrings.CompleteList.Mosque, EmojiSymbols.CompleteList.Mosque);
+        TryAdd(EmojiCustomStrings.CompleteList.Mosquito, EmojiSymbols.CompleteList.Mosquito);
+        TryAdd(EmojiCustomStrings.CompleteList.MotorBoat, EmojiSymbols.CompleteList.MotorBoat);
+        TryAdd(EmojiCustomStrings.CompleteList.Motorcycle, EmojiSymbols.CompleteList.Motorcycle);
+        TryAdd(EmojiCustomStrings.CompleteList.MotorizedWheelchair, EmojiSymbols.CompleteList.MotorizedWheelchair);
+        TryAdd(EmojiCustomStrings.CompleteList.MotorScooter, EmojiSymbols.CompleteList.MotorScooter);
+        TryAdd(EmojiCustomStrings.CompleteList.Motorway, EmojiSymbols.CompleteList.Motorway);
+        TryAdd(EmojiCustomStrings.CompleteList.Mountain, EmojiSymbols.CompleteList.Mountain);
+        TryAdd(EmojiCustomStrings.CompleteList.MountainCableway, EmojiSymbols.CompleteList.MountainCableway);
+        TryAdd(EmojiCustomStrings.CompleteList.MountainRailway, EmojiSymbols.CompleteList.MountainRailway);
+        TryAdd(EmojiCustomStrings.CompleteList.MountFuji, EmojiSymbols.CompleteList.MountFuji);
+        TryAdd(EmojiCustomStrings.CompleteList.Mouse, EmojiSymbols.CompleteList.Mouse);
+        TryAdd(EmojiCustomStrings.CompleteList.MouseFace, EmojiSymbols.CompleteList.MouseFace);
+        TryAdd(EmojiCustomStrings.CompleteList.MouseTrap, EmojiSymbols.CompleteList.MouseTrap);
+        TryAdd(EmojiCustomStrings.CompleteList.Mouth, EmojiSymbols.CompleteList.Mouth);
+        TryAdd(EmojiCustomStrings.CompleteList.MovieCamera, EmojiSymbols.CompleteList.MovieCamera);
+        TryAdd(EmojiCustomStrings.CompleteList.MrsClaus, EmojiSymbols.CompleteList.MrsClaus);
+        TryAdd(EmojiCustomStrings.CompleteList.Multiply, EmojiSymbols.CompleteList.Multiply);
+        TryAdd(EmojiCustomStrings.CompleteList.Mushroom, EmojiSymbols.CompleteList.Mushroom);
+        TryAdd(EmojiCustomStrings.CompleteList.MusicalKeyboard, EmojiSymbols.CompleteList.MusicalKeyboard);
+        TryAdd(EmojiCustomStrings.CompleteList.MusicalNote, EmojiSymbols.CompleteList.MusicalNote);
+        TryAdd(EmojiCustomStrings.CompleteList.MusicalNotes, EmojiSymbols.CompleteList.MusicalNotes);
+        TryAdd(EmojiCustomStrings.CompleteList.MusicalScore, EmojiSymbols.CompleteList.MusicalScore);
+        TryAdd(EmojiCustomStrings.CompleteList.MutedSpeaker, EmojiSymbols.CompleteList.MutedSpeaker);
+        TryAdd(EmojiCustomStrings.CompleteList.NailPolish, EmojiSymbols.CompleteList.NailPolish);
+        TryAdd(EmojiCustomStrings.CompleteList.NameBadge, EmojiSymbols.CompleteList.NameBadge);
+        TryAdd(EmojiCustomStrings.CompleteList.NationalPark, EmojiSymbols.CompleteList.NationalPark);
+        TryAdd(EmojiCustomStrings.CompleteList.NauseatedFace, EmojiSymbols.CompleteList.NauseatedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.NazarAmulet, EmojiSymbols.CompleteList.NazarAmulet);
+        TryAdd(EmojiCustomStrings.CompleteList.Necktie, EmojiSymbols.CompleteList.Necktie);
+        TryAdd(EmojiCustomStrings.CompleteList.NerdFace, EmojiSymbols.CompleteList.NerdFace);
+        TryAdd(EmojiCustomStrings.CompleteList.NestingDolls, EmojiSymbols.CompleteList.NestingDolls);
+        TryAdd(EmojiCustomStrings.CompleteList.NeutralFace, EmojiSymbols.CompleteList.NeutralFace);
+        TryAdd(EmojiCustomStrings.CompleteList.NewButton, EmojiSymbols.CompleteList.NewButton);
+        TryAdd(EmojiCustomStrings.CompleteList.NewMoon, EmojiSymbols.CompleteList.NewMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.NewMoonFace, EmojiSymbols.CompleteList.NewMoonFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Newspaper, EmojiSymbols.CompleteList.Newspaper);
+        TryAdd(EmojiCustomStrings.CompleteList.NextTrackButton, EmojiSymbols.CompleteList.NextTrackButton);
+        TryAdd(EmojiCustomStrings.CompleteList.NgButton, EmojiSymbols.CompleteList.NgButton);
+        TryAdd(EmojiCustomStrings.CompleteList.NightWithStars, EmojiSymbols.CompleteList.NightWithStars);
+        TryAdd(EmojiCustomStrings.CompleteList.NineOClock, EmojiSymbols.CompleteList.NineOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.NineThirty, EmojiSymbols.CompleteList.NineThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Ninja, EmojiSymbols.CompleteList.Ninja);
+        TryAdd(EmojiCustomStrings.CompleteList.NoBicycles, EmojiSymbols.CompleteList.NoBicycles);
+        TryAdd(EmojiCustomStrings.CompleteList.NoEntry, EmojiSymbols.CompleteList.NoEntry);
+        TryAdd(EmojiCustomStrings.CompleteList.NoLittering, EmojiSymbols.CompleteList.NoLittering);
+        TryAdd(EmojiCustomStrings.CompleteList.NoMobilePhones, EmojiSymbols.CompleteList.NoMobilePhones);
+        TryAdd(EmojiCustomStrings.CompleteList.NonPotableWater, EmojiSymbols.CompleteList.NonPotableWater);
+        TryAdd(EmojiCustomStrings.CompleteList.NoOneUnderEighteen, EmojiSymbols.CompleteList.NoOneUnderEighteen);
+        TryAdd(EmojiCustomStrings.CompleteList.NoPedestrians, EmojiSymbols.CompleteList.NoPedestrians);
+        TryAdd(EmojiCustomStrings.CompleteList.Nose, EmojiSymbols.CompleteList.Nose);
+        TryAdd(EmojiCustomStrings.CompleteList.NoSmoking, EmojiSymbols.CompleteList.NoSmoking);
+        TryAdd(EmojiCustomStrings.CompleteList.Notebook, EmojiSymbols.CompleteList.Notebook);
+        TryAdd(EmojiCustomStrings.CompleteList.NotebookWithDecorativeCover, EmojiSymbols.CompleteList.NotebookWithDecorativeCover);
+        TryAdd(EmojiCustomStrings.CompleteList.NutAndBolt, EmojiSymbols.CompleteList.NutAndBolt);
+        TryAdd(EmojiCustomStrings.CompleteList.OButtonBloodType, EmojiSymbols.CompleteList.OButtonBloodType);
+        TryAdd(EmojiCustomStrings.CompleteList.Octopus, EmojiSymbols.CompleteList.Octopus);
+        TryAdd(EmojiCustomStrings.CompleteList.Oden, EmojiSymbols.CompleteList.Oden);
+        TryAdd(EmojiCustomStrings.CompleteList.OfficeBuilding, EmojiSymbols.CompleteList.OfficeBuilding);
+        TryAdd(EmojiCustomStrings.CompleteList.Ogre, EmojiSymbols.CompleteList.Ogre);
+        TryAdd(EmojiCustomStrings.CompleteList.OilDrum, EmojiSymbols.CompleteList.OilDrum);
+        TryAdd(EmojiCustomStrings.CompleteList.OkButton, EmojiSymbols.CompleteList.OkButton);
+        TryAdd(EmojiCustomStrings.CompleteList.OkHand, EmojiSymbols.CompleteList.OkHand);
+        TryAdd(EmojiCustomStrings.CompleteList.OlderPerson, EmojiSymbols.CompleteList.OlderPerson);
+        TryAdd(EmojiCustomStrings.CompleteList.OldKey, EmojiSymbols.CompleteList.OldKey);
+        TryAdd(EmojiCustomStrings.CompleteList.OldMan, EmojiSymbols.CompleteList.OldMan);
+        TryAdd(EmojiCustomStrings.CompleteList.OldWoman, EmojiSymbols.CompleteList.OldWoman);
+        TryAdd(EmojiCustomStrings.CompleteList.Olive, EmojiSymbols.CompleteList.Olive);
+        TryAdd(EmojiCustomStrings.CompleteList.Om, EmojiSymbols.CompleteList.Om);
+        TryAdd(EmojiCustomStrings.CompleteList.OnArrow, EmojiSymbols.CompleteList.OnArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.OncomingAutomobile, EmojiSymbols.CompleteList.OncomingAutomobile);
+        TryAdd(EmojiCustomStrings.CompleteList.OncomingBus, EmojiSymbols.CompleteList.OncomingBus);
+        TryAdd(EmojiCustomStrings.CompleteList.OncomingFist, EmojiSymbols.CompleteList.OncomingFist);
+        TryAdd(EmojiCustomStrings.CompleteList.OncomingPoliceCar, EmojiSymbols.CompleteList.OncomingPoliceCar);
+        TryAdd(EmojiCustomStrings.CompleteList.OncomingTaxi, EmojiSymbols.CompleteList.OncomingTaxi);
+        TryAdd(EmojiCustomStrings.CompleteList.OneOClock, EmojiSymbols.CompleteList.OneOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.OnePieceSwimsuit, EmojiSymbols.CompleteList.OnePieceSwimsuit);
+        TryAdd(EmojiCustomStrings.CompleteList.OneThirty, EmojiSymbols.CompleteList.OneThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Onion, EmojiSymbols.CompleteList.Onion);
+        TryAdd(EmojiCustomStrings.CompleteList.OpenBook, EmojiSymbols.CompleteList.OpenBook);
+        TryAdd(EmojiCustomStrings.CompleteList.OpenFileFolder, EmojiSymbols.CompleteList.OpenFileFolder);
+        TryAdd(EmojiCustomStrings.CompleteList.OpenHands, EmojiSymbols.CompleteList.OpenHands);
+        TryAdd(EmojiCustomStrings.CompleteList.OpenMailboxWithLoweredFlag, EmojiSymbols.CompleteList.OpenMailboxWithLoweredFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.OpenMailboxWithRaisedFlag, EmojiSymbols.CompleteList.OpenMailboxWithRaisedFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.Ophiuchus, EmojiSymbols.CompleteList.Ophiuchus);
+        TryAdd(EmojiCustomStrings.CompleteList.OpticalDisk, EmojiSymbols.CompleteList.OpticalDisk);
+        TryAdd(EmojiCustomStrings.CompleteList.OrangeBook, EmojiSymbols.CompleteList.OrangeBook);
+        TryAdd(EmojiCustomStrings.CompleteList.OrangeCircle, EmojiSymbols.CompleteList.OrangeCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.OrangeHeart, EmojiSymbols.CompleteList.OrangeHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.OrangeSquare, EmojiSymbols.CompleteList.OrangeSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.Orangutan, EmojiSymbols.CompleteList.Orangutan);
+        TryAdd(EmojiCustomStrings.CompleteList.Otter, EmojiSymbols.CompleteList.Otter);
+        TryAdd(EmojiCustomStrings.CompleteList.OutboxTray, EmojiSymbols.CompleteList.OutboxTray);
+        TryAdd(EmojiCustomStrings.CompleteList.Owl, EmojiSymbols.CompleteList.Owl);
+        TryAdd(EmojiCustomStrings.CompleteList.Ox, EmojiSymbols.CompleteList.Ox);
+        TryAdd(EmojiCustomStrings.CompleteList.Oyster, EmojiSymbols.CompleteList.Oyster);
+        TryAdd(EmojiCustomStrings.CompleteList.Package, EmojiSymbols.CompleteList.Package);
+        TryAdd(EmojiCustomStrings.CompleteList.PageFacingUp, EmojiSymbols.CompleteList.PageFacingUp);
+        TryAdd(EmojiCustomStrings.CompleteList.Pager, EmojiSymbols.CompleteList.Pager);
+        TryAdd(EmojiCustomStrings.CompleteList.PageWithCurl, EmojiSymbols.CompleteList.PageWithCurl);
+        TryAdd(EmojiCustomStrings.CompleteList.Paintbrush, EmojiSymbols.CompleteList.Paintbrush);
+        TryAdd(EmojiCustomStrings.CompleteList.PalmsUpTogether, EmojiSymbols.CompleteList.PalmsUpTogether);
+        TryAdd(EmojiCustomStrings.CompleteList.PalmTree, EmojiSymbols.CompleteList.PalmTree);
+        TryAdd(EmojiCustomStrings.CompleteList.Pancakes, EmojiSymbols.CompleteList.Pancakes);
+        TryAdd(EmojiCustomStrings.CompleteList.Panda, EmojiSymbols.CompleteList.Panda);
+        TryAdd(EmojiCustomStrings.CompleteList.Paperclip, EmojiSymbols.CompleteList.Paperclip);
+        TryAdd(EmojiCustomStrings.CompleteList.Parachute, EmojiSymbols.CompleteList.Parachute);
+        TryAdd(EmojiCustomStrings.CompleteList.Parrot, EmojiSymbols.CompleteList.Parrot);
+        TryAdd(EmojiCustomStrings.CompleteList.PartAlternationMark, EmojiSymbols.CompleteList.PartAlternationMark);
+        TryAdd(EmojiCustomStrings.CompleteList.PartyingFace, EmojiSymbols.CompleteList.PartyingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.PartyPopper, EmojiSymbols.CompleteList.PartyPopper);
+        TryAdd(EmojiCustomStrings.CompleteList.PassengerShip, EmojiSymbols.CompleteList.PassengerShip);
+        TryAdd(EmojiCustomStrings.CompleteList.PassportControl, EmojiSymbols.CompleteList.PassportControl);
+        TryAdd(EmojiCustomStrings.CompleteList.PauseButton, EmojiSymbols.CompleteList.PauseButton);
+        TryAdd(EmojiCustomStrings.CompleteList.PawPrints, EmojiSymbols.CompleteList.PawPrints);
+        TryAdd(EmojiCustomStrings.CompleteList.PButton, EmojiSymbols.CompleteList.PButton);
+        TryAdd(EmojiCustomStrings.CompleteList.PeaceSymbol, EmojiSymbols.CompleteList.PeaceSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.Peach, EmojiSymbols.CompleteList.Peach);
+        TryAdd(EmojiCustomStrings.CompleteList.Peacock, EmojiSymbols.CompleteList.Peacock);
+        TryAdd(EmojiCustomStrings.CompleteList.Peanuts, EmojiSymbols.CompleteList.Peanuts);
+        TryAdd(EmojiCustomStrings.CompleteList.Pear, EmojiSymbols.CompleteList.Pear);
+        TryAdd(EmojiCustomStrings.CompleteList.Pen, EmojiSymbols.CompleteList.Pen);
+        TryAdd(EmojiCustomStrings.CompleteList.Pencil, EmojiSymbols.CompleteList.Pencil);
+        TryAdd(EmojiCustomStrings.CompleteList.Penguin, EmojiSymbols.CompleteList.Penguin);
+        TryAdd(EmojiCustomStrings.CompleteList.PensiveFace, EmojiSymbols.CompleteList.PensiveFace);
+        TryAdd(EmojiCustomStrings.CompleteList.PeopleHugging, EmojiSymbols.CompleteList.PeopleHugging);
+        TryAdd(EmojiCustomStrings.CompleteList.PeopleWithBunnyEars, EmojiSymbols.CompleteList.PeopleWithBunnyEars);
+        TryAdd(EmojiCustomStrings.CompleteList.PeopleWrestling, EmojiSymbols.CompleteList.PeopleWrestling);
+        TryAdd(EmojiCustomStrings.CompleteList.PerformingArts, EmojiSymbols.CompleteList.PerformingArts);
+        TryAdd(EmojiCustomStrings.CompleteList.PerseveringFace, EmojiSymbols.CompleteList.PerseveringFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Person, EmojiSymbols.CompleteList.Person);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonBeard, EmojiSymbols.CompleteList.PersonBeard);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonBiking, EmojiSymbols.CompleteList.PersonBiking);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonBlondHair, EmojiSymbols.CompleteList.PersonBlondHair);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonBouncingBall, EmojiSymbols.CompleteList.PersonBouncingBall);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonBowing, EmojiSymbols.CompleteList.PersonBowing);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonCartwheeling, EmojiSymbols.CompleteList.PersonCartwheeling);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonClimbing, EmojiSymbols.CompleteList.PersonClimbing);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonFacepalming, EmojiSymbols.CompleteList.PersonFacepalming);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonFencing, EmojiSymbols.CompleteList.PersonFencing);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonFrowning, EmojiSymbols.CompleteList.PersonFrowning);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonGesturingNo, EmojiSymbols.CompleteList.PersonGesturingNo);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonGesturingOk, EmojiSymbols.CompleteList.PersonGesturingOk);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonGettingHaircut, EmojiSymbols.CompleteList.PersonGettingHaircut);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonGettingMassage, EmojiSymbols.CompleteList.PersonGettingMassage);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonGolfing, EmojiSymbols.CompleteList.PersonGolfing);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonInBed, EmojiSymbols.CompleteList.PersonInBed);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonInLotusPosition, EmojiSymbols.CompleteList.PersonInLotusPosition);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonInSuitLevitating, EmojiSymbols.CompleteList.PersonInSuitLevitating);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonInTuxedo, EmojiSymbols.CompleteList.PersonInTuxedo);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonJuggling, EmojiSymbols.CompleteList.PersonJuggling);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonKneeling, EmojiSymbols.CompleteList.PersonKneeling);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonLiftingWeights, EmojiSymbols.CompleteList.PersonLiftingWeights);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonMountainBiking, EmojiSymbols.CompleteList.PersonMountainBiking);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonPlayingHandball, EmojiSymbols.CompleteList.PersonPlayingHandball);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonPlayingWaterPolo, EmojiSymbols.CompleteList.PersonPlayingWaterPolo);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonPouting, EmojiSymbols.CompleteList.PersonPouting);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonRaisingHand, EmojiSymbols.CompleteList.PersonRaisingHand);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonRowingBoat, EmojiSymbols.CompleteList.PersonRowingBoat);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonRunning, EmojiSymbols.CompleteList.PersonRunning);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonShrugging, EmojiSymbols.CompleteList.PersonShrugging);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonStanding, EmojiSymbols.CompleteList.PersonStanding);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonSurfing, EmojiSymbols.CompleteList.PersonSurfing);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonSwimming, EmojiSymbols.CompleteList.PersonSwimming);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonTippingHand, EmojiSymbols.CompleteList.PersonTippingHand);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonWalking, EmojiSymbols.CompleteList.PersonWalking);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonWearingTurban, EmojiSymbols.CompleteList.PersonWearingTurban);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonWithSkullcap, EmojiSymbols.CompleteList.PersonWithSkullcap);
+        TryAdd(EmojiCustomStrings.CompleteList.PersonWithVeil, EmojiSymbols.CompleteList.PersonWithVeil);
+        TryAdd(EmojiCustomStrings.CompleteList.PetriDish, EmojiSymbols.CompleteList.PetriDish);
+        TryAdd(EmojiCustomStrings.CompleteList.Pick, EmojiSymbols.CompleteList.Pick);
+        TryAdd(EmojiCustomStrings.CompleteList.PickupTruck, EmojiSymbols.CompleteList.PickupTruck);
+        TryAdd(EmojiCustomStrings.CompleteList.Pie, EmojiSymbols.CompleteList.Pie);
+        TryAdd(EmojiCustomStrings.CompleteList.Pig, EmojiSymbols.CompleteList.Pig);
+        TryAdd(EmojiCustomStrings.CompleteList.PigFace, EmojiSymbols.CompleteList.PigFace);
+        TryAdd(EmojiCustomStrings.CompleteList.PigNose, EmojiSymbols.CompleteList.PigNose);
+        TryAdd(EmojiCustomStrings.CompleteList.PileOfPoo, EmojiSymbols.CompleteList.PileOfPoo);
+        TryAdd(EmojiCustomStrings.CompleteList.Pill, EmojiSymbols.CompleteList.Pill);
+        TryAdd(EmojiCustomStrings.CompleteList.Piñata, EmojiSymbols.CompleteList.Piñata);
+        TryAdd(EmojiCustomStrings.CompleteList.PinchedFingers, EmojiSymbols.CompleteList.PinchedFingers);
+        TryAdd(EmojiCustomStrings.CompleteList.PinchingHand, EmojiSymbols.CompleteList.PinchingHand);
+        TryAdd(EmojiCustomStrings.CompleteList.Pineapple, EmojiSymbols.CompleteList.Pineapple);
+        TryAdd(EmojiCustomStrings.CompleteList.PineDecoration, EmojiSymbols.CompleteList.PineDecoration);
+        TryAdd(EmojiCustomStrings.CompleteList.PingPong, EmojiSymbols.CompleteList.PingPong);
+        TryAdd(EmojiCustomStrings.CompleteList.Pisces, EmojiSymbols.CompleteList.Pisces);
+        TryAdd(EmojiCustomStrings.CompleteList.Pizza, EmojiSymbols.CompleteList.Pizza);
+        TryAdd(EmojiCustomStrings.CompleteList.Placard, EmojiSymbols.CompleteList.Placard);
+        TryAdd(EmojiCustomStrings.CompleteList.PlaceOfWorship, EmojiSymbols.CompleteList.PlaceOfWorship);
+        TryAdd(EmojiCustomStrings.CompleteList.PlayButton, EmojiSymbols.CompleteList.PlayButton);
+        TryAdd(EmojiCustomStrings.CompleteList.PlayOrPauseButton, EmojiSymbols.CompleteList.PlayOrPauseButton);
+        TryAdd(EmojiCustomStrings.CompleteList.PleadingFace, EmojiSymbols.CompleteList.PleadingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Plunger, EmojiSymbols.CompleteList.Plunger);
+        TryAdd(EmojiCustomStrings.CompleteList.Plus, EmojiSymbols.CompleteList.Plus);
+        TryAdd(EmojiCustomStrings.CompleteList.PoliceCar, EmojiSymbols.CompleteList.PoliceCar);
+        TryAdd(EmojiCustomStrings.CompleteList.PoliceCarLight, EmojiSymbols.CompleteList.PoliceCarLight);
+        TryAdd(EmojiCustomStrings.CompleteList.PoliceOfficer, EmojiSymbols.CompleteList.PoliceOfficer);
+        TryAdd(EmojiCustomStrings.CompleteList.Poodle, EmojiSymbols.CompleteList.Poodle);
+        TryAdd(EmojiCustomStrings.CompleteList.Pool8Ball, EmojiSymbols.CompleteList.Pool8Ball);
+        TryAdd(EmojiCustomStrings.CompleteList.Popcorn, EmojiSymbols.CompleteList.Popcorn);
+        TryAdd(EmojiCustomStrings.CompleteList.PostalHorn, EmojiSymbols.CompleteList.PostalHorn);
+        TryAdd(EmojiCustomStrings.CompleteList.Postbox, EmojiSymbols.CompleteList.Postbox);
+        TryAdd(EmojiCustomStrings.CompleteList.PostOffice, EmojiSymbols.CompleteList.PostOffice);
+        TryAdd(EmojiCustomStrings.CompleteList.PotableWater, EmojiSymbols.CompleteList.PotableWater);
+        TryAdd(EmojiCustomStrings.CompleteList.Potato, EmojiSymbols.CompleteList.Potato);
+        TryAdd(EmojiCustomStrings.CompleteList.PotOfFood, EmojiSymbols.CompleteList.PotOfFood);
+        TryAdd(EmojiCustomStrings.CompleteList.PottedPlant, EmojiSymbols.CompleteList.PottedPlant);
+        TryAdd(EmojiCustomStrings.CompleteList.PoultryLeg, EmojiSymbols.CompleteList.PoultryLeg);
+        TryAdd(EmojiCustomStrings.CompleteList.PoundBanknote, EmojiSymbols.CompleteList.PoundBanknote);
+        TryAdd(EmojiCustomStrings.CompleteList.PoutingCat, EmojiSymbols.CompleteList.PoutingCat);
+        TryAdd(EmojiCustomStrings.CompleteList.PoutingFace, EmojiSymbols.CompleteList.PoutingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.PregnantWoman, EmojiSymbols.CompleteList.PregnantWoman);
+        TryAdd(EmojiCustomStrings.CompleteList.Pretzel, EmojiSymbols.CompleteList.Pretzel);
+        TryAdd(EmojiCustomStrings.CompleteList.Prince, EmojiSymbols.CompleteList.Prince);
+        TryAdd(EmojiCustomStrings.CompleteList.Princess, EmojiSymbols.CompleteList.Princess);
+        TryAdd(EmojiCustomStrings.CompleteList.Printer, EmojiSymbols.CompleteList.Printer);
+        TryAdd(EmojiCustomStrings.CompleteList.Prohibited, EmojiSymbols.CompleteList.Prohibited);
+        TryAdd(EmojiCustomStrings.CompleteList.PurpleCircle, EmojiSymbols.CompleteList.PurpleCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.PurpleHeart, EmojiSymbols.CompleteList.PurpleHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.PurpleSquare, EmojiSymbols.CompleteList.PurpleSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.Purse, EmojiSymbols.CompleteList.Purse);
+        TryAdd(EmojiCustomStrings.CompleteList.Pushpin, EmojiSymbols.CompleteList.Pushpin);
+        TryAdd(EmojiCustomStrings.CompleteList.PuzzlePiece, EmojiSymbols.CompleteList.PuzzlePiece);
+        TryAdd(EmojiCustomStrings.CompleteList.Rabbit, EmojiSymbols.CompleteList.Rabbit);
+        TryAdd(EmojiCustomStrings.CompleteList.RabbitFace, EmojiSymbols.CompleteList.RabbitFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Raccoon, EmojiSymbols.CompleteList.Raccoon);
+        TryAdd(EmojiCustomStrings.CompleteList.RacingCar, EmojiSymbols.CompleteList.RacingCar);
+        TryAdd(EmojiCustomStrings.CompleteList.Radio, EmojiSymbols.CompleteList.Radio);
+        TryAdd(EmojiCustomStrings.CompleteList.Radioactive, EmojiSymbols.CompleteList.Radioactive);
+        TryAdd(EmojiCustomStrings.CompleteList.RadioButton, EmojiSymbols.CompleteList.RadioButton);
+        TryAdd(EmojiCustomStrings.CompleteList.RailwayCar, EmojiSymbols.CompleteList.RailwayCar);
+        TryAdd(EmojiCustomStrings.CompleteList.RailwayTrack, EmojiSymbols.CompleteList.RailwayTrack);
+        TryAdd(EmojiCustomStrings.CompleteList.Rainbow, EmojiSymbols.CompleteList.Rainbow);
+        TryAdd(EmojiCustomStrings.CompleteList.RaisedBackOfHand, EmojiSymbols.CompleteList.RaisedBackOfHand);
+        TryAdd(EmojiCustomStrings.CompleteList.RaisedFist, EmojiSymbols.CompleteList.RaisedFist);
+        TryAdd(EmojiCustomStrings.CompleteList.RaisedHand, EmojiSymbols.CompleteList.RaisedHand);
+        TryAdd(EmojiCustomStrings.CompleteList.RaisingHands, EmojiSymbols.CompleteList.RaisingHands);
+        TryAdd(EmojiCustomStrings.CompleteList.Ram, EmojiSymbols.CompleteList.Ram);
+        TryAdd(EmojiCustomStrings.CompleteList.Rat, EmojiSymbols.CompleteList.Rat);
+        TryAdd(EmojiCustomStrings.CompleteList.Razor, EmojiSymbols.CompleteList.Razor);
+        TryAdd(EmojiCustomStrings.CompleteList.Receipt, EmojiSymbols.CompleteList.Receipt);
+        TryAdd(EmojiCustomStrings.CompleteList.RecordButton, EmojiSymbols.CompleteList.RecordButton);
+        TryAdd(EmojiCustomStrings.CompleteList.RecyclingSymbol, EmojiSymbols.CompleteList.RecyclingSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.RedApple, EmojiSymbols.CompleteList.RedApple);
+        TryAdd(EmojiCustomStrings.CompleteList.RedCircle, EmojiSymbols.CompleteList.RedCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.RedEnvelope, EmojiSymbols.CompleteList.RedEnvelope);
+        TryAdd(EmojiCustomStrings.CompleteList.RedExclamationMark, EmojiSymbols.CompleteList.RedExclamationMark);
+        TryAdd(EmojiCustomStrings.CompleteList.RedHair, EmojiSymbols.CompleteList.RedHair);
+        TryAdd(EmojiCustomStrings.CompleteList.RedHeart, EmojiSymbols.CompleteList.RedHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.RedPaperLantern, EmojiSymbols.CompleteList.RedPaperLantern);
+        TryAdd(EmojiCustomStrings.CompleteList.RedQuestionMark, EmojiSymbols.CompleteList.RedQuestionMark);
+        TryAdd(EmojiCustomStrings.CompleteList.RedSquare, EmojiSymbols.CompleteList.RedSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.RedTrianglePointedDown, EmojiSymbols.CompleteList.RedTrianglePointedDown);
+        TryAdd(EmojiCustomStrings.CompleteList.RedTrianglePointedUp, EmojiSymbols.CompleteList.RedTrianglePointedUp);
+        TryAdd(EmojiCustomStrings.CompleteList.Registered, EmojiSymbols.CompleteList.Registered);
+        TryAdd(EmojiCustomStrings.CompleteList.RelievedFace, EmojiSymbols.CompleteList.RelievedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.ReminderRibbon, EmojiSymbols.CompleteList.ReminderRibbon);
+        TryAdd(EmojiCustomStrings.CompleteList.RepeatButton, EmojiSymbols.CompleteList.RepeatButton);
+        TryAdd(EmojiCustomStrings.CompleteList.RepeatSingleButton, EmojiSymbols.CompleteList.RepeatSingleButton);
+        TryAdd(EmojiCustomStrings.CompleteList.RescueWorkersHelmet, EmojiSymbols.CompleteList.RescueWorkersHelmet);
+        TryAdd(EmojiCustomStrings.CompleteList.Restroom, EmojiSymbols.CompleteList.Restroom);
+        TryAdd(EmojiCustomStrings.CompleteList.ReverseButton, EmojiSymbols.CompleteList.ReverseButton);
+        TryAdd(EmojiCustomStrings.CompleteList.RevolvingHearts, EmojiSymbols.CompleteList.RevolvingHearts);
+        TryAdd(EmojiCustomStrings.CompleteList.Rhinoceros, EmojiSymbols.CompleteList.Rhinoceros);
+        TryAdd(EmojiCustomStrings.CompleteList.Ribbon, EmojiSymbols.CompleteList.Ribbon);
+        TryAdd(EmojiCustomStrings.CompleteList.RiceBall, EmojiSymbols.CompleteList.RiceBall);
+        TryAdd(EmojiCustomStrings.CompleteList.RiceCracker, EmojiSymbols.CompleteList.RiceCracker);
+        TryAdd(EmojiCustomStrings.CompleteList.RightAngerBubble, EmojiSymbols.CompleteList.RightAngerBubble);
+        TryAdd(EmojiCustomStrings.CompleteList.RightArrow, EmojiSymbols.CompleteList.RightArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.RightArrowCurvingDown, EmojiSymbols.CompleteList.RightArrowCurvingDown);
+        TryAdd(EmojiCustomStrings.CompleteList.RightArrowCurvingLeft, EmojiSymbols.CompleteList.RightArrowCurvingLeft);
+        TryAdd(EmojiCustomStrings.CompleteList.RightArrowCurvingUp, EmojiSymbols.CompleteList.RightArrowCurvingUp);
+        TryAdd(EmojiCustomStrings.CompleteList.RightFacingFist, EmojiSymbols.CompleteList.RightFacingFist);
+        TryAdd(EmojiCustomStrings.CompleteList.Ring, EmojiSymbols.CompleteList.Ring);
+        TryAdd(EmojiCustomStrings.CompleteList.RingedPlanet, EmojiSymbols.CompleteList.RingedPlanet);
+        TryAdd(EmojiCustomStrings.CompleteList.RoastedSweetPotato, EmojiSymbols.CompleteList.RoastedSweetPotato);
+        TryAdd(EmojiCustomStrings.CompleteList.Robot, EmojiSymbols.CompleteList.Robot);
+        TryAdd(EmojiCustomStrings.CompleteList.Rock, EmojiSymbols.CompleteList.Rock);
+        TryAdd(EmojiCustomStrings.CompleteList.Rocket, EmojiSymbols.CompleteList.Rocket);
+        TryAdd(EmojiCustomStrings.CompleteList.RolledUpNewspaper, EmojiSymbols.CompleteList.RolledUpNewspaper);
+        TryAdd(EmojiCustomStrings.CompleteList.RollerCoaster, EmojiSymbols.CompleteList.RollerCoaster);
+        TryAdd(EmojiCustomStrings.CompleteList.RollerSkate, EmojiSymbols.CompleteList.RollerSkate);
+        TryAdd(EmojiCustomStrings.CompleteList.RollingOnTheFloorLaughing, EmojiSymbols.CompleteList.RollingOnTheFloorLaughing);
+        TryAdd(EmojiCustomStrings.CompleteList.RollOfPaper, EmojiSymbols.CompleteList.RollOfPaper);
+        TryAdd(EmojiCustomStrings.CompleteList.Rooster, EmojiSymbols.CompleteList.Rooster);
+        TryAdd(EmojiCustomStrings.CompleteList.Rose, EmojiSymbols.CompleteList.Rose);
+        TryAdd(EmojiCustomStrings.CompleteList.Rosette, EmojiSymbols.CompleteList.Rosette);
+        TryAdd(EmojiCustomStrings.CompleteList.RoundPushpin, EmojiSymbols.CompleteList.RoundPushpin);
+        TryAdd(EmojiCustomStrings.CompleteList.RugbyFootball, EmojiSymbols.CompleteList.RugbyFootball);
+        TryAdd(EmojiCustomStrings.CompleteList.RunningShirt, EmojiSymbols.CompleteList.RunningShirt);
+        TryAdd(EmojiCustomStrings.CompleteList.RunningShoe, EmojiSymbols.CompleteList.RunningShoe);
+        TryAdd(EmojiCustomStrings.CompleteList.SadButRelievedFace, EmojiSymbols.CompleteList.SadButRelievedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SafetyPin, EmojiSymbols.CompleteList.SafetyPin);
+        TryAdd(EmojiCustomStrings.CompleteList.SafetyVest, EmojiSymbols.CompleteList.SafetyVest);
+        TryAdd(EmojiCustomStrings.CompleteList.Sagittarius, EmojiSymbols.CompleteList.Sagittarius);
+        TryAdd(EmojiCustomStrings.CompleteList.Sailboat, EmojiSymbols.CompleteList.Sailboat);
+        TryAdd(EmojiCustomStrings.CompleteList.Sake, EmojiSymbols.CompleteList.Sake);
+        TryAdd(EmojiCustomStrings.CompleteList.Salt, EmojiSymbols.CompleteList.Salt);
+        TryAdd(EmojiCustomStrings.CompleteList.Sandwich, EmojiSymbols.CompleteList.Sandwich);
+        TryAdd(EmojiCustomStrings.CompleteList.SantaClaus, EmojiSymbols.CompleteList.SantaClaus);
+        TryAdd(EmojiCustomStrings.CompleteList.Sari, EmojiSymbols.CompleteList.Sari);
+        TryAdd(EmojiCustomStrings.CompleteList.Satellite, EmojiSymbols.CompleteList.Satellite);
+        TryAdd(EmojiCustomStrings.CompleteList.SatelliteAntenna, EmojiSymbols.CompleteList.SatelliteAntenna);
+        TryAdd(EmojiCustomStrings.CompleteList.Sauropod, EmojiSymbols.CompleteList.Sauropod);
+        TryAdd(EmojiCustomStrings.CompleteList.Saxophone, EmojiSymbols.CompleteList.Saxophone);
+        TryAdd(EmojiCustomStrings.CompleteList.Scarf, EmojiSymbols.CompleteList.Scarf);
+        TryAdd(EmojiCustomStrings.CompleteList.School, EmojiSymbols.CompleteList.School);
+        TryAdd(EmojiCustomStrings.CompleteList.Scissors, EmojiSymbols.CompleteList.Scissors);
+        TryAdd(EmojiCustomStrings.CompleteList.Scorpio, EmojiSymbols.CompleteList.Scorpio);
+        TryAdd(EmojiCustomStrings.CompleteList.Scorpion, EmojiSymbols.CompleteList.Scorpion);
+        TryAdd(EmojiCustomStrings.CompleteList.Screwdriver, EmojiSymbols.CompleteList.Screwdriver);
+        TryAdd(EmojiCustomStrings.CompleteList.Scroll, EmojiSymbols.CompleteList.Scroll);
+        TryAdd(EmojiCustomStrings.CompleteList.Seal, EmojiSymbols.CompleteList.Seal);
+        TryAdd(EmojiCustomStrings.CompleteList.Seat, EmojiSymbols.CompleteList.Seat);
+        TryAdd(EmojiCustomStrings.CompleteList.SecondPlaceMedal, EmojiSymbols.CompleteList.SecondPlaceMedal);
+        TryAdd(EmojiCustomStrings.CompleteList.Seedling, EmojiSymbols.CompleteList.Seedling);
+        TryAdd(EmojiCustomStrings.CompleteList.SeeNoEvilMonkey, EmojiSymbols.CompleteList.SeeNoEvilMonkey);
+        TryAdd(EmojiCustomStrings.CompleteList.Selfie, EmojiSymbols.CompleteList.Selfie);
+        TryAdd(EmojiCustomStrings.CompleteList.SevenOClock, EmojiSymbols.CompleteList.SevenOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.SevenThirty, EmojiSymbols.CompleteList.SevenThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.SewingNeedle, EmojiSymbols.CompleteList.SewingNeedle);
+        TryAdd(EmojiCustomStrings.CompleteList.ShallowPanOfFood, EmojiSymbols.CompleteList.ShallowPanOfFood);
+        TryAdd(EmojiCustomStrings.CompleteList.Shamrock, EmojiSymbols.CompleteList.Shamrock);
+        TryAdd(EmojiCustomStrings.CompleteList.Shark, EmojiSymbols.CompleteList.Shark);
+        TryAdd(EmojiCustomStrings.CompleteList.ShavedIce, EmojiSymbols.CompleteList.ShavedIce);
+        TryAdd(EmojiCustomStrings.CompleteList.SheafOfRice, EmojiSymbols.CompleteList.SheafOfRice);
+        TryAdd(EmojiCustomStrings.CompleteList.Shield, EmojiSymbols.CompleteList.Shield);
+        TryAdd(EmojiCustomStrings.CompleteList.ShintoShrine, EmojiSymbols.CompleteList.ShintoShrine);
+        TryAdd(EmojiCustomStrings.CompleteList.Ship, EmojiSymbols.CompleteList.Ship);
+        TryAdd(EmojiCustomStrings.CompleteList.ShootingStar, EmojiSymbols.CompleteList.ShootingStar);
+        TryAdd(EmojiCustomStrings.CompleteList.ShoppingBags, EmojiSymbols.CompleteList.ShoppingBags);
+        TryAdd(EmojiCustomStrings.CompleteList.ShoppingCart, EmojiSymbols.CompleteList.ShoppingCart);
+        TryAdd(EmojiCustomStrings.CompleteList.Shortcake, EmojiSymbols.CompleteList.Shortcake);
+        TryAdd(EmojiCustomStrings.CompleteList.Shorts, EmojiSymbols.CompleteList.Shorts);
+        TryAdd(EmojiCustomStrings.CompleteList.Shower, EmojiSymbols.CompleteList.Shower);
+        TryAdd(EmojiCustomStrings.CompleteList.Shrimp, EmojiSymbols.CompleteList.Shrimp);
+        TryAdd(EmojiCustomStrings.CompleteList.ShuffleTracksButton, EmojiSymbols.CompleteList.ShuffleTracksButton);
+        TryAdd(EmojiCustomStrings.CompleteList.ShushingFace, EmojiSymbols.CompleteList.ShushingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SignOfTheHorns, EmojiSymbols.CompleteList.SignOfTheHorns);
+        TryAdd(EmojiCustomStrings.CompleteList.SixOClock, EmojiSymbols.CompleteList.SixOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.SixThirty, EmojiSymbols.CompleteList.SixThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Skateboard, EmojiSymbols.CompleteList.Skateboard);
+        TryAdd(EmojiCustomStrings.CompleteList.Skier, EmojiSymbols.CompleteList.Skier);
+        TryAdd(EmojiCustomStrings.CompleteList.Skis, EmojiSymbols.CompleteList.Skis);
+        TryAdd(EmojiCustomStrings.CompleteList.Skull, EmojiSymbols.CompleteList.Skull);
+        TryAdd(EmojiCustomStrings.CompleteList.SkullAndCrossbones, EmojiSymbols.CompleteList.SkullAndCrossbones);
+        TryAdd(EmojiCustomStrings.CompleteList.Skunk, EmojiSymbols.CompleteList.Skunk);
+        TryAdd(EmojiCustomStrings.CompleteList.Sled, EmojiSymbols.CompleteList.Sled);
+        TryAdd(EmojiCustomStrings.CompleteList.SleepingFace, EmojiSymbols.CompleteList.SleepingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SleepyFace, EmojiSymbols.CompleteList.SleepyFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SlightlyFrowningFace, EmojiSymbols.CompleteList.SlightlyFrowningFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SlightlySmilingFace, EmojiSymbols.CompleteList.SlightlySmilingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Sloth, EmojiSymbols.CompleteList.Sloth);
+        TryAdd(EmojiCustomStrings.CompleteList.SlotMachine, EmojiSymbols.CompleteList.SlotMachine);
+        TryAdd(EmojiCustomStrings.CompleteList.SmallAirplane, EmojiSymbols.CompleteList.SmallAirplane);
+        TryAdd(EmojiCustomStrings.CompleteList.SmallBlueDiamond, EmojiSymbols.CompleteList.SmallBlueDiamond);
+        TryAdd(EmojiCustomStrings.CompleteList.SmallOrangeDiamond, EmojiSymbols.CompleteList.SmallOrangeDiamond);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingCatWithHeartEyes, EmojiSymbols.CompleteList.SmilingCatWithHeartEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFace, EmojiSymbols.CompleteList.SmilingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithHalo, EmojiSymbols.CompleteList.SmilingFaceWithHalo);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithHeartEyes, EmojiSymbols.CompleteList.SmilingFaceWithHeartEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithHearts, EmojiSymbols.CompleteList.SmilingFaceWithHearts);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithHorns, EmojiSymbols.CompleteList.SmilingFaceWithHorns);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithSmilingEyes, EmojiSymbols.CompleteList.SmilingFaceWithSmilingEyes);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithSunglasses, EmojiSymbols.CompleteList.SmilingFaceWithSunglasses);
+        TryAdd(EmojiCustomStrings.CompleteList.SmilingFaceWithTear, EmojiSymbols.CompleteList.SmilingFaceWithTear);
+        TryAdd(EmojiCustomStrings.CompleteList.SmirkingFace, EmojiSymbols.CompleteList.SmirkingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Snail, EmojiSymbols.CompleteList.Snail);
+        TryAdd(EmojiCustomStrings.CompleteList.Snake, EmojiSymbols.CompleteList.Snake);
+        TryAdd(EmojiCustomStrings.CompleteList.SneezingFace, EmojiSymbols.CompleteList.SneezingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Snowboarder, EmojiSymbols.CompleteList.Snowboarder);
+        TryAdd(EmojiCustomStrings.CompleteList.SnowCappedMountain, EmojiSymbols.CompleteList.SnowCappedMountain);
+        TryAdd(EmojiCustomStrings.CompleteList.Snowflake, EmojiSymbols.CompleteList.Snowflake);
+        TryAdd(EmojiCustomStrings.CompleteList.Snowman, EmojiSymbols.CompleteList.Snowman);
+        TryAdd(EmojiCustomStrings.CompleteList.SnowmanWithoutSnow, EmojiSymbols.CompleteList.SnowmanWithoutSnow);
+        TryAdd(EmojiCustomStrings.CompleteList.Soap, EmojiSymbols.CompleteList.Soap);
+        TryAdd(EmojiCustomStrings.CompleteList.SoccerBall, EmojiSymbols.CompleteList.SoccerBall);
+        TryAdd(EmojiCustomStrings.CompleteList.Socks, EmojiSymbols.CompleteList.Socks);
+        TryAdd(EmojiCustomStrings.CompleteList.Softball, EmojiSymbols.CompleteList.Softball);
+        TryAdd(EmojiCustomStrings.CompleteList.SoftIceCream, EmojiSymbols.CompleteList.SoftIceCream);
+        TryAdd(EmojiCustomStrings.CompleteList.SoonArrow, EmojiSymbols.CompleteList.SoonArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.SosButton, EmojiSymbols.CompleteList.SosButton);
+        TryAdd(EmojiCustomStrings.CompleteList.SpadeSuit, EmojiSymbols.CompleteList.SpadeSuit);
+        TryAdd(EmojiCustomStrings.CompleteList.Spaghetti, EmojiSymbols.CompleteList.Spaghetti);
+        TryAdd(EmojiCustomStrings.CompleteList.Sparkle, EmojiSymbols.CompleteList.Sparkle);
+        TryAdd(EmojiCustomStrings.CompleteList.Sparkler, EmojiSymbols.CompleteList.Sparkler);
+        TryAdd(EmojiCustomStrings.CompleteList.Sparkles, EmojiSymbols.CompleteList.Sparkles);
+        TryAdd(EmojiCustomStrings.CompleteList.SparklingHeart, EmojiSymbols.CompleteList.SparklingHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeakerHighVolume, EmojiSymbols.CompleteList.SpeakerHighVolume);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeakerLowVolume, EmojiSymbols.CompleteList.SpeakerLowVolume);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeakerMediumVolume, EmojiSymbols.CompleteList.SpeakerMediumVolume);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeakingHead, EmojiSymbols.CompleteList.SpeakingHead);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeakNoEvilMonkey, EmojiSymbols.CompleteList.SpeakNoEvilMonkey);
+        TryAdd(EmojiCustomStrings.CompleteList.SpeechBalloon, EmojiSymbols.CompleteList.SpeechBalloon);
+        TryAdd(EmojiCustomStrings.CompleteList.Speedboat, EmojiSymbols.CompleteList.Speedboat);
+        TryAdd(EmojiCustomStrings.CompleteList.Spider, EmojiSymbols.CompleteList.Spider);
+        TryAdd(EmojiCustomStrings.CompleteList.SpiderWeb, EmojiSymbols.CompleteList.SpiderWeb);
+        TryAdd(EmojiCustomStrings.CompleteList.SpiralCalendar, EmojiSymbols.CompleteList.SpiralCalendar);
+        TryAdd(EmojiCustomStrings.CompleteList.SpiralNotepad, EmojiSymbols.CompleteList.SpiralNotepad);
+        TryAdd(EmojiCustomStrings.CompleteList.SpiralShell, EmojiSymbols.CompleteList.SpiralShell);
+        TryAdd(EmojiCustomStrings.CompleteList.Sponge, EmojiSymbols.CompleteList.Sponge);
+        TryAdd(EmojiCustomStrings.CompleteList.Spoon, EmojiSymbols.CompleteList.Spoon);
+        TryAdd(EmojiCustomStrings.CompleteList.SportsMedal, EmojiSymbols.CompleteList.SportsMedal);
+        TryAdd(EmojiCustomStrings.CompleteList.SportUtilityVehicle, EmojiSymbols.CompleteList.SportUtilityVehicle);
+        TryAdd(EmojiCustomStrings.CompleteList.SpoutingWhale, EmojiSymbols.CompleteList.SpoutingWhale);
+        TryAdd(EmojiCustomStrings.CompleteList.Squid, EmojiSymbols.CompleteList.Squid);
+        TryAdd(EmojiCustomStrings.CompleteList.SquintingFaceWithTongue, EmojiSymbols.CompleteList.SquintingFaceWithTongue);
+        TryAdd(EmojiCustomStrings.CompleteList.Stadium, EmojiSymbols.CompleteList.Stadium);
+        TryAdd(EmojiCustomStrings.CompleteList.Star, EmojiSymbols.CompleteList.Star);
+        TryAdd(EmojiCustomStrings.CompleteList.StarAndCrescent, EmojiSymbols.CompleteList.StarAndCrescent);
+        TryAdd(EmojiCustomStrings.CompleteList.StarOfDavid, EmojiSymbols.CompleteList.StarOfDavid);
+        TryAdd(EmojiCustomStrings.CompleteList.StarStruck, EmojiSymbols.CompleteList.StarStruck);
+        TryAdd(EmojiCustomStrings.CompleteList.Station, EmojiSymbols.CompleteList.Station);
+        TryAdd(EmojiCustomStrings.CompleteList.StatueOfLiberty, EmojiSymbols.CompleteList.StatueOfLiberty);
+        TryAdd(EmojiCustomStrings.CompleteList.SteamingBowl, EmojiSymbols.CompleteList.SteamingBowl);
+        TryAdd(EmojiCustomStrings.CompleteList.Stethoscope, EmojiSymbols.CompleteList.Stethoscope);
+        TryAdd(EmojiCustomStrings.CompleteList.StopButton, EmojiSymbols.CompleteList.StopButton);
+        TryAdd(EmojiCustomStrings.CompleteList.StopSign, EmojiSymbols.CompleteList.StopSign);
+        TryAdd(EmojiCustomStrings.CompleteList.Stopwatch, EmojiSymbols.CompleteList.Stopwatch);
+        TryAdd(EmojiCustomStrings.CompleteList.StraightRuler, EmojiSymbols.CompleteList.StraightRuler);
+        TryAdd(EmojiCustomStrings.CompleteList.Strawberry, EmojiSymbols.CompleteList.Strawberry);
+        TryAdd(EmojiCustomStrings.CompleteList.StudioMicrophone, EmojiSymbols.CompleteList.StudioMicrophone);
+        TryAdd(EmojiCustomStrings.CompleteList.StuffedFlatbread, EmojiSymbols.CompleteList.StuffedFlatbread);
+        TryAdd(EmojiCustomStrings.CompleteList.Sun, EmojiSymbols.CompleteList.Sun);
+        TryAdd(EmojiCustomStrings.CompleteList.SunBehindCloud, EmojiSymbols.CompleteList.SunBehindCloud);
+        TryAdd(EmojiCustomStrings.CompleteList.SunBehindLargeCloud, EmojiSymbols.CompleteList.SunBehindLargeCloud);
+        TryAdd(EmojiCustomStrings.CompleteList.SunBehindRainCloud, EmojiSymbols.CompleteList.SunBehindRainCloud);
+        TryAdd(EmojiCustomStrings.CompleteList.SunBehindSmallCloud, EmojiSymbols.CompleteList.SunBehindSmallCloud);
+        TryAdd(EmojiCustomStrings.CompleteList.Sunflower, EmojiSymbols.CompleteList.Sunflower);
+        TryAdd(EmojiCustomStrings.CompleteList.Sunglasses, EmojiSymbols.CompleteList.Sunglasses);
+        TryAdd(EmojiCustomStrings.CompleteList.Sunrise, EmojiSymbols.CompleteList.Sunrise);
+        TryAdd(EmojiCustomStrings.CompleteList.SunriseOverMountains, EmojiSymbols.CompleteList.SunriseOverMountains);
+        TryAdd(EmojiCustomStrings.CompleteList.Sunset, EmojiSymbols.CompleteList.Sunset);
+        TryAdd(EmojiCustomStrings.CompleteList.SunWithFace, EmojiSymbols.CompleteList.SunWithFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Superhero, EmojiSymbols.CompleteList.Superhero);
+        TryAdd(EmojiCustomStrings.CompleteList.Supervillain, EmojiSymbols.CompleteList.Supervillain);
+        TryAdd(EmojiCustomStrings.CompleteList.Sushi, EmojiSymbols.CompleteList.Sushi);
+        TryAdd(EmojiCustomStrings.CompleteList.SuspensionRailway, EmojiSymbols.CompleteList.SuspensionRailway);
+        TryAdd(EmojiCustomStrings.CompleteList.Swan, EmojiSymbols.CompleteList.Swan);
+        TryAdd(EmojiCustomStrings.CompleteList.SweatDroplets, EmojiSymbols.CompleteList.SweatDroplets);
+        TryAdd(EmojiCustomStrings.CompleteList.Synagogue, EmojiSymbols.CompleteList.Synagogue);
+        TryAdd(EmojiCustomStrings.CompleteList.Syringe, EmojiSymbols.CompleteList.Syringe);
+        TryAdd(EmojiCustomStrings.CompleteList.Taco, EmojiSymbols.CompleteList.Taco);
+        TryAdd(EmojiCustomStrings.CompleteList.TakeoutBox, EmojiSymbols.CompleteList.TakeoutBox);
+        TryAdd(EmojiCustomStrings.CompleteList.Tamale, EmojiSymbols.CompleteList.Tamale);
+        TryAdd(EmojiCustomStrings.CompleteList.TanabataTree, EmojiSymbols.CompleteList.TanabataTree);
+        TryAdd(EmojiCustomStrings.CompleteList.Tangerine, EmojiSymbols.CompleteList.Tangerine);
+        TryAdd(EmojiCustomStrings.CompleteList.Taurus, EmojiSymbols.CompleteList.Taurus);
+        TryAdd(EmojiCustomStrings.CompleteList.Taxi, EmojiSymbols.CompleteList.Taxi);
+        TryAdd(EmojiCustomStrings.CompleteList.TeacupWithoutHandle, EmojiSymbols.CompleteList.TeacupWithoutHandle);
+        TryAdd(EmojiCustomStrings.CompleteList.Teapot, EmojiSymbols.CompleteList.Teapot);
+        TryAdd(EmojiCustomStrings.CompleteList.TearOffCalendar, EmojiSymbols.CompleteList.TearOffCalendar);
+        TryAdd(EmojiCustomStrings.CompleteList.TeddyBear, EmojiSymbols.CompleteList.TeddyBear);
+        TryAdd(EmojiCustomStrings.CompleteList.Telephone, EmojiSymbols.CompleteList.Telephone);
+        TryAdd(EmojiCustomStrings.CompleteList.TelephoneReceiver, EmojiSymbols.CompleteList.TelephoneReceiver);
+        TryAdd(EmojiCustomStrings.CompleteList.Telescope, EmojiSymbols.CompleteList.Telescope);
+        TryAdd(EmojiCustomStrings.CompleteList.Television, EmojiSymbols.CompleteList.Television);
+        TryAdd(EmojiCustomStrings.CompleteList.Tennis, EmojiSymbols.CompleteList.Tennis);
+        TryAdd(EmojiCustomStrings.CompleteList.TenOClock, EmojiSymbols.CompleteList.TenOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.Tent, EmojiSymbols.CompleteList.Tent);
+        TryAdd(EmojiCustomStrings.CompleteList.TenThirty, EmojiSymbols.CompleteList.TenThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.TestTube, EmojiSymbols.CompleteList.TestTube);
+        TryAdd(EmojiCustomStrings.CompleteList.Thermometer, EmojiSymbols.CompleteList.Thermometer);
+        TryAdd(EmojiCustomStrings.CompleteList.ThinkingFace, EmojiSymbols.CompleteList.ThinkingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.ThirdPlaceMedal, EmojiSymbols.CompleteList.ThirdPlaceMedal);
+        TryAdd(EmojiCustomStrings.CompleteList.ThongSandal, EmojiSymbols.CompleteList.ThongSandal);
+        TryAdd(EmojiCustomStrings.CompleteList.ThoughtBalloon, EmojiSymbols.CompleteList.ThoughtBalloon);
+        TryAdd(EmojiCustomStrings.CompleteList.Thread, EmojiSymbols.CompleteList.Thread);
+        TryAdd(EmojiCustomStrings.CompleteList.ThreeOClock, EmojiSymbols.CompleteList.ThreeOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.ThreeThirty, EmojiSymbols.CompleteList.ThreeThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.ThumbsDown, EmojiSymbols.CompleteList.ThumbsDown);
+        TryAdd(EmojiCustomStrings.CompleteList.ThumbsUp, EmojiSymbols.CompleteList.ThumbsUp);
+        TryAdd(EmojiCustomStrings.CompleteList.Ticket, EmojiSymbols.CompleteList.Ticket);
+        TryAdd(EmojiCustomStrings.CompleteList.Tiger, EmojiSymbols.CompleteList.Tiger);
+        TryAdd(EmojiCustomStrings.CompleteList.TigerFace, EmojiSymbols.CompleteList.TigerFace);
+        TryAdd(EmojiCustomStrings.CompleteList.TimerClock, EmojiSymbols.CompleteList.TimerClock);
+        TryAdd(EmojiCustomStrings.CompleteList.TiredFace, EmojiSymbols.CompleteList.TiredFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Toilet, EmojiSymbols.CompleteList.Toilet);
+        TryAdd(EmojiCustomStrings.CompleteList.TokyoTower, EmojiSymbols.CompleteList.TokyoTower);
+        TryAdd(EmojiCustomStrings.CompleteList.Tomato, EmojiSymbols.CompleteList.Tomato);
+        TryAdd(EmojiCustomStrings.CompleteList.Tongue, EmojiSymbols.CompleteList.Tongue);
+        TryAdd(EmojiCustomStrings.CompleteList.Toolbox, EmojiSymbols.CompleteList.Toolbox);
+        TryAdd(EmojiCustomStrings.CompleteList.Tooth, EmojiSymbols.CompleteList.Tooth);
+        TryAdd(EmojiCustomStrings.CompleteList.Toothbrush, EmojiSymbols.CompleteList.Toothbrush);
+        TryAdd(EmojiCustomStrings.CompleteList.TopArrow, EmojiSymbols.CompleteList.TopArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.TopHat, EmojiSymbols.CompleteList.TopHat);
+        TryAdd(EmojiCustomStrings.CompleteList.Tornado, EmojiSymbols.CompleteList.Tornado);
+        TryAdd(EmojiCustomStrings.CompleteList.Trackball, EmojiSymbols.CompleteList.Trackball);
+        TryAdd(EmojiCustomStrings.CompleteList.Tractor, EmojiSymbols.CompleteList.Tractor);
+        TryAdd(EmojiCustomStrings.CompleteList.TradeMark, EmojiSymbols.CompleteList.TradeMark);
+        TryAdd(EmojiCustomStrings.CompleteList.Train, EmojiSymbols.CompleteList.Train);
+        TryAdd(EmojiCustomStrings.CompleteList.Tram, EmojiSymbols.CompleteList.Tram);
+        TryAdd(EmojiCustomStrings.CompleteList.TramCar, EmojiSymbols.CompleteList.TramCar);
+        TryAdd(EmojiCustomStrings.CompleteList.TRex, EmojiSymbols.CompleteList.TRex);
+        TryAdd(EmojiCustomStrings.CompleteList.TriangularFlag, EmojiSymbols.CompleteList.TriangularFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.TriangularRuler, EmojiSymbols.CompleteList.TriangularRuler);
+        TryAdd(EmojiCustomStrings.CompleteList.TridentEmblem, EmojiSymbols.CompleteList.TridentEmblem);
+        TryAdd(EmojiCustomStrings.CompleteList.Trolleybus, EmojiSymbols.CompleteList.Trolleybus);
+        TryAdd(EmojiCustomStrings.CompleteList.Trophy, EmojiSymbols.CompleteList.Trophy);
+        TryAdd(EmojiCustomStrings.CompleteList.TropicalDrink, EmojiSymbols.CompleteList.TropicalDrink);
+        TryAdd(EmojiCustomStrings.CompleteList.TropicalFish, EmojiSymbols.CompleteList.TropicalFish);
+        TryAdd(EmojiCustomStrings.CompleteList.Trumpet, EmojiSymbols.CompleteList.Trumpet);
+        TryAdd(EmojiCustomStrings.CompleteList.TShirt, EmojiSymbols.CompleteList.TShirt);
+        TryAdd(EmojiCustomStrings.CompleteList.Tulip, EmojiSymbols.CompleteList.Tulip);
+        TryAdd(EmojiCustomStrings.CompleteList.TumblerGlass, EmojiSymbols.CompleteList.TumblerGlass);
+        TryAdd(EmojiCustomStrings.CompleteList.Turkey, EmojiSymbols.CompleteList.Turkey);
+        TryAdd(EmojiCustomStrings.CompleteList.Turtle, EmojiSymbols.CompleteList.Turtle);
+        TryAdd(EmojiCustomStrings.CompleteList.TwelveOClock, EmojiSymbols.CompleteList.TwelveOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.TwelveThirty, EmojiSymbols.CompleteList.TwelveThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.TwoHearts, EmojiSymbols.CompleteList.TwoHearts);
+        TryAdd(EmojiCustomStrings.CompleteList.TwoHumpCamel, EmojiSymbols.CompleteList.TwoHumpCamel);
+        TryAdd(EmojiCustomStrings.CompleteList.TwoOClock, EmojiSymbols.CompleteList.TwoOClock);
+        TryAdd(EmojiCustomStrings.CompleteList.TwoThirty, EmojiSymbols.CompleteList.TwoThirty);
+        TryAdd(EmojiCustomStrings.CompleteList.Umbrella, EmojiSymbols.CompleteList.Umbrella);
+        TryAdd(EmojiCustomStrings.CompleteList.UmbrellaOnGround, EmojiSymbols.CompleteList.UmbrellaOnGround);
+        TryAdd(EmojiCustomStrings.CompleteList.UmbrellaWithRainDrops, EmojiSymbols.CompleteList.UmbrellaWithRainDrops);
+        TryAdd(EmojiCustomStrings.CompleteList.UnamusedFace, EmojiSymbols.CompleteList.UnamusedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Unicorn, EmojiSymbols.CompleteList.Unicorn);
+        TryAdd(EmojiCustomStrings.CompleteList.Unlocked, EmojiSymbols.CompleteList.Unlocked);
+        TryAdd(EmojiCustomStrings.CompleteList.UpArrow, EmojiSymbols.CompleteList.UpArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.UpButton, EmojiSymbols.CompleteList.UpButton);
+        TryAdd(EmojiCustomStrings.CompleteList.UpDownArrow, EmojiSymbols.CompleteList.UpDownArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.UpLeftArrow, EmojiSymbols.CompleteList.UpLeftArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.UpRightArrow, EmojiSymbols.CompleteList.UpRightArrow);
+        TryAdd(EmojiCustomStrings.CompleteList.UpsideDownFace, EmojiSymbols.CompleteList.UpsideDownFace);
+        TryAdd(EmojiCustomStrings.CompleteList.UpwardsButton, EmojiSymbols.CompleteList.UpwardsButton);
+        TryAdd(EmojiCustomStrings.CompleteList.Vampire, EmojiSymbols.CompleteList.Vampire);
+        TryAdd(EmojiCustomStrings.CompleteList.VerticalTrafficLight, EmojiSymbols.CompleteList.VerticalTrafficLight);
+        TryAdd(EmojiCustomStrings.CompleteList.VibrationMode, EmojiSymbols.CompleteList.VibrationMode);
+        TryAdd(EmojiCustomStrings.CompleteList.VictoryHand, EmojiSymbols.CompleteList.VictoryHand);
+        TryAdd(EmojiCustomStrings.CompleteList.VideoCamera, EmojiSymbols.CompleteList.VideoCamera);
+        TryAdd(EmojiCustomStrings.CompleteList.Videocassette, EmojiSymbols.CompleteList.Videocassette);
+        TryAdd(EmojiCustomStrings.CompleteList.VideoGame, EmojiSymbols.CompleteList.VideoGame);
+        TryAdd(EmojiCustomStrings.CompleteList.Violin, EmojiSymbols.CompleteList.Violin);
+        TryAdd(EmojiCustomStrings.CompleteList.Virgo, EmojiSymbols.CompleteList.Virgo);
+        TryAdd(EmojiCustomStrings.CompleteList.Volcano, EmojiSymbols.CompleteList.Volcano);
+        TryAdd(EmojiCustomStrings.CompleteList.Volleyball, EmojiSymbols.CompleteList.Volleyball);
+        TryAdd(EmojiCustomStrings.CompleteList.VsButton, EmojiSymbols.CompleteList.VsButton);
+        TryAdd(EmojiCustomStrings.CompleteList.VulcanSalute, EmojiSymbols.CompleteList.VulcanSalute);
+        TryAdd(EmojiCustomStrings.CompleteList.Waffle, EmojiSymbols.CompleteList.Waffle);
+        TryAdd(EmojiCustomStrings.CompleteList.WaningCrescentMoon, EmojiSymbols.CompleteList.WaningCrescentMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.WaningGibbousMoon, EmojiSymbols.CompleteList.WaningGibbousMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.Warning, EmojiSymbols.CompleteList.Warning);
+        TryAdd(EmojiCustomStrings.CompleteList.Wastebasket, EmojiSymbols.CompleteList.Wastebasket);
+        TryAdd(EmojiCustomStrings.CompleteList.Watch, EmojiSymbols.CompleteList.Watch);
+        TryAdd(EmojiCustomStrings.CompleteList.WaterBuffalo, EmojiSymbols.CompleteList.WaterBuffalo);
+        TryAdd(EmojiCustomStrings.CompleteList.WaterCloset, EmojiSymbols.CompleteList.WaterCloset);
+        TryAdd(EmojiCustomStrings.CompleteList.Watermelon, EmojiSymbols.CompleteList.Watermelon);
+        TryAdd(EmojiCustomStrings.CompleteList.WaterPistol, EmojiSymbols.CompleteList.WaterPistol);
+        TryAdd(EmojiCustomStrings.CompleteList.WaterWave, EmojiSymbols.CompleteList.WaterWave);
+        TryAdd(EmojiCustomStrings.CompleteList.WavingHand, EmojiSymbols.CompleteList.WavingHand);
+        TryAdd(EmojiCustomStrings.CompleteList.WavyDash, EmojiSymbols.CompleteList.WavyDash);
+        TryAdd(EmojiCustomStrings.CompleteList.WaxingCrescentMoon, EmojiSymbols.CompleteList.WaxingCrescentMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.WaxingGibbousMoon, EmojiSymbols.CompleteList.WaxingGibbousMoon);
+        TryAdd(EmojiCustomStrings.CompleteList.WearyCat, EmojiSymbols.CompleteList.WearyCat);
+        TryAdd(EmojiCustomStrings.CompleteList.WearyFace, EmojiSymbols.CompleteList.WearyFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Wedding, EmojiSymbols.CompleteList.Wedding);
+        TryAdd(EmojiCustomStrings.CompleteList.Whale, EmojiSymbols.CompleteList.Whale);
+        TryAdd(EmojiCustomStrings.CompleteList.WheelchairSymbol, EmojiSymbols.CompleteList.WheelchairSymbol);
+        TryAdd(EmojiCustomStrings.CompleteList.WheelOfDharma, EmojiSymbols.CompleteList.WheelOfDharma);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteCane, EmojiSymbols.CompleteList.WhiteCane);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteCircle, EmojiSymbols.CompleteList.WhiteCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteExclamationMark, EmojiSymbols.CompleteList.WhiteExclamationMark);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteFlag, EmojiSymbols.CompleteList.WhiteFlag);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteFlower, EmojiSymbols.CompleteList.WhiteFlower);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteHair, EmojiSymbols.CompleteList.WhiteHair);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteHeart, EmojiSymbols.CompleteList.WhiteHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteLargeSquare, EmojiSymbols.CompleteList.WhiteLargeSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteMediumSmallSquare, EmojiSymbols.CompleteList.WhiteMediumSmallSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteMediumSquare, EmojiSymbols.CompleteList.WhiteMediumSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteQuestionMark, EmojiSymbols.CompleteList.WhiteQuestionMark);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteSmallSquare, EmojiSymbols.CompleteList.WhiteSmallSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.WhiteSquareButton, EmojiSymbols.CompleteList.WhiteSquareButton);
+        TryAdd(EmojiCustomStrings.CompleteList.WiltedFlower, EmojiSymbols.CompleteList.WiltedFlower);
+        TryAdd(EmojiCustomStrings.CompleteList.WindChime, EmojiSymbols.CompleteList.WindChime);
+        TryAdd(EmojiCustomStrings.CompleteList.WindFace, EmojiSymbols.CompleteList.WindFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Window, EmojiSymbols.CompleteList.Window);
+        TryAdd(EmojiCustomStrings.CompleteList.WineGlass, EmojiSymbols.CompleteList.WineGlass);
+        TryAdd(EmojiCustomStrings.CompleteList.WinkingFace, EmojiSymbols.CompleteList.WinkingFace);
+        TryAdd(EmojiCustomStrings.CompleteList.WinkingFaceWithTongue, EmojiSymbols.CompleteList.WinkingFaceWithTongue);
+        TryAdd(EmojiCustomStrings.CompleteList.Wolf, EmojiSymbols.CompleteList.Wolf);
+        TryAdd(EmojiCustomStrings.CompleteList.Woman, EmojiSymbols.CompleteList.Woman);
+        TryAdd(EmojiCustomStrings.CompleteList.WomanAndManHoldingHands, EmojiSymbols.CompleteList.WomanAndManHoldingHands);
+        TryAdd(EmojiCustomStrings.CompleteList.WomanDancing, EmojiSymbols.CompleteList.WomanDancing);
+        TryAdd(EmojiCustomStrings.CompleteList.WomansBoot, EmojiSymbols.CompleteList.WomansBoot);
+        TryAdd(EmojiCustomStrings.CompleteList.WomansClothes, EmojiSymbols.CompleteList.WomansClothes);
+        TryAdd(EmojiCustomStrings.CompleteList.WomansHat, EmojiSymbols.CompleteList.WomansHat);
+        TryAdd(EmojiCustomStrings.CompleteList.WomansSandal, EmojiSymbols.CompleteList.WomansSandal);
+        TryAdd(EmojiCustomStrings.CompleteList.WomanWithHeadscarf, EmojiSymbols.CompleteList.WomanWithHeadscarf);
+        TryAdd(EmojiCustomStrings.CompleteList.WomenHoldingHands, EmojiSymbols.CompleteList.WomenHoldingHands);
+        TryAdd(EmojiCustomStrings.CompleteList.WomensRoom, EmojiSymbols.CompleteList.WomensRoom);
+        TryAdd(EmojiCustomStrings.CompleteList.Wood, EmojiSymbols.CompleteList.Wood);
+        TryAdd(EmojiCustomStrings.CompleteList.WoozyFace, EmojiSymbols.CompleteList.WoozyFace);
+        TryAdd(EmojiCustomStrings.CompleteList.WorldMap, EmojiSymbols.CompleteList.WorldMap);
+        TryAdd(EmojiCustomStrings.CompleteList.Worm, EmojiSymbols.CompleteList.Worm);
+        TryAdd(EmojiCustomStrings.CompleteList.WorriedFace, EmojiSymbols.CompleteList.WorriedFace);
+        TryAdd(EmojiCustomStrings.CompleteList.WrappedGift, EmojiSymbols.CompleteList.WrappedGift);
+        TryAdd(EmojiCustomStrings.CompleteList.Wrench, EmojiSymbols.CompleteList.Wrench);
+        TryAdd(EmojiCustomStrings.CompleteList.WritingHand, EmojiSymbols.CompleteList.WritingHand);
+        TryAdd(EmojiCustomStrings.CompleteList.Yarn, EmojiSymbols.CompleteList.Yarn);
+        TryAdd(EmojiCustomStrings.CompleteList.YawningFace, EmojiSymbols.CompleteList.YawningFace);
+        TryAdd(EmojiCustomStrings.CompleteList.YellowCircle, EmojiSymbols.CompleteList.YellowCircle);
+        TryAdd(EmojiCustomStrings.CompleteList.YellowHeart, EmojiSymbols.CompleteList.YellowHeart);
+        TryAdd(EmojiCustomStrings.CompleteList.YellowSquare, EmojiSymbols.CompleteList.YellowSquare);
+        TryAdd(EmojiCustomStrings.CompleteList.YenBanknote, EmojiSymbols.CompleteList.YenBanknote);
+        TryAdd(EmojiCustomStrings.CompleteList.YinYang, EmojiSymbols.CompleteList.YinYang);
+        TryAdd(EmojiCustomStrings.CompleteList.YoYo, EmojiSymbols.CompleteList.YoYo);
+        TryAdd(EmojiCustomStrings.CompleteList.ZanyFace, EmojiSymbols.CompleteList.ZanyFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Zebra, EmojiSymbols.CompleteList.Zebra);
+        TryAdd(EmojiCustomStrings.CompleteList.ZipperMouthFace, EmojiSymbols.CompleteList.ZipperMouthFace);
+        TryAdd(EmojiCustomStrings.CompleteList.Zombie, EmojiSymbols.CompleteList.Zombie);
+        TryAdd(EmojiCustomStrings.CompleteList.Zzz, EmojiSymbols.CompleteList.Zzz);
+        _emojiToName = [];
+        foreach (var kvp in _nameToEmoji)
+        {
+            if (!_emojiToName.ContainsKey(kvp.Value))
             {
-                { EmojiCustomStrings.CompleteList.Abacus, EmojiSymbols.CompleteList.Abacus },
-                { EmojiCustomStrings.CompleteList.AbButtonBloodType, EmojiSymbols.CompleteList.AbButtonBloodType },
-                { EmojiCustomStrings.CompleteList.AButtonBloodType, EmojiSymbols.CompleteList.AButtonBloodType },
-                { EmojiCustomStrings.CompleteList.Accordion, EmojiSymbols.CompleteList.Accordion },
-                { EmojiCustomStrings.CompleteList.AdhesiveBandage, EmojiSymbols.CompleteList.AdhesiveBandage },
-                { EmojiCustomStrings.CompleteList.AdmissionTickets, EmojiSymbols.CompleteList.AdmissionTickets },
-                { EmojiCustomStrings.CompleteList.AerialTramway, EmojiSymbols.CompleteList.AerialTramway },
-                { EmojiCustomStrings.CompleteList.Airplane, EmojiSymbols.CompleteList.Airplane },
-                { EmojiCustomStrings.CompleteList.AirplaneArrival, EmojiSymbols.CompleteList.AirplaneArrival },
-                { EmojiCustomStrings.CompleteList.AirplaneDeparture, EmojiSymbols.CompleteList.AirplaneDeparture },
-                { EmojiCustomStrings.CompleteList.AlarmClock, EmojiSymbols.CompleteList.AlarmClock },
-                { EmojiCustomStrings.CompleteList.Alembic, EmojiSymbols.CompleteList.Alembic },
-                { EmojiCustomStrings.CompleteList.Alien, EmojiSymbols.CompleteList.Alien },
-                { EmojiCustomStrings.CompleteList.AlienMonster, EmojiSymbols.CompleteList.AlienMonster },
-                { EmojiCustomStrings.CompleteList.Ambulance, EmojiSymbols.CompleteList.Ambulance },
-                { EmojiCustomStrings.CompleteList.AmericanFootball, EmojiSymbols.CompleteList.AmericanFootball },
-                { EmojiCustomStrings.CompleteList.Amphora, EmojiSymbols.CompleteList.Amphora },
-                { EmojiCustomStrings.CompleteList.AnatomicalHeart, EmojiSymbols.CompleteList.AnatomicalHeart },
-                { EmojiCustomStrings.CompleteList.Anchor, EmojiSymbols.CompleteList.Anchor },
-                { EmojiCustomStrings.CompleteList.AngerSymbol, EmojiSymbols.CompleteList.AngerSymbol },
-                { EmojiCustomStrings.CompleteList.AngryFace, EmojiSymbols.CompleteList.AngryFace },
-                { EmojiCustomStrings.CompleteList.AngryFaceWithHorns, EmojiSymbols.CompleteList.AngryFaceWithHorns },
-                { EmojiCustomStrings.CompleteList.AnguishedFace, EmojiSymbols.CompleteList.AnguishedFace },
-                { EmojiCustomStrings.CompleteList.Ant, EmojiSymbols.CompleteList.Ant },
-                { EmojiCustomStrings.CompleteList.AntennaBars, EmojiSymbols.CompleteList.AntennaBars },
-                { EmojiCustomStrings.CompleteList.AnxiousFaceWithSweat, EmojiSymbols.CompleteList.AnxiousFaceWithSweat },
-                { EmojiCustomStrings.CompleteList.Aquarius, EmojiSymbols.CompleteList.Aquarius },
-                { EmojiCustomStrings.CompleteList.Aries, EmojiSymbols.CompleteList.Aries },
-                { EmojiCustomStrings.CompleteList.ArticulatedLorry, EmojiSymbols.CompleteList.ArticulatedLorry },
-                { EmojiCustomStrings.CompleteList.ArtistPalette, EmojiSymbols.CompleteList.ArtistPalette },
-                { EmojiCustomStrings.CompleteList.AstonishedFace, EmojiSymbols.CompleteList.AstonishedFace },
-                { EmojiCustomStrings.CompleteList.AtmSign, EmojiSymbols.CompleteList.AtmSign },
-                { EmojiCustomStrings.CompleteList.AtomSymbol, EmojiSymbols.CompleteList.AtomSymbol },
-                { EmojiCustomStrings.CompleteList.Automobile, EmojiSymbols.CompleteList.Automobile },
-                { EmojiCustomStrings.CompleteList.AutoRickshaw, EmojiSymbols.CompleteList.AutoRickshaw },
-                { EmojiCustomStrings.CompleteList.Avocado, EmojiSymbols.CompleteList.Avocado },
-                { EmojiCustomStrings.CompleteList.Axe, EmojiSymbols.CompleteList.Axe },
-                { EmojiCustomStrings.CompleteList.Baby, EmojiSymbols.CompleteList.Baby },
-                { EmojiCustomStrings.CompleteList.BabyAngel, EmojiSymbols.CompleteList.BabyAngel },
-                { EmojiCustomStrings.CompleteList.BabyBottle, EmojiSymbols.CompleteList.BabyBottle },
-                { EmojiCustomStrings.CompleteList.BabyChick, EmojiSymbols.CompleteList.BabyChick },
-                { EmojiCustomStrings.CompleteList.BabySymbol, EmojiSymbols.CompleteList.BabySymbol },
-                { EmojiCustomStrings.CompleteList.BackArrow, EmojiSymbols.CompleteList.BackArrow },
-                { EmojiCustomStrings.CompleteList.BackhandIndexPointingDown, EmojiSymbols.CompleteList.BackhandIndexPointingDown },
-                { EmojiCustomStrings.CompleteList.BackhandIndexPointingLeft, EmojiSymbols.CompleteList.BackhandIndexPointingLeft },
-                { EmojiCustomStrings.CompleteList.BackhandIndexPointingRight, EmojiSymbols.CompleteList.BackhandIndexPointingRight },
-                { EmojiCustomStrings.CompleteList.BackhandIndexPointingUp, EmojiSymbols.CompleteList.BackhandIndexPointingUp },
-                { EmojiCustomStrings.CompleteList.Backpack, EmojiSymbols.CompleteList.Backpack },
-                { EmojiCustomStrings.CompleteList.Bacon, EmojiSymbols.CompleteList.Bacon },
-                { EmojiCustomStrings.CompleteList.Badger, EmojiSymbols.CompleteList.Badger },
-                { EmojiCustomStrings.CompleteList.Badminton, EmojiSymbols.CompleteList.Badminton },
-                { EmojiCustomStrings.CompleteList.Bagel, EmojiSymbols.CompleteList.Bagel },
-                { EmojiCustomStrings.CompleteList.BaggageClaim, EmojiSymbols.CompleteList.BaggageClaim },
-                { EmojiCustomStrings.CompleteList.BaguetteBread, EmojiSymbols.CompleteList.BaguetteBread },
-                { EmojiCustomStrings.CompleteList.BalanceScale, EmojiSymbols.CompleteList.BalanceScale },
-                { EmojiCustomStrings.CompleteList.Bald, EmojiSymbols.CompleteList.Bald },
-                { EmojiCustomStrings.CompleteList.BalletShoes, EmojiSymbols.CompleteList.BalletShoes },
-                { EmojiCustomStrings.CompleteList.Balloon, EmojiSymbols.CompleteList.Balloon },
-                { EmojiCustomStrings.CompleteList.BallotBoxWithBallot, EmojiSymbols.CompleteList.BallotBoxWithBallot },
-                { EmojiCustomStrings.CompleteList.Banana, EmojiSymbols.CompleteList.Banana },
-                { EmojiCustomStrings.CompleteList.Banjo, EmojiSymbols.CompleteList.Banjo },
-                { EmojiCustomStrings.CompleteList.Bank, EmojiSymbols.CompleteList.Bank },
-                { EmojiCustomStrings.CompleteList.BarberPole, EmojiSymbols.CompleteList.BarberPole },
-                { EmojiCustomStrings.CompleteList.BarChart, EmojiSymbols.CompleteList.BarChart },
-                { EmojiCustomStrings.CompleteList.Baseball, EmojiSymbols.CompleteList.Baseball },
-                { EmojiCustomStrings.CompleteList.Basket, EmojiSymbols.CompleteList.Basket },
-                { EmojiCustomStrings.CompleteList.Basketball, EmojiSymbols.CompleteList.Basketball },
-                { EmojiCustomStrings.CompleteList.Bat, EmojiSymbols.CompleteList.Bat },
-                { EmojiCustomStrings.CompleteList.Bathtub, EmojiSymbols.CompleteList.Bathtub },
-                { EmojiCustomStrings.CompleteList.Battery, EmojiSymbols.CompleteList.Battery },
-                { EmojiCustomStrings.CompleteList.BButtonBloodType, EmojiSymbols.CompleteList.BButtonBloodType },
-                { EmojiCustomStrings.CompleteList.BeachWithUmbrella, EmojiSymbols.CompleteList.BeachWithUmbrella },
-                { EmojiCustomStrings.CompleteList.BeamingFaceWithSmilingEyes, EmojiSymbols.CompleteList.BeamingFaceWithSmilingEyes },
-                { EmojiCustomStrings.CompleteList.Bear, EmojiSymbols.CompleteList.Bear },
-                { EmojiCustomStrings.CompleteList.BeatingHeart, EmojiSymbols.CompleteList.BeatingHeart },
-                { EmojiCustomStrings.CompleteList.Beaver, EmojiSymbols.CompleteList.Beaver },
-                { EmojiCustomStrings.CompleteList.Bed, EmojiSymbols.CompleteList.Bed },
-                { EmojiCustomStrings.CompleteList.Beetle, EmojiSymbols.CompleteList.Beetle },
-                { EmojiCustomStrings.CompleteList.Bell, EmojiSymbols.CompleteList.Bell },
-                { EmojiCustomStrings.CompleteList.BellhopBell, EmojiSymbols.CompleteList.BellhopBell },
-                { EmojiCustomStrings.CompleteList.BellPepper, EmojiSymbols.CompleteList.BellPepper },
-                { EmojiCustomStrings.CompleteList.BellWithSlash, EmojiSymbols.CompleteList.BellWithSlash },
-                { EmojiCustomStrings.CompleteList.BentoBox, EmojiSymbols.CompleteList.BentoBox },
-                { EmojiCustomStrings.CompleteList.BeverageBox, EmojiSymbols.CompleteList.BeverageBox },
-                { EmojiCustomStrings.CompleteList.Bicycle, EmojiSymbols.CompleteList.Bicycle },
-                { EmojiCustomStrings.CompleteList.Bikini, EmojiSymbols.CompleteList.Bikini },
-                { EmojiCustomStrings.CompleteList.BilledCap, EmojiSymbols.CompleteList.BilledCap },
-                { EmojiCustomStrings.CompleteList.Biohazard, EmojiSymbols.CompleteList.Biohazard },
-                { EmojiCustomStrings.CompleteList.Bird, EmojiSymbols.CompleteList.Bird },
-                { EmojiCustomStrings.CompleteList.BirthdayCake, EmojiSymbols.CompleteList.BirthdayCake },
-                { EmojiCustomStrings.CompleteList.Bison, EmojiSymbols.CompleteList.Bison },
-                { EmojiCustomStrings.CompleteList.BlackCircle, EmojiSymbols.CompleteList.BlackCircle },
-                { EmojiCustomStrings.CompleteList.BlackFlag, EmojiSymbols.CompleteList.BlackFlag },
-                { EmojiCustomStrings.CompleteList.BlackHeart, EmojiSymbols.CompleteList.BlackHeart },
-                { EmojiCustomStrings.CompleteList.BlackLargeSquare, EmojiSymbols.CompleteList.BlackLargeSquare },
-                { EmojiCustomStrings.CompleteList.BlackMediumSmallSquare, EmojiSymbols.CompleteList.BlackMediumSmallSquare },
-                { EmojiCustomStrings.CompleteList.BlackMediumSquare, EmojiSymbols.CompleteList.BlackMediumSquare },
-                { EmojiCustomStrings.CompleteList.BlackNib, EmojiSymbols.CompleteList.BlackNib },
-                { EmojiCustomStrings.CompleteList.BlackSmallSquare, EmojiSymbols.CompleteList.BlackSmallSquare },
-                { EmojiCustomStrings.CompleteList.BlackSquareButton, EmojiSymbols.CompleteList.BlackSquareButton },
-                { EmojiCustomStrings.CompleteList.Blossom, EmojiSymbols.CompleteList.Blossom },
-                { EmojiCustomStrings.CompleteList.Blowfish, EmojiSymbols.CompleteList.Blowfish },
-                { EmojiCustomStrings.CompleteList.Blueberries, EmojiSymbols.CompleteList.Blueberries },
-                { EmojiCustomStrings.CompleteList.BlueBook, EmojiSymbols.CompleteList.BlueBook },
-                { EmojiCustomStrings.CompleteList.BlueCircle, EmojiSymbols.CompleteList.BlueCircle },
-                { EmojiCustomStrings.CompleteList.BlueHeart, EmojiSymbols.CompleteList.BlueHeart },
-                { EmojiCustomStrings.CompleteList.BlueSquare, EmojiSymbols.CompleteList.BlueSquare },
-                { EmojiCustomStrings.CompleteList.Boar, EmojiSymbols.CompleteList.Boar },
-                { EmojiCustomStrings.CompleteList.Bomb, EmojiSymbols.CompleteList.Bomb },
-                { EmojiCustomStrings.CompleteList.Bone, EmojiSymbols.CompleteList.Bone },
-                { EmojiCustomStrings.CompleteList.Bookmark, EmojiSymbols.CompleteList.Bookmark },
-                { EmojiCustomStrings.CompleteList.BookmarkTabs, EmojiSymbols.CompleteList.BookmarkTabs },
-                { EmojiCustomStrings.CompleteList.Books, EmojiSymbols.CompleteList.Books },
-                { EmojiCustomStrings.CompleteList.Boomerang, EmojiSymbols.CompleteList.Boomerang },
-                { EmojiCustomStrings.CompleteList.BottleWithPoppingCork, EmojiSymbols.CompleteList.BottleWithPoppingCork },
-                { EmojiCustomStrings.CompleteList.Bouquet, EmojiSymbols.CompleteList.Bouquet },
-                { EmojiCustomStrings.CompleteList.BowAndArrow, EmojiSymbols.CompleteList.BowAndArrow },
-                { EmojiCustomStrings.CompleteList.Bowling, EmojiSymbols.CompleteList.Bowling },
-                { EmojiCustomStrings.CompleteList.BowlWithSpoon, EmojiSymbols.CompleteList.BowlWithSpoon },
-                { EmojiCustomStrings.CompleteList.BoxingGlove, EmojiSymbols.CompleteList.BoxingGlove },
-                { EmojiCustomStrings.CompleteList.Boy, EmojiSymbols.CompleteList.Boy },
-                { EmojiCustomStrings.CompleteList.Brain, EmojiSymbols.CompleteList.Brain },
-                { EmojiCustomStrings.CompleteList.Bread, EmojiSymbols.CompleteList.Bread },
-                { EmojiCustomStrings.CompleteList.BreastFeeding, EmojiSymbols.CompleteList.BreastFeeding },
-                { EmojiCustomStrings.CompleteList.Brick, EmojiSymbols.CompleteList.Brick },
-                { EmojiCustomStrings.CompleteList.BridgeAtNight, EmojiSymbols.CompleteList.BridgeAtNight },
-                { EmojiCustomStrings.CompleteList.Briefcase, EmojiSymbols.CompleteList.Briefcase },
-                { EmojiCustomStrings.CompleteList.Briefs, EmojiSymbols.CompleteList.Briefs },
-                { EmojiCustomStrings.CompleteList.BrightButton, EmojiSymbols.CompleteList.BrightButton },
-                { EmojiCustomStrings.CompleteList.Broccoli, EmojiSymbols.CompleteList.Broccoli },
-                { EmojiCustomStrings.CompleteList.BrokenHeart, EmojiSymbols.CompleteList.BrokenHeart },
-                { EmojiCustomStrings.CompleteList.Broom, EmojiSymbols.CompleteList.Broom },
-                { EmojiCustomStrings.CompleteList.BrownCircle, EmojiSymbols.CompleteList.BrownCircle },
-                { EmojiCustomStrings.CompleteList.BrownHeart, EmojiSymbols.CompleteList.BrownHeart },
-                { EmojiCustomStrings.CompleteList.BrownSquare, EmojiSymbols.CompleteList.BrownSquare },
-                { EmojiCustomStrings.CompleteList.BubbleTea, EmojiSymbols.CompleteList.BubbleTea },
-                { EmojiCustomStrings.CompleteList.Bucket, EmojiSymbols.CompleteList.Bucket },
-                { EmojiCustomStrings.CompleteList.Bug, EmojiSymbols.CompleteList.Bug },
-                { EmojiCustomStrings.CompleteList.BuildingConstruction, EmojiSymbols.CompleteList.BuildingConstruction },
-                { EmojiCustomStrings.CompleteList.BulletTrain, EmojiSymbols.CompleteList.BulletTrain },
-                { EmojiCustomStrings.CompleteList.Bullseye, EmojiSymbols.CompleteList.Bullseye },
-                { EmojiCustomStrings.CompleteList.Burrito, EmojiSymbols.CompleteList.Burrito },
-                { EmojiCustomStrings.CompleteList.Bus, EmojiSymbols.CompleteList.Bus },
-                { EmojiCustomStrings.CompleteList.BusStop, EmojiSymbols.CompleteList.BusStop },
-                { EmojiCustomStrings.CompleteList.BustInSilhouette, EmojiSymbols.CompleteList.BustInSilhouette },
-                { EmojiCustomStrings.CompleteList.BustsInSilhouette, EmojiSymbols.CompleteList.BustsInSilhouette },
-                { EmojiCustomStrings.CompleteList.Butter, EmojiSymbols.CompleteList.Butter },
-                { EmojiCustomStrings.CompleteList.Butterfly, EmojiSymbols.CompleteList.Butterfly },
-                { EmojiCustomStrings.CompleteList.Cactus, EmojiSymbols.CompleteList.Cactus },
-                { EmojiCustomStrings.CompleteList.Calendar, EmojiSymbols.CompleteList.Calendar },
-                { EmojiCustomStrings.CompleteList.CallMeHand, EmojiSymbols.CompleteList.CallMeHand },
-                { EmojiCustomStrings.CompleteList.Camel, EmojiSymbols.CompleteList.Camel },
-                { EmojiCustomStrings.CompleteList.Camera, EmojiSymbols.CompleteList.Camera },
-                { EmojiCustomStrings.CompleteList.CameraWithFlash, EmojiSymbols.CompleteList.CameraWithFlash },
-                { EmojiCustomStrings.CompleteList.Camping, EmojiSymbols.CompleteList.Camping },
-                { EmojiCustomStrings.CompleteList.Cancer, EmojiSymbols.CompleteList.Cancer },
-                { EmojiCustomStrings.CompleteList.Candle, EmojiSymbols.CompleteList.Candle },
-                { EmojiCustomStrings.CompleteList.Candy, EmojiSymbols.CompleteList.Candy },
-                { EmojiCustomStrings.CompleteList.CannedFood, EmojiSymbols.CompleteList.CannedFood },
-                { EmojiCustomStrings.CompleteList.Canoe, EmojiSymbols.CompleteList.Canoe },
-                { EmojiCustomStrings.CompleteList.Capricorn, EmojiSymbols.CompleteList.Capricorn },
-                { EmojiCustomStrings.CompleteList.CardFileBox, EmojiSymbols.CompleteList.CardFileBox },
-                { EmojiCustomStrings.CompleteList.CardIndex, EmojiSymbols.CompleteList.CardIndex },
-                { EmojiCustomStrings.CompleteList.CardIndexDividers, EmojiSymbols.CompleteList.CardIndexDividers },
-                { EmojiCustomStrings.CompleteList.CarouselHorse, EmojiSymbols.CompleteList.CarouselHorse },
-                { EmojiCustomStrings.CompleteList.CarpentrySaw, EmojiSymbols.CompleteList.CarpentrySaw },
-                { EmojiCustomStrings.CompleteList.CarpStreamer, EmojiSymbols.CompleteList.CarpStreamer },
-                { EmojiCustomStrings.CompleteList.Carrot, EmojiSymbols.CompleteList.Carrot },
-                { EmojiCustomStrings.CompleteList.Castle, EmojiSymbols.CompleteList.Castle },
-                { EmojiCustomStrings.CompleteList.Cat, EmojiSymbols.CompleteList.Cat },
-                { EmojiCustomStrings.CompleteList.CatFace, EmojiSymbols.CompleteList.CatFace },
-                { EmojiCustomStrings.CompleteList.CatWithTearsOfJoy, EmojiSymbols.CompleteList.CatWithTearsOfJoy },
-                { EmojiCustomStrings.CompleteList.CatWithWrySmile, EmojiSymbols.CompleteList.CatWithWrySmile },
-                { EmojiCustomStrings.CompleteList.Chains, EmojiSymbols.CompleteList.Chains },
-                { EmojiCustomStrings.CompleteList.Chair, EmojiSymbols.CompleteList.Chair },
-                { EmojiCustomStrings.CompleteList.ChartDecreasing, EmojiSymbols.CompleteList.ChartDecreasing },
-                { EmojiCustomStrings.CompleteList.ChartIncreasing, EmojiSymbols.CompleteList.ChartIncreasing },
-                { EmojiCustomStrings.CompleteList.ChartIncreasingWithYen, EmojiSymbols.CompleteList.ChartIncreasingWithYen },
-                { EmojiCustomStrings.CompleteList.CheckBoxWithCheck, EmojiSymbols.CompleteList.CheckBoxWithCheck },
-                { EmojiCustomStrings.CompleteList.CheckMark, EmojiSymbols.CompleteList.CheckMark },
-                { EmojiCustomStrings.CompleteList.CheckMarkButton, EmojiSymbols.CompleteList.CheckMarkButton },
-                { EmojiCustomStrings.CompleteList.CheeseWedge, EmojiSymbols.CompleteList.CheeseWedge },
-                { EmojiCustomStrings.CompleteList.ChequeredFlag, EmojiSymbols.CompleteList.ChequeredFlag },
-                { EmojiCustomStrings.CompleteList.Cherries, EmojiSymbols.CompleteList.Cherries },
-                { EmojiCustomStrings.CompleteList.CherryBlossom, EmojiSymbols.CompleteList.CherryBlossom },
-                { EmojiCustomStrings.CompleteList.ChessPawn, EmojiSymbols.CompleteList.ChessPawn },
-                { EmojiCustomStrings.CompleteList.Chestnut, EmojiSymbols.CompleteList.Chestnut },
-                { EmojiCustomStrings.CompleteList.Chicken, EmojiSymbols.CompleteList.Chicken },
-                { EmojiCustomStrings.CompleteList.Child, EmojiSymbols.CompleteList.Child },
-                { EmojiCustomStrings.CompleteList.ChildrenCrossing, EmojiSymbols.CompleteList.ChildrenCrossing },
-                { EmojiCustomStrings.CompleteList.Chipmunk, EmojiSymbols.CompleteList.Chipmunk },
-                { EmojiCustomStrings.CompleteList.ChocolateBar, EmojiSymbols.CompleteList.ChocolateBar },
-                { EmojiCustomStrings.CompleteList.Chopsticks, EmojiSymbols.CompleteList.Chopsticks },
-                { EmojiCustomStrings.CompleteList.ChristmasTree, EmojiSymbols.CompleteList.ChristmasTree },
-                { EmojiCustomStrings.CompleteList.Church, EmojiSymbols.CompleteList.Church },
-                { EmojiCustomStrings.CompleteList.Cigarette, EmojiSymbols.CompleteList.Cigarette },
-                { EmojiCustomStrings.CompleteList.Cinema, EmojiSymbols.CompleteList.Cinema },
-                { EmojiCustomStrings.CompleteList.CircledM, EmojiSymbols.CompleteList.CircledM },
-                { EmojiCustomStrings.CompleteList.CircusTent, EmojiSymbols.CompleteList.CircusTent },
-                { EmojiCustomStrings.CompleteList.Cityscape, EmojiSymbols.CompleteList.Cityscape },
-                { EmojiCustomStrings.CompleteList.CityscapeAtDusk, EmojiSymbols.CompleteList.CityscapeAtDusk },
-                { EmojiCustomStrings.CompleteList.Clamp, EmojiSymbols.CompleteList.Clamp },
-                { EmojiCustomStrings.CompleteList.ClapperBoard, EmojiSymbols.CompleteList.ClapperBoard },
-                { EmojiCustomStrings.CompleteList.ClappingHands, EmojiSymbols.CompleteList.ClappingHands },
-                { EmojiCustomStrings.CompleteList.ClassicalBuilding, EmojiSymbols.CompleteList.ClassicalBuilding },
-                { EmojiCustomStrings.CompleteList.ClButton, EmojiSymbols.CompleteList.ClButton },
-                { EmojiCustomStrings.CompleteList.ClinkingBeerMugs, EmojiSymbols.CompleteList.ClinkingBeerMugs },
-                { EmojiCustomStrings.CompleteList.ClinkingGlasses, EmojiSymbols.CompleteList.ClinkingGlasses },
-                { EmojiCustomStrings.CompleteList.Clipboard, EmojiSymbols.CompleteList.Clipboard },
-                { EmojiCustomStrings.CompleteList.ClockwiseVerticalArrows, EmojiSymbols.CompleteList.ClockwiseVerticalArrows },
-                { EmojiCustomStrings.CompleteList.ClosedBook, EmojiSymbols.CompleteList.ClosedBook },
-                { EmojiCustomStrings.CompleteList.ClosedMailboxWithLoweredFlag, EmojiSymbols.CompleteList.ClosedMailboxWithLoweredFlag },
-                { EmojiCustomStrings.CompleteList.ClosedMailboxWithRaisedFlag, EmojiSymbols.CompleteList.ClosedMailboxWithRaisedFlag },
-                { EmojiCustomStrings.CompleteList.ClosedUmbrella, EmojiSymbols.CompleteList.ClosedUmbrella },
-                { EmojiCustomStrings.CompleteList.Cloud, EmojiSymbols.CompleteList.Cloud },
-                { EmojiCustomStrings.CompleteList.CloudWithLightning, EmojiSymbols.CompleteList.CloudWithLightning },
-                { EmojiCustomStrings.CompleteList.CloudWithLightningAndRain, EmojiSymbols.CompleteList.CloudWithLightningAndRain },
-                { EmojiCustomStrings.CompleteList.CloudWithRain, EmojiSymbols.CompleteList.CloudWithRain },
-                { EmojiCustomStrings.CompleteList.CloudWithSnow, EmojiSymbols.CompleteList.CloudWithSnow },
-                { EmojiCustomStrings.CompleteList.ClownFace, EmojiSymbols.CompleteList.ClownFace },
-                { EmojiCustomStrings.CompleteList.ClubSuit, EmojiSymbols.CompleteList.ClubSuit },
-                { EmojiCustomStrings.CompleteList.ClutchBag, EmojiSymbols.CompleteList.ClutchBag },
-                { EmojiCustomStrings.CompleteList.Coat, EmojiSymbols.CompleteList.Coat },
-                { EmojiCustomStrings.CompleteList.Cockroach, EmojiSymbols.CompleteList.Cockroach },
-                { EmojiCustomStrings.CompleteList.CocktailGlass, EmojiSymbols.CompleteList.CocktailGlass },
-                { EmojiCustomStrings.CompleteList.Coconut, EmojiSymbols.CompleteList.Coconut },
-                { EmojiCustomStrings.CompleteList.Coffin, EmojiSymbols.CompleteList.Coffin },
-                { EmojiCustomStrings.CompleteList.Coin, EmojiSymbols.CompleteList.Coin },
-                { EmojiCustomStrings.CompleteList.ColdFace, EmojiSymbols.CompleteList.ColdFace },
-                { EmojiCustomStrings.CompleteList.Collision, EmojiSymbols.CompleteList.Collision },
-                { EmojiCustomStrings.CompleteList.Comet, EmojiSymbols.CompleteList.Comet },
-                { EmojiCustomStrings.CompleteList.Compass, EmojiSymbols.CompleteList.Compass },
-                { EmojiCustomStrings.CompleteList.ComputerDisk, EmojiSymbols.CompleteList.ComputerDisk },
-                { EmojiCustomStrings.CompleteList.ComputerMouse, EmojiSymbols.CompleteList.ComputerMouse },
-                { EmojiCustomStrings.CompleteList.ConfettiBall, EmojiSymbols.CompleteList.ConfettiBall },
-                { EmojiCustomStrings.CompleteList.ConfoundedFace, EmojiSymbols.CompleteList.ConfoundedFace },
-                { EmojiCustomStrings.CompleteList.ConfusedFace, EmojiSymbols.CompleteList.ConfusedFace },
-                { EmojiCustomStrings.CompleteList.Construction, EmojiSymbols.CompleteList.Construction },
-                { EmojiCustomStrings.CompleteList.ConstructionWorker, EmojiSymbols.CompleteList.ConstructionWorker },
-                { EmojiCustomStrings.CompleteList.ControlKnobs, EmojiSymbols.CompleteList.ControlKnobs },
-                { EmojiCustomStrings.CompleteList.ConvenienceStore, EmojiSymbols.CompleteList.ConvenienceStore },
-                { EmojiCustomStrings.CompleteList.CookedRice, EmojiSymbols.CompleteList.CookedRice },
-                { EmojiCustomStrings.CompleteList.Cookie, EmojiSymbols.CompleteList.Cookie },
-                { EmojiCustomStrings.CompleteList.Cooking, EmojiSymbols.CompleteList.Cooking },
-                { EmojiCustomStrings.CompleteList.CoolButton, EmojiSymbols.CompleteList.CoolButton },
-                { EmojiCustomStrings.CompleteList.Copyright, EmojiSymbols.CompleteList.Copyright },
-                { EmojiCustomStrings.CompleteList.CouchAndLamp, EmojiSymbols.CompleteList.CouchAndLamp },
-                { EmojiCustomStrings.CompleteList.CounterclockwiseArrowsButton, EmojiSymbols.CompleteList.CounterclockwiseArrowsButton },
-                { EmojiCustomStrings.CompleteList.CoupleWithHeart, EmojiSymbols.CompleteList.CoupleWithHeart },
-                { EmojiCustomStrings.CompleteList.Cow, EmojiSymbols.CompleteList.Cow },
-                { EmojiCustomStrings.CompleteList.CowboyHatFace, EmojiSymbols.CompleteList.CowboyHatFace },
-                { EmojiCustomStrings.CompleteList.CowFace, EmojiSymbols.CompleteList.CowFace },
-                { EmojiCustomStrings.CompleteList.Crab, EmojiSymbols.CompleteList.Crab },
-                { EmojiCustomStrings.CompleteList.Crayon, EmojiSymbols.CompleteList.Crayon },
-                { EmojiCustomStrings.CompleteList.CreditCard, EmojiSymbols.CompleteList.CreditCard },
-                { EmojiCustomStrings.CompleteList.CrescentMoon, EmojiSymbols.CompleteList.CrescentMoon },
-                { EmojiCustomStrings.CompleteList.Cricket, EmojiSymbols.CompleteList.Cricket },
-                { EmojiCustomStrings.CompleteList.CricketGame, EmojiSymbols.CompleteList.CricketGame },
-                { EmojiCustomStrings.CompleteList.Crocodile, EmojiSymbols.CompleteList.Crocodile },
-                { EmojiCustomStrings.CompleteList.Croissant, EmojiSymbols.CompleteList.Croissant },
-                { EmojiCustomStrings.CompleteList.CrossedFingers, EmojiSymbols.CompleteList.CrossedFingers },
-                { EmojiCustomStrings.CompleteList.CrossedFlags, EmojiSymbols.CompleteList.CrossedFlags },
-                { EmojiCustomStrings.CompleteList.CrossedSwords, EmojiSymbols.CompleteList.CrossedSwords },
-                { EmojiCustomStrings.CompleteList.CrossMark, EmojiSymbols.CompleteList.CrossMark },
-                { EmojiCustomStrings.CompleteList.CrossMarkButton, EmojiSymbols.CompleteList.CrossMarkButton },
-                { EmojiCustomStrings.CompleteList.Crown, EmojiSymbols.CompleteList.Crown },
-                { EmojiCustomStrings.CompleteList.CryingCat, EmojiSymbols.CompleteList.CryingCat },
-                { EmojiCustomStrings.CompleteList.CryingFace, EmojiSymbols.CompleteList.CryingFace },
-                { EmojiCustomStrings.CompleteList.CrystalBall, EmojiSymbols.CompleteList.CrystalBall },
-                { EmojiCustomStrings.CompleteList.Cucumber, EmojiSymbols.CompleteList.Cucumber },
-                { EmojiCustomStrings.CompleteList.Cupcake, EmojiSymbols.CompleteList.Cupcake },
-                { EmojiCustomStrings.CompleteList.CupWithStraw, EmojiSymbols.CompleteList.CupWithStraw },
-                { EmojiCustomStrings.CompleteList.CurlingStone, EmojiSymbols.CompleteList.CurlingStone },
-                { EmojiCustomStrings.CompleteList.CurlyHair, EmojiSymbols.CompleteList.CurlyHair },
-                { EmojiCustomStrings.CompleteList.CurlyLoop, EmojiSymbols.CompleteList.CurlyLoop },
-                { EmojiCustomStrings.CompleteList.CurrencyExchange, EmojiSymbols.CompleteList.CurrencyExchange },
-                { EmojiCustomStrings.CompleteList.CurryRice, EmojiSymbols.CompleteList.CurryRice },
-                { EmojiCustomStrings.CompleteList.Custard, EmojiSymbols.CompleteList.Custard },
-                { EmojiCustomStrings.CompleteList.Customs, EmojiSymbols.CompleteList.Customs },
-                { EmojiCustomStrings.CompleteList.CutOfMeat, EmojiSymbols.CompleteList.CutOfMeat },
-                { EmojiCustomStrings.CompleteList.Cyclone, EmojiSymbols.CompleteList.Cyclone },
-                { EmojiCustomStrings.CompleteList.Dagger, EmojiSymbols.CompleteList.Dagger },
-                { EmojiCustomStrings.CompleteList.Dango, EmojiSymbols.CompleteList.Dango },
-                { EmojiCustomStrings.CompleteList.DashingAway, EmojiSymbols.CompleteList.DashingAway },
-                { EmojiCustomStrings.CompleteList.DeafPerson, EmojiSymbols.CompleteList.DeafPerson },
-                { EmojiCustomStrings.CompleteList.DeciduousTree, EmojiSymbols.CompleteList.DeciduousTree },
-                { EmojiCustomStrings.CompleteList.Deer, EmojiSymbols.CompleteList.Deer },
-                { EmojiCustomStrings.CompleteList.DeliveryTruck, EmojiSymbols.CompleteList.DeliveryTruck },
-                { EmojiCustomStrings.CompleteList.DepartmentStore, EmojiSymbols.CompleteList.DepartmentStore },
-                { EmojiCustomStrings.CompleteList.DerelictHouse, EmojiSymbols.CompleteList.DerelictHouse },
-                { EmojiCustomStrings.CompleteList.Desert, EmojiSymbols.CompleteList.Desert },
-                { EmojiCustomStrings.CompleteList.DesertIsland, EmojiSymbols.CompleteList.DesertIsland },
-                { EmojiCustomStrings.CompleteList.DesktopComputer, EmojiSymbols.CompleteList.DesktopComputer },
-                { EmojiCustomStrings.CompleteList.Detective, EmojiSymbols.CompleteList.Detective },
-                { EmojiCustomStrings.CompleteList.DiamondSuit, EmojiSymbols.CompleteList.DiamondSuit },
-                { EmojiCustomStrings.CompleteList.DiamondWithADot, EmojiSymbols.CompleteList.DiamondWithADot },
-                { EmojiCustomStrings.CompleteList.DimButton, EmojiSymbols.CompleteList.DimButton },
-                { EmojiCustomStrings.CompleteList.DisappointedFace, EmojiSymbols.CompleteList.DisappointedFace },
-                { EmojiCustomStrings.CompleteList.DisguisedFace, EmojiSymbols.CompleteList.DisguisedFace },
-                { EmojiCustomStrings.CompleteList.Divide, EmojiSymbols.CompleteList.Divide },
-                { EmojiCustomStrings.CompleteList.DivingMask, EmojiSymbols.CompleteList.DivingMask },
-                { EmojiCustomStrings.CompleteList.DiyaLamp, EmojiSymbols.CompleteList.DiyaLamp },
-                { EmojiCustomStrings.CompleteList.Dizzy, EmojiSymbols.CompleteList.Dizzy },
-                { EmojiCustomStrings.CompleteList.Dna, EmojiSymbols.CompleteList.Dna },
-                { EmojiCustomStrings.CompleteList.Dodo, EmojiSymbols.CompleteList.Dodo },
-                { EmojiCustomStrings.CompleteList.Dog, EmojiSymbols.CompleteList.Dog },
-                { EmojiCustomStrings.CompleteList.DogFace, EmojiSymbols.CompleteList.DogFace },
-                { EmojiCustomStrings.CompleteList.DollarBanknote, EmojiSymbols.CompleteList.DollarBanknote },
-                { EmojiCustomStrings.CompleteList.Dolphin, EmojiSymbols.CompleteList.Dolphin },
-                { EmojiCustomStrings.CompleteList.Door, EmojiSymbols.CompleteList.Door },
-                { EmojiCustomStrings.CompleteList.DottedSixPointedStar, EmojiSymbols.CompleteList.DottedSixPointedStar },
-                { EmojiCustomStrings.CompleteList.DoubleCurlyLoop, EmojiSymbols.CompleteList.DoubleCurlyLoop },
-                { EmojiCustomStrings.CompleteList.DoubleExclamationMark, EmojiSymbols.CompleteList.DoubleExclamationMark },
-                { EmojiCustomStrings.CompleteList.Doughnut, EmojiSymbols.CompleteList.Doughnut },
-                { EmojiCustomStrings.CompleteList.Dove, EmojiSymbols.CompleteList.Dove },
-                { EmojiCustomStrings.CompleteList.DownArrow, EmojiSymbols.CompleteList.DownArrow },
-                { EmojiCustomStrings.CompleteList.DowncastFaceWithSweat, EmojiSymbols.CompleteList.DowncastFaceWithSweat },
-                { EmojiCustomStrings.CompleteList.DownLeftArrow, EmojiSymbols.CompleteList.DownLeftArrow },
-                { EmojiCustomStrings.CompleteList.DownRightArrow, EmojiSymbols.CompleteList.DownRightArrow },
-                { EmojiCustomStrings.CompleteList.DownwardsButton, EmojiSymbols.CompleteList.DownwardsButton },
-                { EmojiCustomStrings.CompleteList.Dragon, EmojiSymbols.CompleteList.Dragon },
-                { EmojiCustomStrings.CompleteList.DragonFace, EmojiSymbols.CompleteList.DragonFace },
-                { EmojiCustomStrings.CompleteList.Dress, EmojiSymbols.CompleteList.Dress },
-                { EmojiCustomStrings.CompleteList.DroolingFace, EmojiSymbols.CompleteList.DroolingFace },
-                { EmojiCustomStrings.CompleteList.Droplet, EmojiSymbols.CompleteList.Droplet },
-                { EmojiCustomStrings.CompleteList.DropOfBlood, EmojiSymbols.CompleteList.DropOfBlood },
-                { EmojiCustomStrings.CompleteList.Drum, EmojiSymbols.CompleteList.Drum },
-                { EmojiCustomStrings.CompleteList.Duck, EmojiSymbols.CompleteList.Duck },
-                { EmojiCustomStrings.CompleteList.Dumpling, EmojiSymbols.CompleteList.Dumpling },
-                { EmojiCustomStrings.CompleteList.Dvd, EmojiSymbols.CompleteList.Dvd },
-                { EmojiCustomStrings.CompleteList.Eagle, EmojiSymbols.CompleteList.Eagle },
-                { EmojiCustomStrings.CompleteList.Ear, EmojiSymbols.CompleteList.Ear },
-                { EmojiCustomStrings.CompleteList.EarOfCorn, EmojiSymbols.CompleteList.EarOfCorn },
-                { EmojiCustomStrings.CompleteList.EarWithHearingAid, EmojiSymbols.CompleteList.EarWithHearingAid },
-                { EmojiCustomStrings.CompleteList.Egg, EmojiSymbols.CompleteList.Egg },
-                { EmojiCustomStrings.CompleteList.Eggplant, EmojiSymbols.CompleteList.Eggplant },
-                { EmojiCustomStrings.CompleteList.EightOClock, EmojiSymbols.CompleteList.EightOClock },
-                { EmojiCustomStrings.CompleteList.EightPointedStar, EmojiSymbols.CompleteList.EightPointedStar },
-                { EmojiCustomStrings.CompleteList.EightSpokedAsterisk, EmojiSymbols.CompleteList.EightSpokedAsterisk },
-                { EmojiCustomStrings.CompleteList.EightThirty, EmojiSymbols.CompleteList.EightThirty },
-                { EmojiCustomStrings.CompleteList.EjectButton, EmojiSymbols.CompleteList.EjectButton },
-                { EmojiCustomStrings.CompleteList.ElectricPlug, EmojiSymbols.CompleteList.ElectricPlug },
-                { EmojiCustomStrings.CompleteList.Elephant, EmojiSymbols.CompleteList.Elephant },
-                { EmojiCustomStrings.CompleteList.Elevator, EmojiSymbols.CompleteList.Elevator },
-                { EmojiCustomStrings.CompleteList.ElevenOClock, EmojiSymbols.CompleteList.ElevenOClock },
-                { EmojiCustomStrings.CompleteList.ElevenThirty, EmojiSymbols.CompleteList.ElevenThirty },
-                { EmojiCustomStrings.CompleteList.Elf, EmojiSymbols.CompleteList.Elf },
-                { EmojiCustomStrings.CompleteList.EMail, EmojiSymbols.CompleteList.EMail },
-                { EmojiCustomStrings.CompleteList.EndArrow, EmojiSymbols.CompleteList.EndArrow },
-                { EmojiCustomStrings.CompleteList.Envelope, EmojiSymbols.CompleteList.Envelope },
-                { EmojiCustomStrings.CompleteList.EnvelopeWithArrow, EmojiSymbols.CompleteList.EnvelopeWithArrow },
-                { EmojiCustomStrings.CompleteList.EuroBanknote, EmojiSymbols.CompleteList.EuroBanknote },
-                { EmojiCustomStrings.CompleteList.EvergreenTree, EmojiSymbols.CompleteList.EvergreenTree },
-                { EmojiCustomStrings.CompleteList.Ewe, EmojiSymbols.CompleteList.Ewe },
-                { EmojiCustomStrings.CompleteList.ExclamationQuestionMark, EmojiSymbols.CompleteList.ExclamationQuestionMark },
-                { EmojiCustomStrings.CompleteList.ExplodingHead, EmojiSymbols.CompleteList.ExplodingHead },
-                { EmojiCustomStrings.CompleteList.ExpressionlessFace, EmojiSymbols.CompleteList.ExpressionlessFace },
-                { EmojiCustomStrings.CompleteList.Eye, EmojiSymbols.CompleteList.Eye },
-                { EmojiCustomStrings.CompleteList.Eyes, EmojiSymbols.CompleteList.Eyes },
-                { EmojiCustomStrings.CompleteList.FaceBlowingAKiss, EmojiSymbols.CompleteList.FaceBlowingAKiss },
-                { EmojiCustomStrings.CompleteList.FaceSavoringFood, EmojiSymbols.CompleteList.FaceSavoringFood },
-                { EmojiCustomStrings.CompleteList.FaceScreamingInFear, EmojiSymbols.CompleteList.FaceScreamingInFear },
-                { EmojiCustomStrings.CompleteList.FaceVomiting, EmojiSymbols.CompleteList.FaceVomiting },
-                { EmojiCustomStrings.CompleteList.FaceWithHandOverMouth, EmojiSymbols.CompleteList.FaceWithHandOverMouth },
-                { EmojiCustomStrings.CompleteList.FaceWithHeadBandage, EmojiSymbols.CompleteList.FaceWithHeadBandage },
-                { EmojiCustomStrings.CompleteList.FaceWithMedicalMask, EmojiSymbols.CompleteList.FaceWithMedicalMask },
-                { EmojiCustomStrings.CompleteList.FaceWithMonocle, EmojiSymbols.CompleteList.FaceWithMonocle },
-                { EmojiCustomStrings.CompleteList.FaceWithOpenMouth, EmojiSymbols.CompleteList.FaceWithOpenMouth },
-                { EmojiCustomStrings.CompleteList.FaceWithoutMouth, EmojiSymbols.CompleteList.FaceWithoutMouth },
-                { EmojiCustomStrings.CompleteList.FaceWithRaisedEyebrow, EmojiSymbols.CompleteList.FaceWithRaisedEyebrow },
-                { EmojiCustomStrings.CompleteList.FaceWithRollingEyes, EmojiSymbols.CompleteList.FaceWithRollingEyes },
-                { EmojiCustomStrings.CompleteList.FaceWithSteamFromNose, EmojiSymbols.CompleteList.FaceWithSteamFromNose },
-                { EmojiCustomStrings.CompleteList.FaceWithSymbolsOnMouth, EmojiSymbols.CompleteList.FaceWithSymbolsOnMouth },
-                { EmojiCustomStrings.CompleteList.FaceWithTearsOfJoy, EmojiSymbols.CompleteList.FaceWithTearsOfJoy },
-                { EmojiCustomStrings.CompleteList.FaceWithThermometer, EmojiSymbols.CompleteList.FaceWithThermometer },
-                { EmojiCustomStrings.CompleteList.FaceWithTongue, EmojiSymbols.CompleteList.FaceWithTongue },
-                { EmojiCustomStrings.CompleteList.Factory, EmojiSymbols.CompleteList.Factory },
-                { EmojiCustomStrings.CompleteList.Fairy, EmojiSymbols.CompleteList.Fairy },
-                { EmojiCustomStrings.CompleteList.Falafel, EmojiSymbols.CompleteList.Falafel },
-                { EmojiCustomStrings.CompleteList.FallenLeaf, EmojiSymbols.CompleteList.FallenLeaf },
-                { EmojiCustomStrings.CompleteList.Family, EmojiSymbols.CompleteList.Family },
-                { EmojiCustomStrings.CompleteList.FastDownButton, EmojiSymbols.CompleteList.FastDownButton },
-                { EmojiCustomStrings.CompleteList.FastForwardButton, EmojiSymbols.CompleteList.FastForwardButton },
-                { EmojiCustomStrings.CompleteList.FastReverseButton, EmojiSymbols.CompleteList.FastReverseButton },
-                { EmojiCustomStrings.CompleteList.FastUpButton, EmojiSymbols.CompleteList.FastUpButton },
-                { EmojiCustomStrings.CompleteList.FaxMachine, EmojiSymbols.CompleteList.FaxMachine },
-                { EmojiCustomStrings.CompleteList.FearfulFace, EmojiSymbols.CompleteList.FearfulFace },
-                { EmojiCustomStrings.CompleteList.Feather, EmojiSymbols.CompleteList.Feather },
-                { EmojiCustomStrings.CompleteList.FemaleSign, EmojiSymbols.CompleteList.FemaleSign },
-                { EmojiCustomStrings.CompleteList.FerrisWheel, EmojiSymbols.CompleteList.FerrisWheel },
-                { EmojiCustomStrings.CompleteList.Ferry, EmojiSymbols.CompleteList.Ferry },
-                { EmojiCustomStrings.CompleteList.FieldHockey, EmojiSymbols.CompleteList.FieldHockey },
-                { EmojiCustomStrings.CompleteList.FileCabinet, EmojiSymbols.CompleteList.FileCabinet },
-                { EmojiCustomStrings.CompleteList.FileFolder, EmojiSymbols.CompleteList.FileFolder },
-                { EmojiCustomStrings.CompleteList.FilmFrames, EmojiSymbols.CompleteList.FilmFrames },
-                { EmojiCustomStrings.CompleteList.FilmProjector, EmojiSymbols.CompleteList.FilmProjector },
-                { EmojiCustomStrings.CompleteList.Fire, EmojiSymbols.CompleteList.Fire },
-                { EmojiCustomStrings.CompleteList.Firecracker, EmojiSymbols.CompleteList.Firecracker },
-                { EmojiCustomStrings.CompleteList.FireEngine, EmojiSymbols.CompleteList.FireEngine },
-                { EmojiCustomStrings.CompleteList.FireExtinguisher, EmojiSymbols.CompleteList.FireExtinguisher },
-                { EmojiCustomStrings.CompleteList.Fireworks, EmojiSymbols.CompleteList.Fireworks },
-                { EmojiCustomStrings.CompleteList.FirstPlaceMedal, EmojiSymbols.CompleteList.FirstPlaceMedal },
-                { EmojiCustomStrings.CompleteList.FirstQuarterMoon, EmojiSymbols.CompleteList.FirstQuarterMoon },
-                { EmojiCustomStrings.CompleteList.FirstQuarterMoonFace, EmojiSymbols.CompleteList.FirstQuarterMoonFace },
-                { EmojiCustomStrings.CompleteList.Fish, EmojiSymbols.CompleteList.Fish },
-                { EmojiCustomStrings.CompleteList.FishCakeWithSwirl, EmojiSymbols.CompleteList.FishCakeWithSwirl },
-                { EmojiCustomStrings.CompleteList.FishingPole, EmojiSymbols.CompleteList.FishingPole },
-                { EmojiCustomStrings.CompleteList.FiveOClock, EmojiSymbols.CompleteList.FiveOClock },
-                { EmojiCustomStrings.CompleteList.FiveThirty, EmojiSymbols.CompleteList.FiveThirty },
-                { EmojiCustomStrings.CompleteList.FlagInHole, EmojiSymbols.CompleteList.FlagInHole },
-                { EmojiCustomStrings.CompleteList.Flamingo, EmojiSymbols.CompleteList.Flamingo },
-                { EmojiCustomStrings.CompleteList.Flashlight, EmojiSymbols.CompleteList.Flashlight },
-                { EmojiCustomStrings.CompleteList.Flatbread, EmojiSymbols.CompleteList.Flatbread },
-                { EmojiCustomStrings.CompleteList.FlatShoe, EmojiSymbols.CompleteList.FlatShoe },
-                { EmojiCustomStrings.CompleteList.FleurDeLis, EmojiSymbols.CompleteList.FleurDeLis },
-                { EmojiCustomStrings.CompleteList.FlexedBiceps, EmojiSymbols.CompleteList.FlexedBiceps },
-                { EmojiCustomStrings.CompleteList.FloppyDisk, EmojiSymbols.CompleteList.FloppyDisk },
-                { EmojiCustomStrings.CompleteList.FlowerPlayingCards, EmojiSymbols.CompleteList.FlowerPlayingCards },
-                { EmojiCustomStrings.CompleteList.FlushedFace, EmojiSymbols.CompleteList.FlushedFace },
-                { EmojiCustomStrings.CompleteList.Fly, EmojiSymbols.CompleteList.Fly },
-                { EmojiCustomStrings.CompleteList.FlyingDisc, EmojiSymbols.CompleteList.FlyingDisc },
-                { EmojiCustomStrings.CompleteList.FlyingSaucer, EmojiSymbols.CompleteList.FlyingSaucer },
-                { EmojiCustomStrings.CompleteList.Fog, EmojiSymbols.CompleteList.Fog },
-                { EmojiCustomStrings.CompleteList.Foggy, EmojiSymbols.CompleteList.Foggy },
-                { EmojiCustomStrings.CompleteList.FoldedHands, EmojiSymbols.CompleteList.FoldedHands },
-                { EmojiCustomStrings.CompleteList.Fondue, EmojiSymbols.CompleteList.Fondue },
-                { EmojiCustomStrings.CompleteList.Foot, EmojiSymbols.CompleteList.Foot },
-                { EmojiCustomStrings.CompleteList.Footprints, EmojiSymbols.CompleteList.Footprints },
-                { EmojiCustomStrings.CompleteList.ForkAndKnife, EmojiSymbols.CompleteList.ForkAndKnife },
-                { EmojiCustomStrings.CompleteList.ForkAndKnifeWithPlate, EmojiSymbols.CompleteList.ForkAndKnifeWithPlate },
-                { EmojiCustomStrings.CompleteList.FortuneCookie, EmojiSymbols.CompleteList.FortuneCookie },
-                { EmojiCustomStrings.CompleteList.Fountain, EmojiSymbols.CompleteList.Fountain },
-                { EmojiCustomStrings.CompleteList.FountainPen, EmojiSymbols.CompleteList.FountainPen },
-                { EmojiCustomStrings.CompleteList.FourLeafClover, EmojiSymbols.CompleteList.FourLeafClover },
-                { EmojiCustomStrings.CompleteList.FourOClock, EmojiSymbols.CompleteList.FourOClock },
-                { EmojiCustomStrings.CompleteList.FourThirty, EmojiSymbols.CompleteList.FourThirty },
-                { EmojiCustomStrings.CompleteList.Fox, EmojiSymbols.CompleteList.Fox },
-                { EmojiCustomStrings.CompleteList.FramedPicture, EmojiSymbols.CompleteList.FramedPicture },
-                { EmojiCustomStrings.CompleteList.FreeButton, EmojiSymbols.CompleteList.FreeButton },
-                { EmojiCustomStrings.CompleteList.FrenchFries, EmojiSymbols.CompleteList.FrenchFries },
-                { EmojiCustomStrings.CompleteList.FriedShrimp, EmojiSymbols.CompleteList.FriedShrimp },
-                { EmojiCustomStrings.CompleteList.Frog, EmojiSymbols.CompleteList.Frog },
-                { EmojiCustomStrings.CompleteList.FrontFacingBabyChick, EmojiSymbols.CompleteList.FrontFacingBabyChick },
-                { EmojiCustomStrings.CompleteList.FrowningFace, EmojiSymbols.CompleteList.FrowningFace },
-                { EmojiCustomStrings.CompleteList.FrowningFaceWithOpenMouth, EmojiSymbols.CompleteList.FrowningFaceWithOpenMouth },
-                { EmojiCustomStrings.CompleteList.FuelPump, EmojiSymbols.CompleteList.FuelPump },
-                { EmojiCustomStrings.CompleteList.FullMoon, EmojiSymbols.CompleteList.FullMoon },
-                { EmojiCustomStrings.CompleteList.FullMoonFace, EmojiSymbols.CompleteList.FullMoonFace },
-                { EmojiCustomStrings.CompleteList.FuneralUrn, EmojiSymbols.CompleteList.FuneralUrn },
-                { EmojiCustomStrings.CompleteList.GameDie, EmojiSymbols.CompleteList.GameDie },
-                { EmojiCustomStrings.CompleteList.Garlic, EmojiSymbols.CompleteList.Garlic },
-                { EmojiCustomStrings.CompleteList.Gear, EmojiSymbols.CompleteList.Gear },
-                { EmojiCustomStrings.CompleteList.Gemini, EmojiSymbols.CompleteList.Gemini },
-                { EmojiCustomStrings.CompleteList.GemStone, EmojiSymbols.CompleteList.GemStone },
-                { EmojiCustomStrings.CompleteList.Genie, EmojiSymbols.CompleteList.Genie },
-                { EmojiCustomStrings.CompleteList.Ghost, EmojiSymbols.CompleteList.Ghost },
-                { EmojiCustomStrings.CompleteList.Giraffe, EmojiSymbols.CompleteList.Giraffe },
-                { EmojiCustomStrings.CompleteList.Girl, EmojiSymbols.CompleteList.Girl },
-                { EmojiCustomStrings.CompleteList.Glasses, EmojiSymbols.CompleteList.Glasses },
-                { EmojiCustomStrings.CompleteList.GlassOfMilk, EmojiSymbols.CompleteList.GlassOfMilk },
-                { EmojiCustomStrings.CompleteList.GlobeShowingAmericas, EmojiSymbols.CompleteList.GlobeShowingAmericas },
-                { EmojiCustomStrings.CompleteList.GlobeShowingAsiaAustralia, EmojiSymbols.CompleteList.GlobeShowingAsiaAustralia },
-                { EmojiCustomStrings.CompleteList.GlobeShowingEuropeAfrica, EmojiSymbols.CompleteList.GlobeShowingEuropeAfrica },
-                { EmojiCustomStrings.CompleteList.GlobeWithMeridians, EmojiSymbols.CompleteList.GlobeWithMeridians },
-                { EmojiCustomStrings.CompleteList.Gloves, EmojiSymbols.CompleteList.Gloves },
-                { EmojiCustomStrings.CompleteList.GlowingStar, EmojiSymbols.CompleteList.GlowingStar },
-                { EmojiCustomStrings.CompleteList.GoalNet, EmojiSymbols.CompleteList.GoalNet },
-                { EmojiCustomStrings.CompleteList.Goat, EmojiSymbols.CompleteList.Goat },
-                { EmojiCustomStrings.CompleteList.Goblin, EmojiSymbols.CompleteList.Goblin },
-                { EmojiCustomStrings.CompleteList.Goggles, EmojiSymbols.CompleteList.Goggles },
-                { EmojiCustomStrings.CompleteList.Gorilla, EmojiSymbols.CompleteList.Gorilla },
-                { EmojiCustomStrings.CompleteList.GraduationCap, EmojiSymbols.CompleteList.GraduationCap },
-                { EmojiCustomStrings.CompleteList.Grapes, EmojiSymbols.CompleteList.Grapes },
-                { EmojiCustomStrings.CompleteList.GreenApple, EmojiSymbols.CompleteList.GreenApple },
-                { EmojiCustomStrings.CompleteList.GreenBook, EmojiSymbols.CompleteList.GreenBook },
-                { EmojiCustomStrings.CompleteList.GreenCircle, EmojiSymbols.CompleteList.GreenCircle },
-                { EmojiCustomStrings.CompleteList.GreenHeart, EmojiSymbols.CompleteList.GreenHeart },
-                { EmojiCustomStrings.CompleteList.GreenSalad, EmojiSymbols.CompleteList.GreenSalad },
-                { EmojiCustomStrings.CompleteList.GreenSquare, EmojiSymbols.CompleteList.GreenSquare },
-                { EmojiCustomStrings.CompleteList.GrimacingFace, EmojiSymbols.CompleteList.GrimacingFace },
-                { EmojiCustomStrings.CompleteList.GrinningCat, EmojiSymbols.CompleteList.GrinningCat },
-                { EmojiCustomStrings.CompleteList.GrinningCatWithSmilingEyes, EmojiSymbols.CompleteList.GrinningCatWithSmilingEyes },
-                { EmojiCustomStrings.CompleteList.GrinningFace, EmojiSymbols.CompleteList.GrinningFace },
-                { EmojiCustomStrings.CompleteList.GrinningFaceWithBigEyes, EmojiSymbols.CompleteList.GrinningFaceWithBigEyes },
-                { EmojiCustomStrings.CompleteList.GrinningFaceWithSmilingEyes, EmojiSymbols.CompleteList.GrinningFaceWithSmilingEyes },
-                { EmojiCustomStrings.CompleteList.GrinningFaceWithSweat, EmojiSymbols.CompleteList.GrinningFaceWithSweat },
-                { EmojiCustomStrings.CompleteList.GrinningSquintingFace, EmojiSymbols.CompleteList.GrinningSquintingFace },
-                { EmojiCustomStrings.CompleteList.GrowingHeart, EmojiSymbols.CompleteList.GrowingHeart },
-                { EmojiCustomStrings.CompleteList.Guard, EmojiSymbols.CompleteList.Guard },
-                { EmojiCustomStrings.CompleteList.GuideDog, EmojiSymbols.CompleteList.GuideDog },
-                { EmojiCustomStrings.CompleteList.Guitar, EmojiSymbols.CompleteList.Guitar },
-                { EmojiCustomStrings.CompleteList.Hamburger, EmojiSymbols.CompleteList.Hamburger },
-                { EmojiCustomStrings.CompleteList.Hammer, EmojiSymbols.CompleteList.Hammer },
-                { EmojiCustomStrings.CompleteList.HammerAndPick, EmojiSymbols.CompleteList.HammerAndPick },
-                { EmojiCustomStrings.CompleteList.HammerAndWrench, EmojiSymbols.CompleteList.HammerAndWrench },
-                { EmojiCustomStrings.CompleteList.Hamster, EmojiSymbols.CompleteList.Hamster },
-                { EmojiCustomStrings.CompleteList.Handbag, EmojiSymbols.CompleteList.Handbag },
-                { EmojiCustomStrings.CompleteList.Handshake, EmojiSymbols.CompleteList.Handshake },
-                { EmojiCustomStrings.CompleteList.HandWithFingersSplayed, EmojiSymbols.CompleteList.HandWithFingersSplayed },
-                { EmojiCustomStrings.CompleteList.HatchingChick, EmojiSymbols.CompleteList.HatchingChick },
-                { EmojiCustomStrings.CompleteList.Headphone, EmojiSymbols.CompleteList.Headphone },
-                { EmojiCustomStrings.CompleteList.Headstone, EmojiSymbols.CompleteList.Headstone },
-                { EmojiCustomStrings.CompleteList.HearNoEvilMonkey, EmojiSymbols.CompleteList.HearNoEvilMonkey },
-                { EmojiCustomStrings.CompleteList.HeartDecoration, EmojiSymbols.CompleteList.HeartDecoration },
-                { EmojiCustomStrings.CompleteList.HeartExclamation, EmojiSymbols.CompleteList.HeartExclamation },
-                { EmojiCustomStrings.CompleteList.HeartSuit, EmojiSymbols.CompleteList.HeartSuit },
-                { EmojiCustomStrings.CompleteList.HeartWithArrow, EmojiSymbols.CompleteList.HeartWithArrow },
-                { EmojiCustomStrings.CompleteList.HeartWithRibbon, EmojiSymbols.CompleteList.HeartWithRibbon },
-                { EmojiCustomStrings.CompleteList.HeavyDollarSign, EmojiSymbols.CompleteList.HeavyDollarSign },
-                { EmojiCustomStrings.CompleteList.Hedgehog, EmojiSymbols.CompleteList.Hedgehog },
-                { EmojiCustomStrings.CompleteList.Helicopter, EmojiSymbols.CompleteList.Helicopter },
-                { EmojiCustomStrings.CompleteList.Herb, EmojiSymbols.CompleteList.Herb },
-                { EmojiCustomStrings.CompleteList.Hibiscus, EmojiSymbols.CompleteList.Hibiscus },
-                { EmojiCustomStrings.CompleteList.HighHeeledShoe, EmojiSymbols.CompleteList.HighHeeledShoe },
-                { EmojiCustomStrings.CompleteList.HighSpeedTrain, EmojiSymbols.CompleteList.HighSpeedTrain },
-                { EmojiCustomStrings.CompleteList.HighVoltage, EmojiSymbols.CompleteList.HighVoltage },
-                { EmojiCustomStrings.CompleteList.HikingBoot, EmojiSymbols.CompleteList.HikingBoot },
-                { EmojiCustomStrings.CompleteList.HinduTemple, EmojiSymbols.CompleteList.HinduTemple },
-                { EmojiCustomStrings.CompleteList.Hippopotamus, EmojiSymbols.CompleteList.Hippopotamus },
-                { EmojiCustomStrings.CompleteList.Hole, EmojiSymbols.CompleteList.Hole },
-                { EmojiCustomStrings.CompleteList.HollowRedCircle, EmojiSymbols.CompleteList.HollowRedCircle },
-                { EmojiCustomStrings.CompleteList.Honeybee, EmojiSymbols.CompleteList.Honeybee },
-                { EmojiCustomStrings.CompleteList.HoneyPot, EmojiSymbols.CompleteList.HoneyPot },
-                { EmojiCustomStrings.CompleteList.Hook, EmojiSymbols.CompleteList.Hook },
-                { EmojiCustomStrings.CompleteList.HorizontalTrafficLight, EmojiSymbols.CompleteList.HorizontalTrafficLight },
-                { EmojiCustomStrings.CompleteList.Horse, EmojiSymbols.CompleteList.Horse },
-                { EmojiCustomStrings.CompleteList.HorseFace, EmojiSymbols.CompleteList.HorseFace },
-                { EmojiCustomStrings.CompleteList.HorseRacing, EmojiSymbols.CompleteList.HorseRacing },
-                { EmojiCustomStrings.CompleteList.Hospital, EmojiSymbols.CompleteList.Hospital },
-                { EmojiCustomStrings.CompleteList.HotBeverage, EmojiSymbols.CompleteList.HotBeverage },
-                { EmojiCustomStrings.CompleteList.HotDog, EmojiSymbols.CompleteList.HotDog },
-                { EmojiCustomStrings.CompleteList.Hotel, EmojiSymbols.CompleteList.Hotel },
-                { EmojiCustomStrings.CompleteList.HotFace, EmojiSymbols.CompleteList.HotFace },
-                { EmojiCustomStrings.CompleteList.HotPepper, EmojiSymbols.CompleteList.HotPepper },
-                { EmojiCustomStrings.CompleteList.HotSprings, EmojiSymbols.CompleteList.HotSprings },
-                { EmojiCustomStrings.CompleteList.HourglassDone, EmojiSymbols.CompleteList.HourglassDone },
-                { EmojiCustomStrings.CompleteList.HourglassNotDone, EmojiSymbols.CompleteList.HourglassNotDone },
-                { EmojiCustomStrings.CompleteList.House, EmojiSymbols.CompleteList.House },
-                { EmojiCustomStrings.CompleteList.Houses, EmojiSymbols.CompleteList.Houses },
-                { EmojiCustomStrings.CompleteList.HouseWithGarden, EmojiSymbols.CompleteList.HouseWithGarden },
-                { EmojiCustomStrings.CompleteList.HuggingFace, EmojiSymbols.CompleteList.HuggingFace },
-                { EmojiCustomStrings.CompleteList.HundredPoints, EmojiSymbols.CompleteList.HundredPoints },
-                { EmojiCustomStrings.CompleteList.HushedFace, EmojiSymbols.CompleteList.HushedFace },
-                { EmojiCustomStrings.CompleteList.Hut, EmojiSymbols.CompleteList.Hut },
-                { EmojiCustomStrings.CompleteList.Ice, EmojiSymbols.CompleteList.Ice },
-                { EmojiCustomStrings.CompleteList.IceCream, EmojiSymbols.CompleteList.IceCream },
-                { EmojiCustomStrings.CompleteList.IceHockey, EmojiSymbols.CompleteList.IceHockey },
-                { EmojiCustomStrings.CompleteList.IceSkate, EmojiSymbols.CompleteList.IceSkate },
-                { EmojiCustomStrings.CompleteList.IdButton, EmojiSymbols.CompleteList.IdButton },
-                { EmojiCustomStrings.CompleteList.InboxTray, EmojiSymbols.CompleteList.InboxTray },
-                { EmojiCustomStrings.CompleteList.IncomingEnvelope, EmojiSymbols.CompleteList.IncomingEnvelope },
-                { EmojiCustomStrings.CompleteList.IndexPointingUp, EmojiSymbols.CompleteList.IndexPointingUp },
-                { EmojiCustomStrings.CompleteList.Infinity, EmojiSymbols.CompleteList.Infinity },
-                { EmojiCustomStrings.CompleteList.Information, EmojiSymbols.CompleteList.Information },
-                { EmojiCustomStrings.CompleteList.InputLatinLetters, EmojiSymbols.CompleteList.InputLatinLetters },
-                { EmojiCustomStrings.CompleteList.InputLatinLowercase, EmojiSymbols.CompleteList.InputLatinLowercase },
-                { EmojiCustomStrings.CompleteList.InputLatinUppercase, EmojiSymbols.CompleteList.InputLatinUppercase },
-                { EmojiCustomStrings.CompleteList.InputNumbers, EmojiSymbols.CompleteList.InputNumbers },
-                { EmojiCustomStrings.CompleteList.InputSymbols, EmojiSymbols.CompleteList.InputSymbols },
-                { EmojiCustomStrings.CompleteList.JackOLantern, EmojiSymbols.CompleteList.JackOLantern },
-                { EmojiCustomStrings.CompleteList.JapaneseAcceptableButton, EmojiSymbols.CompleteList.JapaneseAcceptableButton },
-                { EmojiCustomStrings.CompleteList.JapaneseApplicationButton, EmojiSymbols.CompleteList.JapaneseApplicationButton },
-                { EmojiCustomStrings.CompleteList.JapaneseBargainButton, EmojiSymbols.CompleteList.JapaneseBargainButton },
-                { EmojiCustomStrings.CompleteList.JapaneseCastle, EmojiSymbols.CompleteList.JapaneseCastle },
-                { EmojiCustomStrings.CompleteList.JapaneseCongratulationsButton, EmojiSymbols.CompleteList.JapaneseCongratulationsButton },
-                { EmojiCustomStrings.CompleteList.JapaneseDiscountButton, EmojiSymbols.CompleteList.JapaneseDiscountButton },
-                { EmojiCustomStrings.CompleteList.JapaneseDolls, EmojiSymbols.CompleteList.JapaneseDolls },
-                { EmojiCustomStrings.CompleteList.JapaneseFreeOfChargeButton, EmojiSymbols.CompleteList.JapaneseFreeOfChargeButton },
-                { EmojiCustomStrings.CompleteList.JapaneseHereButton, EmojiSymbols.CompleteList.JapaneseHereButton },
-                { EmojiCustomStrings.CompleteList.JapaneseMonthlyAmountButton, EmojiSymbols.CompleteList.JapaneseMonthlyAmountButton },
-                { EmojiCustomStrings.CompleteList.JapaneseNotFreeOfChargeButton, EmojiSymbols.CompleteList.JapaneseNotFreeOfChargeButton },
-                { EmojiCustomStrings.CompleteList.JapaneseNoVacancyButton, EmojiSymbols.CompleteList.JapaneseNoVacancyButton },
-                { EmojiCustomStrings.CompleteList.JapaneseOpenForBusinessButton, EmojiSymbols.CompleteList.JapaneseOpenForBusinessButton },
-                { EmojiCustomStrings.CompleteList.JapanesePassingGradeButton, EmojiSymbols.CompleteList.JapanesePassingGradeButton },
-                { EmojiCustomStrings.CompleteList.JapanesePostOffice, EmojiSymbols.CompleteList.JapanesePostOffice },
-                { EmojiCustomStrings.CompleteList.JapaneseProhibitedButton, EmojiSymbols.CompleteList.JapaneseProhibitedButton },
-                { EmojiCustomStrings.CompleteList.JapaneseReservedButton, EmojiSymbols.CompleteList.JapaneseReservedButton },
-                { EmojiCustomStrings.CompleteList.JapaneseSecretButton, EmojiSymbols.CompleteList.JapaneseSecretButton },
-                { EmojiCustomStrings.CompleteList.JapaneseServiceChargeButton, EmojiSymbols.CompleteList.JapaneseServiceChargeButton },
-                { EmojiCustomStrings.CompleteList.JapaneseSymbolForBeginner, EmojiSymbols.CompleteList.JapaneseSymbolForBeginner },
-                { EmojiCustomStrings.CompleteList.JapaneseVacancyButton, EmojiSymbols.CompleteList.JapaneseVacancyButton },
-                { EmojiCustomStrings.CompleteList.Jeans, EmojiSymbols.CompleteList.Jeans },
-                { EmojiCustomStrings.CompleteList.Joker, EmojiSymbols.CompleteList.Joker },
-                { EmojiCustomStrings.CompleteList.Joystick, EmojiSymbols.CompleteList.Joystick },
-                { EmojiCustomStrings.CompleteList.Kaaba, EmojiSymbols.CompleteList.Kaaba },
-                { EmojiCustomStrings.CompleteList.Kangaroo, EmojiSymbols.CompleteList.Kangaroo },
-                { EmojiCustomStrings.CompleteList.Key, EmojiSymbols.CompleteList.Key },
-                { EmojiCustomStrings.CompleteList.Keyboard, EmojiSymbols.CompleteList.Keyboard },
-                { EmojiCustomStrings.CompleteList.Keycap10, EmojiSymbols.CompleteList.Keycap10 },
-                { EmojiCustomStrings.CompleteList.KickScooter, EmojiSymbols.CompleteList.KickScooter },
-                { EmojiCustomStrings.CompleteList.Kimono, EmojiSymbols.CompleteList.Kimono },
-                { EmojiCustomStrings.CompleteList.Kiss, EmojiSymbols.CompleteList.Kiss },
-                { EmojiCustomStrings.CompleteList.KissingCat, EmojiSymbols.CompleteList.KissingCat },
-                { EmojiCustomStrings.CompleteList.KissingFace, EmojiSymbols.CompleteList.KissingFace },
-                { EmojiCustomStrings.CompleteList.KissingFaceWithClosedEyes, EmojiSymbols.CompleteList.KissingFaceWithClosedEyes },
-                { EmojiCustomStrings.CompleteList.KissingFaceWithSmilingEyes, EmojiSymbols.CompleteList.KissingFaceWithSmilingEyes },
-                { EmojiCustomStrings.CompleteList.KissMark, EmojiSymbols.CompleteList.KissMark },
-                { EmojiCustomStrings.CompleteList.KitchenKnife, EmojiSymbols.CompleteList.KitchenKnife },
-                { EmojiCustomStrings.CompleteList.Kite, EmojiSymbols.CompleteList.Kite },
-                { EmojiCustomStrings.CompleteList.KiwiFruit, EmojiSymbols.CompleteList.KiwiFruit },
-                { EmojiCustomStrings.CompleteList.KnockedOutFace, EmojiSymbols.CompleteList.KnockedOutFace },
-                { EmojiCustomStrings.CompleteList.Knot, EmojiSymbols.CompleteList.Knot },
-                { EmojiCustomStrings.CompleteList.Koala, EmojiSymbols.CompleteList.Koala },
-                { EmojiCustomStrings.CompleteList.LabCoat, EmojiSymbols.CompleteList.LabCoat },
-                { EmojiCustomStrings.CompleteList.Label, EmojiSymbols.CompleteList.Label },
-                { EmojiCustomStrings.CompleteList.Lacrosse, EmojiSymbols.CompleteList.Lacrosse },
-                { EmojiCustomStrings.CompleteList.Ladder, EmojiSymbols.CompleteList.Ladder },
-                { EmojiCustomStrings.CompleteList.LadyBeetle, EmojiSymbols.CompleteList.LadyBeetle },
-                { EmojiCustomStrings.CompleteList.Laptop, EmojiSymbols.CompleteList.Laptop },
-                { EmojiCustomStrings.CompleteList.LargeBlueDiamond, EmojiSymbols.CompleteList.LargeBlueDiamond },
-                { EmojiCustomStrings.CompleteList.LargeOrangeDiamond, EmojiSymbols.CompleteList.LargeOrangeDiamond },
-                { EmojiCustomStrings.CompleteList.LastQuarterMoon, EmojiSymbols.CompleteList.LastQuarterMoon },
-                { EmojiCustomStrings.CompleteList.LastQuarterMoonFace, EmojiSymbols.CompleteList.LastQuarterMoonFace },
-                { EmojiCustomStrings.CompleteList.LastTrackButton, EmojiSymbols.CompleteList.LastTrackButton },
-                { EmojiCustomStrings.CompleteList.LatinCross, EmojiSymbols.CompleteList.LatinCross },
-                { EmojiCustomStrings.CompleteList.LeafFlutteringInWind, EmojiSymbols.CompleteList.LeafFlutteringInWind },
-                { EmojiCustomStrings.CompleteList.LeafyGreen, EmojiSymbols.CompleteList.LeafyGreen },
-                { EmojiCustomStrings.CompleteList.Ledger, EmojiSymbols.CompleteList.Ledger },
-                { EmojiCustomStrings.CompleteList.LeftArrow, EmojiSymbols.CompleteList.LeftArrow },
-                { EmojiCustomStrings.CompleteList.LeftArrowCurvingRight, EmojiSymbols.CompleteList.LeftArrowCurvingRight },
-                { EmojiCustomStrings.CompleteList.LeftFacingFist, EmojiSymbols.CompleteList.LeftFacingFist },
-                { EmojiCustomStrings.CompleteList.LeftLuggage, EmojiSymbols.CompleteList.LeftLuggage },
-                { EmojiCustomStrings.CompleteList.LeftRightArrow, EmojiSymbols.CompleteList.LeftRightArrow },
-                { EmojiCustomStrings.CompleteList.LeftSpeechBubble, EmojiSymbols.CompleteList.LeftSpeechBubble },
-                { EmojiCustomStrings.CompleteList.Leg, EmojiSymbols.CompleteList.Leg },
-                { EmojiCustomStrings.CompleteList.Lemon, EmojiSymbols.CompleteList.Lemon },
-                { EmojiCustomStrings.CompleteList.Leo, EmojiSymbols.CompleteList.Leo },
-                { EmojiCustomStrings.CompleteList.Leopard, EmojiSymbols.CompleteList.Leopard },
-                { EmojiCustomStrings.CompleteList.LevelSlider, EmojiSymbols.CompleteList.LevelSlider },
-                { EmojiCustomStrings.CompleteList.Libra, EmojiSymbols.CompleteList.Libra },
-                { EmojiCustomStrings.CompleteList.LightBulb, EmojiSymbols.CompleteList.LightBulb },
-                { EmojiCustomStrings.CompleteList.LightRail, EmojiSymbols.CompleteList.LightRail },
-                { EmojiCustomStrings.CompleteList.Link, EmojiSymbols.CompleteList.Link },
-                { EmojiCustomStrings.CompleteList.LinkedPaperclips, EmojiSymbols.CompleteList.LinkedPaperclips },
-                { EmojiCustomStrings.CompleteList.Lion, EmojiSymbols.CompleteList.Lion },
-                { EmojiCustomStrings.CompleteList.Lipstick, EmojiSymbols.CompleteList.Lipstick },
-                { EmojiCustomStrings.CompleteList.LitterInBinSign, EmojiSymbols.CompleteList.LitterInBinSign },
-                { EmojiCustomStrings.CompleteList.Lizard, EmojiSymbols.CompleteList.Lizard },
-                { EmojiCustomStrings.CompleteList.Llama, EmojiSymbols.CompleteList.Llama },
-                { EmojiCustomStrings.CompleteList.Lobster, EmojiSymbols.CompleteList.Lobster },
-                { EmojiCustomStrings.CompleteList.Locked, EmojiSymbols.CompleteList.Locked },
-                { EmojiCustomStrings.CompleteList.LockedWithKey, EmojiSymbols.CompleteList.LockedWithKey },
-                { EmojiCustomStrings.CompleteList.LockedWithPen, EmojiSymbols.CompleteList.LockedWithPen },
-                { EmojiCustomStrings.CompleteList.Locomotive, EmojiSymbols.CompleteList.Locomotive },
-                { EmojiCustomStrings.CompleteList.Lollipop, EmojiSymbols.CompleteList.Lollipop },
-                { EmojiCustomStrings.CompleteList.LongDrum, EmojiSymbols.CompleteList.LongDrum },
-                { EmojiCustomStrings.CompleteList.LotionBottle, EmojiSymbols.CompleteList.LotionBottle },
-                { EmojiCustomStrings.CompleteList.LoudlyCryingFace, EmojiSymbols.CompleteList.LoudlyCryingFace },
-                { EmojiCustomStrings.CompleteList.Loudspeaker, EmojiSymbols.CompleteList.Loudspeaker },
-                { EmojiCustomStrings.CompleteList.LoveHotel, EmojiSymbols.CompleteList.LoveHotel },
-                { EmojiCustomStrings.CompleteList.LoveLetter, EmojiSymbols.CompleteList.LoveLetter },
-                { EmojiCustomStrings.CompleteList.LoveYouGesture, EmojiSymbols.CompleteList.LoveYouGesture },
-                { EmojiCustomStrings.CompleteList.Luggage, EmojiSymbols.CompleteList.Luggage },
-                { EmojiCustomStrings.CompleteList.Lungs, EmojiSymbols.CompleteList.Lungs },
-                { EmojiCustomStrings.CompleteList.LyingFace, EmojiSymbols.CompleteList.LyingFace },
-                { EmojiCustomStrings.CompleteList.Mage, EmojiSymbols.CompleteList.Mage },
-                { EmojiCustomStrings.CompleteList.MagicWand, EmojiSymbols.CompleteList.MagicWand },
-                { EmojiCustomStrings.CompleteList.Magnet, EmojiSymbols.CompleteList.Magnet },
-                { EmojiCustomStrings.CompleteList.MagnifyingGlassTiltedLeft, EmojiSymbols.CompleteList.MagnifyingGlassTiltedLeft },
-                { EmojiCustomStrings.CompleteList.MagnifyingGlassTiltedRight, EmojiSymbols.CompleteList.MagnifyingGlassTiltedRight },
-                { EmojiCustomStrings.CompleteList.MahjongRedDragon, EmojiSymbols.CompleteList.MahjongRedDragon },
-                { EmojiCustomStrings.CompleteList.MaleSign, EmojiSymbols.CompleteList.MaleSign },
-                { EmojiCustomStrings.CompleteList.Mammoth, EmojiSymbols.CompleteList.Mammoth },
-                { EmojiCustomStrings.CompleteList.Man, EmojiSymbols.CompleteList.Man },
-                { EmojiCustomStrings.CompleteList.ManDancing, EmojiSymbols.CompleteList.ManDancing },
-                { EmojiCustomStrings.CompleteList.Mango, EmojiSymbols.CompleteList.Mango },
-                { EmojiCustomStrings.CompleteList.MansShoe, EmojiSymbols.CompleteList.MansShoe },
-                { EmojiCustomStrings.CompleteList.MantelpieceClock, EmojiSymbols.CompleteList.MantelpieceClock },
-                { EmojiCustomStrings.CompleteList.ManualWheelchair, EmojiSymbols.CompleteList.ManualWheelchair },
-                { EmojiCustomStrings.CompleteList.MapleLeaf, EmojiSymbols.CompleteList.MapleLeaf },
-                { EmojiCustomStrings.CompleteList.MapOfJapan, EmojiSymbols.CompleteList.MapOfJapan },
-                { EmojiCustomStrings.CompleteList.MartialArtsUniform, EmojiSymbols.CompleteList.MartialArtsUniform },
-                { EmojiCustomStrings.CompleteList.Mate, EmojiSymbols.CompleteList.Mate },
-                { EmojiCustomStrings.CompleteList.MeatOnBone, EmojiSymbols.CompleteList.MeatOnBone },
-                { EmojiCustomStrings.CompleteList.MechanicalArm, EmojiSymbols.CompleteList.MechanicalArm },
-                { EmojiCustomStrings.CompleteList.MechanicalLeg, EmojiSymbols.CompleteList.MechanicalLeg },
-                { EmojiCustomStrings.CompleteList.MedicalSymbol, EmojiSymbols.CompleteList.MedicalSymbol },
-                { EmojiCustomStrings.CompleteList.Megaphone, EmojiSymbols.CompleteList.Megaphone },
-                { EmojiCustomStrings.CompleteList.Melon, EmojiSymbols.CompleteList.Melon },
-                { EmojiCustomStrings.CompleteList.Memo, EmojiSymbols.CompleteList.Memo },
-                { EmojiCustomStrings.CompleteList.MenHoldingHands, EmojiSymbols.CompleteList.MenHoldingHands },
-                { EmojiCustomStrings.CompleteList.Menorah, EmojiSymbols.CompleteList.Menorah },
-                { EmojiCustomStrings.CompleteList.MensRoom, EmojiSymbols.CompleteList.MensRoom },
-                { EmojiCustomStrings.CompleteList.Merperson, EmojiSymbols.CompleteList.Merperson },
-                { EmojiCustomStrings.CompleteList.Metro, EmojiSymbols.CompleteList.Metro },
-                { EmojiCustomStrings.CompleteList.Microbe, EmojiSymbols.CompleteList.Microbe },
-                { EmojiCustomStrings.CompleteList.Microphone, EmojiSymbols.CompleteList.Microphone },
-                { EmojiCustomStrings.CompleteList.Microscope, EmojiSymbols.CompleteList.Microscope },
-                { EmojiCustomStrings.CompleteList.MilitaryHelmet, EmojiSymbols.CompleteList.MilitaryHelmet },
-                { EmojiCustomStrings.CompleteList.MilitaryMedal, EmojiSymbols.CompleteList.MilitaryMedal },
-                { EmojiCustomStrings.CompleteList.MilkyWay, EmojiSymbols.CompleteList.MilkyWay },
-                { EmojiCustomStrings.CompleteList.Minibus, EmojiSymbols.CompleteList.Minibus },
-                { EmojiCustomStrings.CompleteList.Minus, EmojiSymbols.CompleteList.Minus },
-                { EmojiCustomStrings.CompleteList.Mirror, EmojiSymbols.CompleteList.Mirror },
-                { EmojiCustomStrings.CompleteList.Moai, EmojiSymbols.CompleteList.Moai },
-                { EmojiCustomStrings.CompleteList.MobilePhone, EmojiSymbols.CompleteList.MobilePhone },
-                { EmojiCustomStrings.CompleteList.MobilePhoneOff, EmojiSymbols.CompleteList.MobilePhoneOff },
-                { EmojiCustomStrings.CompleteList.MobilePhoneWithArrow, EmojiSymbols.CompleteList.MobilePhoneWithArrow },
-                { EmojiCustomStrings.CompleteList.MoneyBag, EmojiSymbols.CompleteList.MoneyBag },
-                { EmojiCustomStrings.CompleteList.MoneyMouthFace, EmojiSymbols.CompleteList.MoneyMouthFace },
-                { EmojiCustomStrings.CompleteList.MoneyWithWings, EmojiSymbols.CompleteList.MoneyWithWings },
-                { EmojiCustomStrings.CompleteList.Monkey, EmojiSymbols.CompleteList.Monkey },
-                { EmojiCustomStrings.CompleteList.MonkeyFace, EmojiSymbols.CompleteList.MonkeyFace },
-                { EmojiCustomStrings.CompleteList.Monorail, EmojiSymbols.CompleteList.Monorail },
-                { EmojiCustomStrings.CompleteList.MoonCake, EmojiSymbols.CompleteList.MoonCake },
-                { EmojiCustomStrings.CompleteList.MoonViewingCeremony, EmojiSymbols.CompleteList.MoonViewingCeremony },
-                { EmojiCustomStrings.CompleteList.Mosque, EmojiSymbols.CompleteList.Mosque },
-                { EmojiCustomStrings.CompleteList.Mosquito, EmojiSymbols.CompleteList.Mosquito },
-                { EmojiCustomStrings.CompleteList.MotorBoat, EmojiSymbols.CompleteList.MotorBoat },
-                { EmojiCustomStrings.CompleteList.Motorcycle, EmojiSymbols.CompleteList.Motorcycle },
-                { EmojiCustomStrings.CompleteList.MotorizedWheelchair, EmojiSymbols.CompleteList.MotorizedWheelchair },
-                { EmojiCustomStrings.CompleteList.MotorScooter, EmojiSymbols.CompleteList.MotorScooter },
-                { EmojiCustomStrings.CompleteList.Motorway, EmojiSymbols.CompleteList.Motorway },
-                { EmojiCustomStrings.CompleteList.Mountain, EmojiSymbols.CompleteList.Mountain },
-                { EmojiCustomStrings.CompleteList.MountainCableway, EmojiSymbols.CompleteList.MountainCableway },
-                { EmojiCustomStrings.CompleteList.MountainRailway, EmojiSymbols.CompleteList.MountainRailway },
-                { EmojiCustomStrings.CompleteList.MountFuji, EmojiSymbols.CompleteList.MountFuji },
-                { EmojiCustomStrings.CompleteList.Mouse, EmojiSymbols.CompleteList.Mouse },
-                { EmojiCustomStrings.CompleteList.MouseFace, EmojiSymbols.CompleteList.MouseFace },
-                { EmojiCustomStrings.CompleteList.MouseTrap, EmojiSymbols.CompleteList.MouseTrap },
-                { EmojiCustomStrings.CompleteList.Mouth, EmojiSymbols.CompleteList.Mouth },
-                { EmojiCustomStrings.CompleteList.MovieCamera, EmojiSymbols.CompleteList.MovieCamera },
-                { EmojiCustomStrings.CompleteList.MrsClaus, EmojiSymbols.CompleteList.MrsClaus },
-                { EmojiCustomStrings.CompleteList.Multiply, EmojiSymbols.CompleteList.Multiply },
-                { EmojiCustomStrings.CompleteList.Mushroom, EmojiSymbols.CompleteList.Mushroom },
-                { EmojiCustomStrings.CompleteList.MusicalKeyboard, EmojiSymbols.CompleteList.MusicalKeyboard },
-                { EmojiCustomStrings.CompleteList.MusicalNote, EmojiSymbols.CompleteList.MusicalNote },
-                { EmojiCustomStrings.CompleteList.MusicalNotes, EmojiSymbols.CompleteList.MusicalNotes },
-                { EmojiCustomStrings.CompleteList.MusicalScore, EmojiSymbols.CompleteList.MusicalScore },
-                { EmojiCustomStrings.CompleteList.MutedSpeaker, EmojiSymbols.CompleteList.MutedSpeaker },
-                { EmojiCustomStrings.CompleteList.NailPolish, EmojiSymbols.CompleteList.NailPolish },
-                { EmojiCustomStrings.CompleteList.NameBadge, EmojiSymbols.CompleteList.NameBadge },
-                { EmojiCustomStrings.CompleteList.NationalPark, EmojiSymbols.CompleteList.NationalPark },
-                { EmojiCustomStrings.CompleteList.NauseatedFace, EmojiSymbols.CompleteList.NauseatedFace },
-                { EmojiCustomStrings.CompleteList.NazarAmulet, EmojiSymbols.CompleteList.NazarAmulet },
-                { EmojiCustomStrings.CompleteList.Necktie, EmojiSymbols.CompleteList.Necktie },
-                { EmojiCustomStrings.CompleteList.NerdFace, EmojiSymbols.CompleteList.NerdFace },
-                { EmojiCustomStrings.CompleteList.NestingDolls, EmojiSymbols.CompleteList.NestingDolls },
-                { EmojiCustomStrings.CompleteList.NeutralFace, EmojiSymbols.CompleteList.NeutralFace },
-                { EmojiCustomStrings.CompleteList.NewButton, EmojiSymbols.CompleteList.NewButton },
-                { EmojiCustomStrings.CompleteList.NewMoon, EmojiSymbols.CompleteList.NewMoon },
-                { EmojiCustomStrings.CompleteList.NewMoonFace, EmojiSymbols.CompleteList.NewMoonFace },
-                { EmojiCustomStrings.CompleteList.Newspaper, EmojiSymbols.CompleteList.Newspaper },
-                { EmojiCustomStrings.CompleteList.NextTrackButton, EmojiSymbols.CompleteList.NextTrackButton },
-                { EmojiCustomStrings.CompleteList.NgButton, EmojiSymbols.CompleteList.NgButton },
-                { EmojiCustomStrings.CompleteList.NightWithStars, EmojiSymbols.CompleteList.NightWithStars },
-                { EmojiCustomStrings.CompleteList.NineOClock, EmojiSymbols.CompleteList.NineOClock },
-                { EmojiCustomStrings.CompleteList.NineThirty, EmojiSymbols.CompleteList.NineThirty },
-                { EmojiCustomStrings.CompleteList.Ninja, EmojiSymbols.CompleteList.Ninja },
-                { EmojiCustomStrings.CompleteList.NoBicycles, EmojiSymbols.CompleteList.NoBicycles },
-                { EmojiCustomStrings.CompleteList.NoEntry, EmojiSymbols.CompleteList.NoEntry },
-                { EmojiCustomStrings.CompleteList.NoLittering, EmojiSymbols.CompleteList.NoLittering },
-                { EmojiCustomStrings.CompleteList.NoMobilePhones, EmojiSymbols.CompleteList.NoMobilePhones },
-                { EmojiCustomStrings.CompleteList.NonPotableWater, EmojiSymbols.CompleteList.NonPotableWater },
-                { EmojiCustomStrings.CompleteList.NoOneUnderEighteen, EmojiSymbols.CompleteList.NoOneUnderEighteen },
-                { EmojiCustomStrings.CompleteList.NoPedestrians, EmojiSymbols.CompleteList.NoPedestrians },
-                { EmojiCustomStrings.CompleteList.Nose, EmojiSymbols.CompleteList.Nose },
-                { EmojiCustomStrings.CompleteList.NoSmoking, EmojiSymbols.CompleteList.NoSmoking },
-                { EmojiCustomStrings.CompleteList.Notebook, EmojiSymbols.CompleteList.Notebook },
-                { EmojiCustomStrings.CompleteList.NotebookWithDecorativeCover, EmojiSymbols.CompleteList.NotebookWithDecorativeCover },
-                { EmojiCustomStrings.CompleteList.NutAndBolt, EmojiSymbols.CompleteList.NutAndBolt },
-                { EmojiCustomStrings.CompleteList.OButtonBloodType, EmojiSymbols.CompleteList.OButtonBloodType },
-                { EmojiCustomStrings.CompleteList.Octopus, EmojiSymbols.CompleteList.Octopus },
-                { EmojiCustomStrings.CompleteList.Oden, EmojiSymbols.CompleteList.Oden },
-                { EmojiCustomStrings.CompleteList.OfficeBuilding, EmojiSymbols.CompleteList.OfficeBuilding },
-                { EmojiCustomStrings.CompleteList.Ogre, EmojiSymbols.CompleteList.Ogre },
-                { EmojiCustomStrings.CompleteList.OilDrum, EmojiSymbols.CompleteList.OilDrum },
-                { EmojiCustomStrings.CompleteList.OkButton, EmojiSymbols.CompleteList.OkButton },
-                { EmojiCustomStrings.CompleteList.OkHand, EmojiSymbols.CompleteList.OkHand },
-                { EmojiCustomStrings.CompleteList.OlderPerson, EmojiSymbols.CompleteList.OlderPerson },
-                { EmojiCustomStrings.CompleteList.OldKey, EmojiSymbols.CompleteList.OldKey },
-                { EmojiCustomStrings.CompleteList.OldMan, EmojiSymbols.CompleteList.OldMan },
-                { EmojiCustomStrings.CompleteList.OldWoman, EmojiSymbols.CompleteList.OldWoman },
-                { EmojiCustomStrings.CompleteList.Olive, EmojiSymbols.CompleteList.Olive },
-                { EmojiCustomStrings.CompleteList.Om, EmojiSymbols.CompleteList.Om },
-                { EmojiCustomStrings.CompleteList.OnArrow, EmojiSymbols.CompleteList.OnArrow },
-                { EmojiCustomStrings.CompleteList.OncomingAutomobile, EmojiSymbols.CompleteList.OncomingAutomobile },
-                { EmojiCustomStrings.CompleteList.OncomingBus, EmojiSymbols.CompleteList.OncomingBus },
-                { EmojiCustomStrings.CompleteList.OncomingFist, EmojiSymbols.CompleteList.OncomingFist },
-                { EmojiCustomStrings.CompleteList.OncomingPoliceCar, EmojiSymbols.CompleteList.OncomingPoliceCar },
-                { EmojiCustomStrings.CompleteList.OncomingTaxi, EmojiSymbols.CompleteList.OncomingTaxi },
-                { EmojiCustomStrings.CompleteList.OneOClock, EmojiSymbols.CompleteList.OneOClock },
-                { EmojiCustomStrings.CompleteList.OnePieceSwimsuit, EmojiSymbols.CompleteList.OnePieceSwimsuit },
-                { EmojiCustomStrings.CompleteList.OneThirty, EmojiSymbols.CompleteList.OneThirty },
-                { EmojiCustomStrings.CompleteList.Onion, EmojiSymbols.CompleteList.Onion },
-                { EmojiCustomStrings.CompleteList.OpenBook, EmojiSymbols.CompleteList.OpenBook },
-                { EmojiCustomStrings.CompleteList.OpenFileFolder, EmojiSymbols.CompleteList.OpenFileFolder },
-                { EmojiCustomStrings.CompleteList.OpenHands, EmojiSymbols.CompleteList.OpenHands },
-                { EmojiCustomStrings.CompleteList.OpenMailboxWithLoweredFlag, EmojiSymbols.CompleteList.OpenMailboxWithLoweredFlag },
-                { EmojiCustomStrings.CompleteList.OpenMailboxWithRaisedFlag, EmojiSymbols.CompleteList.OpenMailboxWithRaisedFlag },
-                { EmojiCustomStrings.CompleteList.Ophiuchus, EmojiSymbols.CompleteList.Ophiuchus },
-                { EmojiCustomStrings.CompleteList.OpticalDisk, EmojiSymbols.CompleteList.OpticalDisk },
-                { EmojiCustomStrings.CompleteList.OrangeBook, EmojiSymbols.CompleteList.OrangeBook },
-                { EmojiCustomStrings.CompleteList.OrangeCircle, EmojiSymbols.CompleteList.OrangeCircle },
-                { EmojiCustomStrings.CompleteList.OrangeHeart, EmojiSymbols.CompleteList.OrangeHeart },
-                { EmojiCustomStrings.CompleteList.OrangeSquare, EmojiSymbols.CompleteList.OrangeSquare },
-                { EmojiCustomStrings.CompleteList.Orangutan, EmojiSymbols.CompleteList.Orangutan },
-                { EmojiCustomStrings.CompleteList.Otter, EmojiSymbols.CompleteList.Otter },
-                { EmojiCustomStrings.CompleteList.OutboxTray, EmojiSymbols.CompleteList.OutboxTray },
-                { EmojiCustomStrings.CompleteList.Owl, EmojiSymbols.CompleteList.Owl },
-                { EmojiCustomStrings.CompleteList.Ox, EmojiSymbols.CompleteList.Ox },
-                { EmojiCustomStrings.CompleteList.Oyster, EmojiSymbols.CompleteList.Oyster },
-                { EmojiCustomStrings.CompleteList.Package, EmojiSymbols.CompleteList.Package },
-                { EmojiCustomStrings.CompleteList.PageFacingUp, EmojiSymbols.CompleteList.PageFacingUp },
-                { EmojiCustomStrings.CompleteList.Pager, EmojiSymbols.CompleteList.Pager },
-                { EmojiCustomStrings.CompleteList.PageWithCurl, EmojiSymbols.CompleteList.PageWithCurl },
-                { EmojiCustomStrings.CompleteList.Paintbrush, EmojiSymbols.CompleteList.Paintbrush },
-                { EmojiCustomStrings.CompleteList.PalmsUpTogether, EmojiSymbols.CompleteList.PalmsUpTogether },
-                { EmojiCustomStrings.CompleteList.PalmTree, EmojiSymbols.CompleteList.PalmTree },
-                { EmojiCustomStrings.CompleteList.Pancakes, EmojiSymbols.CompleteList.Pancakes },
-                { EmojiCustomStrings.CompleteList.Panda, EmojiSymbols.CompleteList.Panda },
-                { EmojiCustomStrings.CompleteList.Paperclip, EmojiSymbols.CompleteList.Paperclip },
-                { EmojiCustomStrings.CompleteList.Parachute, EmojiSymbols.CompleteList.Parachute },
-                { EmojiCustomStrings.CompleteList.Parrot, EmojiSymbols.CompleteList.Parrot },
-                { EmojiCustomStrings.CompleteList.PartAlternationMark, EmojiSymbols.CompleteList.PartAlternationMark },
-                { EmojiCustomStrings.CompleteList.PartyingFace, EmojiSymbols.CompleteList.PartyingFace },
-                { EmojiCustomStrings.CompleteList.PartyPopper, EmojiSymbols.CompleteList.PartyPopper },
-                { EmojiCustomStrings.CompleteList.PassengerShip, EmojiSymbols.CompleteList.PassengerShip },
-                { EmojiCustomStrings.CompleteList.PassportControl, EmojiSymbols.CompleteList.PassportControl },
-                { EmojiCustomStrings.CompleteList.PauseButton, EmojiSymbols.CompleteList.PauseButton },
-                { EmojiCustomStrings.CompleteList.PawPrints, EmojiSymbols.CompleteList.PawPrints },
-                { EmojiCustomStrings.CompleteList.PButton, EmojiSymbols.CompleteList.PButton },
-                { EmojiCustomStrings.CompleteList.PeaceSymbol, EmojiSymbols.CompleteList.PeaceSymbol },
-                { EmojiCustomStrings.CompleteList.Peach, EmojiSymbols.CompleteList.Peach },
-                { EmojiCustomStrings.CompleteList.Peacock, EmojiSymbols.CompleteList.Peacock },
-                { EmojiCustomStrings.CompleteList.Peanuts, EmojiSymbols.CompleteList.Peanuts },
-                { EmojiCustomStrings.CompleteList.Pear, EmojiSymbols.CompleteList.Pear },
-                { EmojiCustomStrings.CompleteList.Pen, EmojiSymbols.CompleteList.Pen },
-                { EmojiCustomStrings.CompleteList.Pencil, EmojiSymbols.CompleteList.Pencil },
-                { EmojiCustomStrings.CompleteList.Penguin, EmojiSymbols.CompleteList.Penguin },
-                { EmojiCustomStrings.CompleteList.PensiveFace, EmojiSymbols.CompleteList.PensiveFace },
-                { EmojiCustomStrings.CompleteList.PeopleHugging, EmojiSymbols.CompleteList.PeopleHugging },
-                { EmojiCustomStrings.CompleteList.PeopleWithBunnyEars, EmojiSymbols.CompleteList.PeopleWithBunnyEars },
-                { EmojiCustomStrings.CompleteList.PeopleWrestling, EmojiSymbols.CompleteList.PeopleWrestling },
-                { EmojiCustomStrings.CompleteList.PerformingArts, EmojiSymbols.CompleteList.PerformingArts },
-                { EmojiCustomStrings.CompleteList.PerseveringFace, EmojiSymbols.CompleteList.PerseveringFace },
-                { EmojiCustomStrings.CompleteList.Person, EmojiSymbols.CompleteList.Person },
-                { EmojiCustomStrings.CompleteList.PersonBeard, EmojiSymbols.CompleteList.PersonBeard },
-                { EmojiCustomStrings.CompleteList.PersonBiking, EmojiSymbols.CompleteList.PersonBiking },
-                { EmojiCustomStrings.CompleteList.PersonBlondHair, EmojiSymbols.CompleteList.PersonBlondHair },
-                { EmojiCustomStrings.CompleteList.PersonBouncingBall, EmojiSymbols.CompleteList.PersonBouncingBall },
-                { EmojiCustomStrings.CompleteList.PersonBowing, EmojiSymbols.CompleteList.PersonBowing },
-                { EmojiCustomStrings.CompleteList.PersonCartwheeling, EmojiSymbols.CompleteList.PersonCartwheeling },
-                { EmojiCustomStrings.CompleteList.PersonClimbing, EmojiSymbols.CompleteList.PersonClimbing },
-                { EmojiCustomStrings.CompleteList.PersonFacepalming, EmojiSymbols.CompleteList.PersonFacepalming },
-                { EmojiCustomStrings.CompleteList.PersonFencing, EmojiSymbols.CompleteList.PersonFencing },
-                { EmojiCustomStrings.CompleteList.PersonFrowning, EmojiSymbols.CompleteList.PersonFrowning },
-                { EmojiCustomStrings.CompleteList.PersonGesturingNo, EmojiSymbols.CompleteList.PersonGesturingNo },
-                { EmojiCustomStrings.CompleteList.PersonGesturingOk, EmojiSymbols.CompleteList.PersonGesturingOk },
-                { EmojiCustomStrings.CompleteList.PersonGettingHaircut, EmojiSymbols.CompleteList.PersonGettingHaircut },
-                { EmojiCustomStrings.CompleteList.PersonGettingMassage, EmojiSymbols.CompleteList.PersonGettingMassage },
-                { EmojiCustomStrings.CompleteList.PersonGolfing, EmojiSymbols.CompleteList.PersonGolfing },
-                { EmojiCustomStrings.CompleteList.PersonInBed, EmojiSymbols.CompleteList.PersonInBed },
-                { EmojiCustomStrings.CompleteList.PersonInLotusPosition, EmojiSymbols.CompleteList.PersonInLotusPosition },
-                { EmojiCustomStrings.CompleteList.PersonInSuitLevitating, EmojiSymbols.CompleteList.PersonInSuitLevitating },
-                { EmojiCustomStrings.CompleteList.PersonInTuxedo, EmojiSymbols.CompleteList.PersonInTuxedo },
-                { EmojiCustomStrings.CompleteList.PersonJuggling, EmojiSymbols.CompleteList.PersonJuggling },
-                { EmojiCustomStrings.CompleteList.PersonKneeling, EmojiSymbols.CompleteList.PersonKneeling },
-                { EmojiCustomStrings.CompleteList.PersonLiftingWeights, EmojiSymbols.CompleteList.PersonLiftingWeights },
-                { EmojiCustomStrings.CompleteList.PersonMountainBiking, EmojiSymbols.CompleteList.PersonMountainBiking },
-                { EmojiCustomStrings.CompleteList.PersonPlayingHandball, EmojiSymbols.CompleteList.PersonPlayingHandball },
-                { EmojiCustomStrings.CompleteList.PersonPlayingWaterPolo, EmojiSymbols.CompleteList.PersonPlayingWaterPolo },
-                { EmojiCustomStrings.CompleteList.PersonPouting, EmojiSymbols.CompleteList.PersonPouting },
-                { EmojiCustomStrings.CompleteList.PersonRaisingHand, EmojiSymbols.CompleteList.PersonRaisingHand },
-                { EmojiCustomStrings.CompleteList.PersonRowingBoat, EmojiSymbols.CompleteList.PersonRowingBoat },
-                { EmojiCustomStrings.CompleteList.PersonRunning, EmojiSymbols.CompleteList.PersonRunning },
-                { EmojiCustomStrings.CompleteList.PersonShrugging, EmojiSymbols.CompleteList.PersonShrugging },
-                { EmojiCustomStrings.CompleteList.PersonStanding, EmojiSymbols.CompleteList.PersonStanding },
-                { EmojiCustomStrings.CompleteList.PersonSurfing, EmojiSymbols.CompleteList.PersonSurfing },
-                { EmojiCustomStrings.CompleteList.PersonSwimming, EmojiSymbols.CompleteList.PersonSwimming },
-                { EmojiCustomStrings.CompleteList.PersonTippingHand, EmojiSymbols.CompleteList.PersonTippingHand },
-                { EmojiCustomStrings.CompleteList.PersonWalking, EmojiSymbols.CompleteList.PersonWalking },
-                { EmojiCustomStrings.CompleteList.PersonWearingTurban, EmojiSymbols.CompleteList.PersonWearingTurban },
-                { EmojiCustomStrings.CompleteList.PersonWithSkullcap, EmojiSymbols.CompleteList.PersonWithSkullcap },
-                { EmojiCustomStrings.CompleteList.PersonWithVeil, EmojiSymbols.CompleteList.PersonWithVeil },
-                { EmojiCustomStrings.CompleteList.PetriDish, EmojiSymbols.CompleteList.PetriDish },
-                { EmojiCustomStrings.CompleteList.Pick, EmojiSymbols.CompleteList.Pick },
-                { EmojiCustomStrings.CompleteList.PickupTruck, EmojiSymbols.CompleteList.PickupTruck },
-                { EmojiCustomStrings.CompleteList.Pie, EmojiSymbols.CompleteList.Pie },
-                { EmojiCustomStrings.CompleteList.Pig, EmojiSymbols.CompleteList.Pig },
-                { EmojiCustomStrings.CompleteList.PigFace, EmojiSymbols.CompleteList.PigFace },
-                { EmojiCustomStrings.CompleteList.PigNose, EmojiSymbols.CompleteList.PigNose },
-                { EmojiCustomStrings.CompleteList.PileOfPoo, EmojiSymbols.CompleteList.PileOfPoo },
-                { EmojiCustomStrings.CompleteList.Pill, EmojiSymbols.CompleteList.Pill },
-                { EmojiCustomStrings.CompleteList.Piñata, EmojiSymbols.CompleteList.Piñata },
-                { EmojiCustomStrings.CompleteList.PinchedFingers, EmojiSymbols.CompleteList.PinchedFingers },
-                { EmojiCustomStrings.CompleteList.PinchingHand, EmojiSymbols.CompleteList.PinchingHand },
-                { EmojiCustomStrings.CompleteList.Pineapple, EmojiSymbols.CompleteList.Pineapple },
-                { EmojiCustomStrings.CompleteList.PineDecoration, EmojiSymbols.CompleteList.PineDecoration },
-                { EmojiCustomStrings.CompleteList.PingPong, EmojiSymbols.CompleteList.PingPong },
-                { EmojiCustomStrings.CompleteList.Pisces, EmojiSymbols.CompleteList.Pisces },
-                { EmojiCustomStrings.CompleteList.Pizza, EmojiSymbols.CompleteList.Pizza },
-                { EmojiCustomStrings.CompleteList.Placard, EmojiSymbols.CompleteList.Placard },
-                { EmojiCustomStrings.CompleteList.PlaceOfWorship, EmojiSymbols.CompleteList.PlaceOfWorship },
-                { EmojiCustomStrings.CompleteList.PlayButton, EmojiSymbols.CompleteList.PlayButton },
-                { EmojiCustomStrings.CompleteList.PlayOrPauseButton, EmojiSymbols.CompleteList.PlayOrPauseButton },
-                { EmojiCustomStrings.CompleteList.PleadingFace, EmojiSymbols.CompleteList.PleadingFace },
-                { EmojiCustomStrings.CompleteList.Plunger, EmojiSymbols.CompleteList.Plunger },
-                { EmojiCustomStrings.CompleteList.Plus, EmojiSymbols.CompleteList.Plus },
-                { EmojiCustomStrings.CompleteList.PoliceCar, EmojiSymbols.CompleteList.PoliceCar },
-                { EmojiCustomStrings.CompleteList.PoliceCarLight, EmojiSymbols.CompleteList.PoliceCarLight },
-                { EmojiCustomStrings.CompleteList.PoliceOfficer, EmojiSymbols.CompleteList.PoliceOfficer },
-                { EmojiCustomStrings.CompleteList.Poodle, EmojiSymbols.CompleteList.Poodle },
-                { EmojiCustomStrings.CompleteList.Pool8Ball, EmojiSymbols.CompleteList.Pool8Ball },
-                { EmojiCustomStrings.CompleteList.Popcorn, EmojiSymbols.CompleteList.Popcorn },
-                { EmojiCustomStrings.CompleteList.PostalHorn, EmojiSymbols.CompleteList.PostalHorn },
-                { EmojiCustomStrings.CompleteList.Postbox, EmojiSymbols.CompleteList.Postbox },
-                { EmojiCustomStrings.CompleteList.PostOffice, EmojiSymbols.CompleteList.PostOffice },
-                { EmojiCustomStrings.CompleteList.PotableWater, EmojiSymbols.CompleteList.PotableWater },
-                { EmojiCustomStrings.CompleteList.Potato, EmojiSymbols.CompleteList.Potato },
-                { EmojiCustomStrings.CompleteList.PotOfFood, EmojiSymbols.CompleteList.PotOfFood },
-                { EmojiCustomStrings.CompleteList.PottedPlant, EmojiSymbols.CompleteList.PottedPlant },
-                { EmojiCustomStrings.CompleteList.PoultryLeg, EmojiSymbols.CompleteList.PoultryLeg },
-                { EmojiCustomStrings.CompleteList.PoundBanknote, EmojiSymbols.CompleteList.PoundBanknote },
-                { EmojiCustomStrings.CompleteList.PoutingCat, EmojiSymbols.CompleteList.PoutingCat },
-                { EmojiCustomStrings.CompleteList.PoutingFace, EmojiSymbols.CompleteList.PoutingFace },
-                { EmojiCustomStrings.CompleteList.PregnantWoman, EmojiSymbols.CompleteList.PregnantWoman },
-                { EmojiCustomStrings.CompleteList.Pretzel, EmojiSymbols.CompleteList.Pretzel },
-                { EmojiCustomStrings.CompleteList.Prince, EmojiSymbols.CompleteList.Prince },
-                { EmojiCustomStrings.CompleteList.Princess, EmojiSymbols.CompleteList.Princess },
-                { EmojiCustomStrings.CompleteList.Printer, EmojiSymbols.CompleteList.Printer },
-                { EmojiCustomStrings.CompleteList.Prohibited, EmojiSymbols.CompleteList.Prohibited },
-                { EmojiCustomStrings.CompleteList.PurpleCircle, EmojiSymbols.CompleteList.PurpleCircle },
-                { EmojiCustomStrings.CompleteList.PurpleHeart, EmojiSymbols.CompleteList.PurpleHeart },
-                { EmojiCustomStrings.CompleteList.PurpleSquare, EmojiSymbols.CompleteList.PurpleSquare },
-                { EmojiCustomStrings.CompleteList.Purse, EmojiSymbols.CompleteList.Purse },
-                { EmojiCustomStrings.CompleteList.Pushpin, EmojiSymbols.CompleteList.Pushpin },
-                { EmojiCustomStrings.CompleteList.PuzzlePiece, EmojiSymbols.CompleteList.PuzzlePiece },
-                { EmojiCustomStrings.CompleteList.Rabbit, EmojiSymbols.CompleteList.Rabbit },
-                { EmojiCustomStrings.CompleteList.RabbitFace, EmojiSymbols.CompleteList.RabbitFace },
-                { EmojiCustomStrings.CompleteList.Raccoon, EmojiSymbols.CompleteList.Raccoon },
-                { EmojiCustomStrings.CompleteList.RacingCar, EmojiSymbols.CompleteList.RacingCar },
-                { EmojiCustomStrings.CompleteList.Radio, EmojiSymbols.CompleteList.Radio },
-                { EmojiCustomStrings.CompleteList.Radioactive, EmojiSymbols.CompleteList.Radioactive },
-                { EmojiCustomStrings.CompleteList.RadioButton, EmojiSymbols.CompleteList.RadioButton },
-                { EmojiCustomStrings.CompleteList.RailwayCar, EmojiSymbols.CompleteList.RailwayCar },
-                { EmojiCustomStrings.CompleteList.RailwayTrack, EmojiSymbols.CompleteList.RailwayTrack },
-                { EmojiCustomStrings.CompleteList.Rainbow, EmojiSymbols.CompleteList.Rainbow },
-                { EmojiCustomStrings.CompleteList.RaisedBackOfHand, EmojiSymbols.CompleteList.RaisedBackOfHand },
-                { EmojiCustomStrings.CompleteList.RaisedFist, EmojiSymbols.CompleteList.RaisedFist },
-                { EmojiCustomStrings.CompleteList.RaisedHand, EmojiSymbols.CompleteList.RaisedHand },
-                { EmojiCustomStrings.CompleteList.RaisingHands, EmojiSymbols.CompleteList.RaisingHands },
-                { EmojiCustomStrings.CompleteList.Ram, EmojiSymbols.CompleteList.Ram },
-                { EmojiCustomStrings.CompleteList.Rat, EmojiSymbols.CompleteList.Rat },
-                { EmojiCustomStrings.CompleteList.Razor, EmojiSymbols.CompleteList.Razor },
-                { EmojiCustomStrings.CompleteList.Receipt, EmojiSymbols.CompleteList.Receipt },
-                { EmojiCustomStrings.CompleteList.RecordButton, EmojiSymbols.CompleteList.RecordButton },
-                { EmojiCustomStrings.CompleteList.RecyclingSymbol, EmojiSymbols.CompleteList.RecyclingSymbol },
-                { EmojiCustomStrings.CompleteList.RedApple, EmojiSymbols.CompleteList.RedApple },
-                { EmojiCustomStrings.CompleteList.RedCircle, EmojiSymbols.CompleteList.RedCircle },
-                { EmojiCustomStrings.CompleteList.RedEnvelope, EmojiSymbols.CompleteList.RedEnvelope },
-                { EmojiCustomStrings.CompleteList.RedExclamationMark, EmojiSymbols.CompleteList.RedExclamationMark },
-                { EmojiCustomStrings.CompleteList.RedHair, EmojiSymbols.CompleteList.RedHair },
-                { EmojiCustomStrings.CompleteList.RedHeart, EmojiSymbols.CompleteList.RedHeart },
-                { EmojiCustomStrings.CompleteList.RedPaperLantern, EmojiSymbols.CompleteList.RedPaperLantern },
-                { EmojiCustomStrings.CompleteList.RedQuestionMark, EmojiSymbols.CompleteList.RedQuestionMark },
-                { EmojiCustomStrings.CompleteList.RedSquare, EmojiSymbols.CompleteList.RedSquare },
-                { EmojiCustomStrings.CompleteList.RedTrianglePointedDown, EmojiSymbols.CompleteList.RedTrianglePointedDown },
-                { EmojiCustomStrings.CompleteList.RedTrianglePointedUp, EmojiSymbols.CompleteList.RedTrianglePointedUp },
-                { EmojiCustomStrings.CompleteList.Registered, EmojiSymbols.CompleteList.Registered },
-                { EmojiCustomStrings.CompleteList.RelievedFace, EmojiSymbols.CompleteList.RelievedFace },
-                { EmojiCustomStrings.CompleteList.ReminderRibbon, EmojiSymbols.CompleteList.ReminderRibbon },
-                { EmojiCustomStrings.CompleteList.RepeatButton, EmojiSymbols.CompleteList.RepeatButton },
-                { EmojiCustomStrings.CompleteList.RepeatSingleButton, EmojiSymbols.CompleteList.RepeatSingleButton },
-                { EmojiCustomStrings.CompleteList.RescueWorkersHelmet, EmojiSymbols.CompleteList.RescueWorkersHelmet },
-                { EmojiCustomStrings.CompleteList.Restroom, EmojiSymbols.CompleteList.Restroom },
-                { EmojiCustomStrings.CompleteList.ReverseButton, EmojiSymbols.CompleteList.ReverseButton },
-                { EmojiCustomStrings.CompleteList.RevolvingHearts, EmojiSymbols.CompleteList.RevolvingHearts },
-                { EmojiCustomStrings.CompleteList.Rhinoceros, EmojiSymbols.CompleteList.Rhinoceros },
-                { EmojiCustomStrings.CompleteList.Ribbon, EmojiSymbols.CompleteList.Ribbon },
-                { EmojiCustomStrings.CompleteList.RiceBall, EmojiSymbols.CompleteList.RiceBall },
-                { EmojiCustomStrings.CompleteList.RiceCracker, EmojiSymbols.CompleteList.RiceCracker },
-                { EmojiCustomStrings.CompleteList.RightAngerBubble, EmojiSymbols.CompleteList.RightAngerBubble },
-                { EmojiCustomStrings.CompleteList.RightArrow, EmojiSymbols.CompleteList.RightArrow },
-                { EmojiCustomStrings.CompleteList.RightArrowCurvingDown, EmojiSymbols.CompleteList.RightArrowCurvingDown },
-                { EmojiCustomStrings.CompleteList.RightArrowCurvingLeft, EmojiSymbols.CompleteList.RightArrowCurvingLeft },
-                { EmojiCustomStrings.CompleteList.RightArrowCurvingUp, EmojiSymbols.CompleteList.RightArrowCurvingUp },
-                { EmojiCustomStrings.CompleteList.RightFacingFist, EmojiSymbols.CompleteList.RightFacingFist },
-                { EmojiCustomStrings.CompleteList.Ring, EmojiSymbols.CompleteList.Ring },
-                { EmojiCustomStrings.CompleteList.RingedPlanet, EmojiSymbols.CompleteList.RingedPlanet },
-                { EmojiCustomStrings.CompleteList.RoastedSweetPotato, EmojiSymbols.CompleteList.RoastedSweetPotato },
-                { EmojiCustomStrings.CompleteList.Robot, EmojiSymbols.CompleteList.Robot },
-                { EmojiCustomStrings.CompleteList.Rock, EmojiSymbols.CompleteList.Rock },
-                { EmojiCustomStrings.CompleteList.Rocket, EmojiSymbols.CompleteList.Rocket },
-                { EmojiCustomStrings.CompleteList.RolledUpNewspaper, EmojiSymbols.CompleteList.RolledUpNewspaper },
-                { EmojiCustomStrings.CompleteList.RollerCoaster, EmojiSymbols.CompleteList.RollerCoaster },
-                { EmojiCustomStrings.CompleteList.RollerSkate, EmojiSymbols.CompleteList.RollerSkate },
-                { EmojiCustomStrings.CompleteList.RollingOnTheFloorLaughing, EmojiSymbols.CompleteList.RollingOnTheFloorLaughing },
-                { EmojiCustomStrings.CompleteList.RollOfPaper, EmojiSymbols.CompleteList.RollOfPaper },
-                { EmojiCustomStrings.CompleteList.Rooster, EmojiSymbols.CompleteList.Rooster },
-                { EmojiCustomStrings.CompleteList.Rose, EmojiSymbols.CompleteList.Rose },
-                { EmojiCustomStrings.CompleteList.Rosette, EmojiSymbols.CompleteList.Rosette },
-                { EmojiCustomStrings.CompleteList.RoundPushpin, EmojiSymbols.CompleteList.RoundPushpin },
-                { EmojiCustomStrings.CompleteList.RugbyFootball, EmojiSymbols.CompleteList.RugbyFootball },
-                { EmojiCustomStrings.CompleteList.RunningShirt, EmojiSymbols.CompleteList.RunningShirt },
-                { EmojiCustomStrings.CompleteList.RunningShoe, EmojiSymbols.CompleteList.RunningShoe },
-                { EmojiCustomStrings.CompleteList.SadButRelievedFace, EmojiSymbols.CompleteList.SadButRelievedFace },
-                { EmojiCustomStrings.CompleteList.SafetyPin, EmojiSymbols.CompleteList.SafetyPin },
-                { EmojiCustomStrings.CompleteList.SafetyVest, EmojiSymbols.CompleteList.SafetyVest },
-                { EmojiCustomStrings.CompleteList.Sagittarius, EmojiSymbols.CompleteList.Sagittarius },
-                { EmojiCustomStrings.CompleteList.Sailboat, EmojiSymbols.CompleteList.Sailboat },
-                { EmojiCustomStrings.CompleteList.Sake, EmojiSymbols.CompleteList.Sake },
-                { EmojiCustomStrings.CompleteList.Salt, EmojiSymbols.CompleteList.Salt },
-                { EmojiCustomStrings.CompleteList.Sandwich, EmojiSymbols.CompleteList.Sandwich },
-                { EmojiCustomStrings.CompleteList.SantaClaus, EmojiSymbols.CompleteList.SantaClaus },
-                { EmojiCustomStrings.CompleteList.Sari, EmojiSymbols.CompleteList.Sari },
-                { EmojiCustomStrings.CompleteList.Satellite, EmojiSymbols.CompleteList.Satellite },
-                { EmojiCustomStrings.CompleteList.SatelliteAntenna, EmojiSymbols.CompleteList.SatelliteAntenna },
-                { EmojiCustomStrings.CompleteList.Sauropod, EmojiSymbols.CompleteList.Sauropod },
-                { EmojiCustomStrings.CompleteList.Saxophone, EmojiSymbols.CompleteList.Saxophone },
-                { EmojiCustomStrings.CompleteList.Scarf, EmojiSymbols.CompleteList.Scarf },
-                { EmojiCustomStrings.CompleteList.School, EmojiSymbols.CompleteList.School },
-                { EmojiCustomStrings.CompleteList.Scissors, EmojiSymbols.CompleteList.Scissors },
-                { EmojiCustomStrings.CompleteList.Scorpio, EmojiSymbols.CompleteList.Scorpio },
-                { EmojiCustomStrings.CompleteList.Scorpion, EmojiSymbols.CompleteList.Scorpion },
-                { EmojiCustomStrings.CompleteList.Screwdriver, EmojiSymbols.CompleteList.Screwdriver },
-                { EmojiCustomStrings.CompleteList.Scroll, EmojiSymbols.CompleteList.Scroll },
-                { EmojiCustomStrings.CompleteList.Seal, EmojiSymbols.CompleteList.Seal },
-                { EmojiCustomStrings.CompleteList.Seat, EmojiSymbols.CompleteList.Seat },
-                { EmojiCustomStrings.CompleteList.SecondPlaceMedal, EmojiSymbols.CompleteList.SecondPlaceMedal },
-                { EmojiCustomStrings.CompleteList.Seedling, EmojiSymbols.CompleteList.Seedling },
-                { EmojiCustomStrings.CompleteList.SeeNoEvilMonkey, EmojiSymbols.CompleteList.SeeNoEvilMonkey },
-                { EmojiCustomStrings.CompleteList.Selfie, EmojiSymbols.CompleteList.Selfie },
-                { EmojiCustomStrings.CompleteList.SevenOClock, EmojiSymbols.CompleteList.SevenOClock },
-                { EmojiCustomStrings.CompleteList.SevenThirty, EmojiSymbols.CompleteList.SevenThirty },
-                { EmojiCustomStrings.CompleteList.SewingNeedle, EmojiSymbols.CompleteList.SewingNeedle },
-                { EmojiCustomStrings.CompleteList.ShallowPanOfFood, EmojiSymbols.CompleteList.ShallowPanOfFood },
-                { EmojiCustomStrings.CompleteList.Shamrock, EmojiSymbols.CompleteList.Shamrock },
-                { EmojiCustomStrings.CompleteList.Shark, EmojiSymbols.CompleteList.Shark },
-                { EmojiCustomStrings.CompleteList.ShavedIce, EmojiSymbols.CompleteList.ShavedIce },
-                { EmojiCustomStrings.CompleteList.SheafOfRice, EmojiSymbols.CompleteList.SheafOfRice },
-                { EmojiCustomStrings.CompleteList.Shield, EmojiSymbols.CompleteList.Shield },
-                { EmojiCustomStrings.CompleteList.ShintoShrine, EmojiSymbols.CompleteList.ShintoShrine },
-                { EmojiCustomStrings.CompleteList.Ship, EmojiSymbols.CompleteList.Ship },
-                { EmojiCustomStrings.CompleteList.ShootingStar, EmojiSymbols.CompleteList.ShootingStar },
-                { EmojiCustomStrings.CompleteList.ShoppingBags, EmojiSymbols.CompleteList.ShoppingBags },
-                { EmojiCustomStrings.CompleteList.ShoppingCart, EmojiSymbols.CompleteList.ShoppingCart },
-                { EmojiCustomStrings.CompleteList.Shortcake, EmojiSymbols.CompleteList.Shortcake },
-                { EmojiCustomStrings.CompleteList.Shorts, EmojiSymbols.CompleteList.Shorts },
-                { EmojiCustomStrings.CompleteList.Shower, EmojiSymbols.CompleteList.Shower },
-                { EmojiCustomStrings.CompleteList.Shrimp, EmojiSymbols.CompleteList.Shrimp },
-                { EmojiCustomStrings.CompleteList.ShuffleTracksButton, EmojiSymbols.CompleteList.ShuffleTracksButton },
-                { EmojiCustomStrings.CompleteList.ShushingFace, EmojiSymbols.CompleteList.ShushingFace },
-                { EmojiCustomStrings.CompleteList.SignOfTheHorns, EmojiSymbols.CompleteList.SignOfTheHorns },
-                { EmojiCustomStrings.CompleteList.SixOClock, EmojiSymbols.CompleteList.SixOClock },
-                { EmojiCustomStrings.CompleteList.SixThirty, EmojiSymbols.CompleteList.SixThirty },
-                { EmojiCustomStrings.CompleteList.Skateboard, EmojiSymbols.CompleteList.Skateboard },
-                { EmojiCustomStrings.CompleteList.Skier, EmojiSymbols.CompleteList.Skier },
-                { EmojiCustomStrings.CompleteList.Skis, EmojiSymbols.CompleteList.Skis },
-                { EmojiCustomStrings.CompleteList.Skull, EmojiSymbols.CompleteList.Skull },
-                { EmojiCustomStrings.CompleteList.SkullAndCrossbones, EmojiSymbols.CompleteList.SkullAndCrossbones },
-                { EmojiCustomStrings.CompleteList.Skunk, EmojiSymbols.CompleteList.Skunk },
-                { EmojiCustomStrings.CompleteList.Sled, EmojiSymbols.CompleteList.Sled },
-                { EmojiCustomStrings.CompleteList.SleepingFace, EmojiSymbols.CompleteList.SleepingFace },
-                { EmojiCustomStrings.CompleteList.SleepyFace, EmojiSymbols.CompleteList.SleepyFace },
-                { EmojiCustomStrings.CompleteList.SlightlyFrowningFace, EmojiSymbols.CompleteList.SlightlyFrowningFace },
-                { EmojiCustomStrings.CompleteList.SlightlySmilingFace, EmojiSymbols.CompleteList.SlightlySmilingFace },
-                { EmojiCustomStrings.CompleteList.Sloth, EmojiSymbols.CompleteList.Sloth },
-                { EmojiCustomStrings.CompleteList.SlotMachine, EmojiSymbols.CompleteList.SlotMachine },
-                { EmojiCustomStrings.CompleteList.SmallAirplane, EmojiSymbols.CompleteList.SmallAirplane },
-                { EmojiCustomStrings.CompleteList.SmallBlueDiamond, EmojiSymbols.CompleteList.SmallBlueDiamond },
-                { EmojiCustomStrings.CompleteList.SmallOrangeDiamond, EmojiSymbols.CompleteList.SmallOrangeDiamond },
-                { EmojiCustomStrings.CompleteList.SmilingCatWithHeartEyes, EmojiSymbols.CompleteList.SmilingCatWithHeartEyes },
-                { EmojiCustomStrings.CompleteList.SmilingFace, EmojiSymbols.CompleteList.SmilingFace },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithHalo, EmojiSymbols.CompleteList.SmilingFaceWithHalo },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithHeartEyes, EmojiSymbols.CompleteList.SmilingFaceWithHeartEyes },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithHearts, EmojiSymbols.CompleteList.SmilingFaceWithHearts },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithHorns, EmojiSymbols.CompleteList.SmilingFaceWithHorns },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithSmilingEyes, EmojiSymbols.CompleteList.SmilingFaceWithSmilingEyes },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithSunglasses, EmojiSymbols.CompleteList.SmilingFaceWithSunglasses },
-                { EmojiCustomStrings.CompleteList.SmilingFaceWithTear, EmojiSymbols.CompleteList.SmilingFaceWithTear },
-                { EmojiCustomStrings.CompleteList.SmirkingFace, EmojiSymbols.CompleteList.SmirkingFace },
-                { EmojiCustomStrings.CompleteList.Snail, EmojiSymbols.CompleteList.Snail },
-                { EmojiCustomStrings.CompleteList.Snake, EmojiSymbols.CompleteList.Snake },
-                { EmojiCustomStrings.CompleteList.SneezingFace, EmojiSymbols.CompleteList.SneezingFace },
-                { EmojiCustomStrings.CompleteList.Snowboarder, EmojiSymbols.CompleteList.Snowboarder },
-                { EmojiCustomStrings.CompleteList.SnowCappedMountain, EmojiSymbols.CompleteList.SnowCappedMountain },
-                { EmojiCustomStrings.CompleteList.Snowflake, EmojiSymbols.CompleteList.Snowflake },
-                { EmojiCustomStrings.CompleteList.Snowman, EmojiSymbols.CompleteList.Snowman },
-                { EmojiCustomStrings.CompleteList.SnowmanWithoutSnow, EmojiSymbols.CompleteList.SnowmanWithoutSnow },
-                { EmojiCustomStrings.CompleteList.Soap, EmojiSymbols.CompleteList.Soap },
-                { EmojiCustomStrings.CompleteList.SoccerBall, EmojiSymbols.CompleteList.SoccerBall },
-                { EmojiCustomStrings.CompleteList.Socks, EmojiSymbols.CompleteList.Socks },
-                { EmojiCustomStrings.CompleteList.Softball, EmojiSymbols.CompleteList.Softball },
-                { EmojiCustomStrings.CompleteList.SoftIceCream, EmojiSymbols.CompleteList.SoftIceCream },
-                { EmojiCustomStrings.CompleteList.SoonArrow, EmojiSymbols.CompleteList.SoonArrow },
-                { EmojiCustomStrings.CompleteList.SosButton, EmojiSymbols.CompleteList.SosButton },
-                { EmojiCustomStrings.CompleteList.SpadeSuit, EmojiSymbols.CompleteList.SpadeSuit },
-                { EmojiCustomStrings.CompleteList.Spaghetti, EmojiSymbols.CompleteList.Spaghetti },
-                { EmojiCustomStrings.CompleteList.Sparkle, EmojiSymbols.CompleteList.Sparkle },
-                { EmojiCustomStrings.CompleteList.Sparkler, EmojiSymbols.CompleteList.Sparkler },
-                { EmojiCustomStrings.CompleteList.Sparkles, EmojiSymbols.CompleteList.Sparkles },
-                { EmojiCustomStrings.CompleteList.SparklingHeart, EmojiSymbols.CompleteList.SparklingHeart },
-                { EmojiCustomStrings.CompleteList.SpeakerHighVolume, EmojiSymbols.CompleteList.SpeakerHighVolume },
-                { EmojiCustomStrings.CompleteList.SpeakerLowVolume, EmojiSymbols.CompleteList.SpeakerLowVolume },
-                { EmojiCustomStrings.CompleteList.SpeakerMediumVolume, EmojiSymbols.CompleteList.SpeakerMediumVolume },
-                { EmojiCustomStrings.CompleteList.SpeakingHead, EmojiSymbols.CompleteList.SpeakingHead },
-                { EmojiCustomStrings.CompleteList.SpeakNoEvilMonkey, EmojiSymbols.CompleteList.SpeakNoEvilMonkey },
-                { EmojiCustomStrings.CompleteList.SpeechBalloon, EmojiSymbols.CompleteList.SpeechBalloon },
-                { EmojiCustomStrings.CompleteList.Speedboat, EmojiSymbols.CompleteList.Speedboat },
-                { EmojiCustomStrings.CompleteList.Spider, EmojiSymbols.CompleteList.Spider },
-                { EmojiCustomStrings.CompleteList.SpiderWeb, EmojiSymbols.CompleteList.SpiderWeb },
-                { EmojiCustomStrings.CompleteList.SpiralCalendar, EmojiSymbols.CompleteList.SpiralCalendar },
-                { EmojiCustomStrings.CompleteList.SpiralNotepad, EmojiSymbols.CompleteList.SpiralNotepad },
-                { EmojiCustomStrings.CompleteList.SpiralShell, EmojiSymbols.CompleteList.SpiralShell },
-                { EmojiCustomStrings.CompleteList.Sponge, EmojiSymbols.CompleteList.Sponge },
-                { EmojiCustomStrings.CompleteList.Spoon, EmojiSymbols.CompleteList.Spoon },
-                { EmojiCustomStrings.CompleteList.SportsMedal, EmojiSymbols.CompleteList.SportsMedal },
-                { EmojiCustomStrings.CompleteList.SportUtilityVehicle, EmojiSymbols.CompleteList.SportUtilityVehicle },
-                { EmojiCustomStrings.CompleteList.SpoutingWhale, EmojiSymbols.CompleteList.SpoutingWhale },
-                { EmojiCustomStrings.CompleteList.Squid, EmojiSymbols.CompleteList.Squid },
-                { EmojiCustomStrings.CompleteList.SquintingFaceWithTongue, EmojiSymbols.CompleteList.SquintingFaceWithTongue },
-                { EmojiCustomStrings.CompleteList.Stadium, EmojiSymbols.CompleteList.Stadium },
-                { EmojiCustomStrings.CompleteList.Star, EmojiSymbols.CompleteList.Star },
-                { EmojiCustomStrings.CompleteList.StarAndCrescent, EmojiSymbols.CompleteList.StarAndCrescent },
-                { EmojiCustomStrings.CompleteList.StarOfDavid, EmojiSymbols.CompleteList.StarOfDavid },
-                { EmojiCustomStrings.CompleteList.StarStruck, EmojiSymbols.CompleteList.StarStruck },
-                { EmojiCustomStrings.CompleteList.Station, EmojiSymbols.CompleteList.Station },
-                { EmojiCustomStrings.CompleteList.StatueOfLiberty, EmojiSymbols.CompleteList.StatueOfLiberty },
-                { EmojiCustomStrings.CompleteList.SteamingBowl, EmojiSymbols.CompleteList.SteamingBowl },
-                { EmojiCustomStrings.CompleteList.Stethoscope, EmojiSymbols.CompleteList.Stethoscope },
-                { EmojiCustomStrings.CompleteList.StopButton, EmojiSymbols.CompleteList.StopButton },
-                { EmojiCustomStrings.CompleteList.StopSign, EmojiSymbols.CompleteList.StopSign },
-                { EmojiCustomStrings.CompleteList.Stopwatch, EmojiSymbols.CompleteList.Stopwatch },
-                { EmojiCustomStrings.CompleteList.StraightRuler, EmojiSymbols.CompleteList.StraightRuler },
-                { EmojiCustomStrings.CompleteList.Strawberry, EmojiSymbols.CompleteList.Strawberry },
-                { EmojiCustomStrings.CompleteList.StudioMicrophone, EmojiSymbols.CompleteList.StudioMicrophone },
-                { EmojiCustomStrings.CompleteList.StuffedFlatbread, EmojiSymbols.CompleteList.StuffedFlatbread },
-                { EmojiCustomStrings.CompleteList.Sun, EmojiSymbols.CompleteList.Sun },
-                { EmojiCustomStrings.CompleteList.SunBehindCloud, EmojiSymbols.CompleteList.SunBehindCloud },
-                { EmojiCustomStrings.CompleteList.SunBehindLargeCloud, EmojiSymbols.CompleteList.SunBehindLargeCloud },
-                { EmojiCustomStrings.CompleteList.SunBehindRainCloud, EmojiSymbols.CompleteList.SunBehindRainCloud },
-                { EmojiCustomStrings.CompleteList.SunBehindSmallCloud, EmojiSymbols.CompleteList.SunBehindSmallCloud },
-                { EmojiCustomStrings.CompleteList.Sunflower, EmojiSymbols.CompleteList.Sunflower },
-                { EmojiCustomStrings.CompleteList.Sunglasses, EmojiSymbols.CompleteList.Sunglasses },
-                { EmojiCustomStrings.CompleteList.Sunrise, EmojiSymbols.CompleteList.Sunrise },
-                { EmojiCustomStrings.CompleteList.SunriseOverMountains, EmojiSymbols.CompleteList.SunriseOverMountains },
-                { EmojiCustomStrings.CompleteList.Sunset, EmojiSymbols.CompleteList.Sunset },
-                { EmojiCustomStrings.CompleteList.SunWithFace, EmojiSymbols.CompleteList.SunWithFace },
-                { EmojiCustomStrings.CompleteList.Superhero, EmojiSymbols.CompleteList.Superhero },
-                { EmojiCustomStrings.CompleteList.Supervillain, EmojiSymbols.CompleteList.Supervillain },
-                { EmojiCustomStrings.CompleteList.Sushi, EmojiSymbols.CompleteList.Sushi },
-                { EmojiCustomStrings.CompleteList.SuspensionRailway, EmojiSymbols.CompleteList.SuspensionRailway },
-                { EmojiCustomStrings.CompleteList.Swan, EmojiSymbols.CompleteList.Swan },
-                { EmojiCustomStrings.CompleteList.SweatDroplets, EmojiSymbols.CompleteList.SweatDroplets },
-                { EmojiCustomStrings.CompleteList.Synagogue, EmojiSymbols.CompleteList.Synagogue },
-                { EmojiCustomStrings.CompleteList.Syringe, EmojiSymbols.CompleteList.Syringe },
-                { EmojiCustomStrings.CompleteList.Taco, EmojiSymbols.CompleteList.Taco },
-                { EmojiCustomStrings.CompleteList.TakeoutBox, EmojiSymbols.CompleteList.TakeoutBox },
-                { EmojiCustomStrings.CompleteList.Tamale, EmojiSymbols.CompleteList.Tamale },
-                { EmojiCustomStrings.CompleteList.TanabataTree, EmojiSymbols.CompleteList.TanabataTree },
-                { EmojiCustomStrings.CompleteList.Tangerine, EmojiSymbols.CompleteList.Tangerine },
-                { EmojiCustomStrings.CompleteList.Taurus, EmojiSymbols.CompleteList.Taurus },
-                { EmojiCustomStrings.CompleteList.Taxi, EmojiSymbols.CompleteList.Taxi },
-                { EmojiCustomStrings.CompleteList.TeacupWithoutHandle, EmojiSymbols.CompleteList.TeacupWithoutHandle },
-                { EmojiCustomStrings.CompleteList.Teapot, EmojiSymbols.CompleteList.Teapot },
-                { EmojiCustomStrings.CompleteList.TearOffCalendar, EmojiSymbols.CompleteList.TearOffCalendar },
-                { EmojiCustomStrings.CompleteList.TeddyBear, EmojiSymbols.CompleteList.TeddyBear },
-                { EmojiCustomStrings.CompleteList.Telephone, EmojiSymbols.CompleteList.Telephone },
-                { EmojiCustomStrings.CompleteList.TelephoneReceiver, EmojiSymbols.CompleteList.TelephoneReceiver },
-                { EmojiCustomStrings.CompleteList.Telescope, EmojiSymbols.CompleteList.Telescope },
-                { EmojiCustomStrings.CompleteList.Television, EmojiSymbols.CompleteList.Television },
-                { EmojiCustomStrings.CompleteList.Tennis, EmojiSymbols.CompleteList.Tennis },
-                { EmojiCustomStrings.CompleteList.TenOClock, EmojiSymbols.CompleteList.TenOClock },
-                { EmojiCustomStrings.CompleteList.Tent, EmojiSymbols.CompleteList.Tent },
-                { EmojiCustomStrings.CompleteList.TenThirty, EmojiSymbols.CompleteList.TenThirty },
-                { EmojiCustomStrings.CompleteList.TestTube, EmojiSymbols.CompleteList.TestTube },
-                { EmojiCustomStrings.CompleteList.Thermometer, EmojiSymbols.CompleteList.Thermometer },
-                { EmojiCustomStrings.CompleteList.ThinkingFace, EmojiSymbols.CompleteList.ThinkingFace },
-                { EmojiCustomStrings.CompleteList.ThirdPlaceMedal, EmojiSymbols.CompleteList.ThirdPlaceMedal },
-                { EmojiCustomStrings.CompleteList.ThongSandal, EmojiSymbols.CompleteList.ThongSandal },
-                { EmojiCustomStrings.CompleteList.ThoughtBalloon, EmojiSymbols.CompleteList.ThoughtBalloon },
-                { EmojiCustomStrings.CompleteList.Thread, EmojiSymbols.CompleteList.Thread },
-                { EmojiCustomStrings.CompleteList.ThreeOClock, EmojiSymbols.CompleteList.ThreeOClock },
-                { EmojiCustomStrings.CompleteList.ThreeThirty, EmojiSymbols.CompleteList.ThreeThirty },
-                { EmojiCustomStrings.CompleteList.ThumbsDown, EmojiSymbols.CompleteList.ThumbsDown },
-                { EmojiCustomStrings.CompleteList.ThumbsUp, EmojiSymbols.CompleteList.ThumbsUp },
-                { EmojiCustomStrings.CompleteList.Ticket, EmojiSymbols.CompleteList.Ticket },
-                { EmojiCustomStrings.CompleteList.Tiger, EmojiSymbols.CompleteList.Tiger },
-                { EmojiCustomStrings.CompleteList.TigerFace, EmojiSymbols.CompleteList.TigerFace },
-                { EmojiCustomStrings.CompleteList.TimerClock, EmojiSymbols.CompleteList.TimerClock },
-                { EmojiCustomStrings.CompleteList.TiredFace, EmojiSymbols.CompleteList.TiredFace },
-                { EmojiCustomStrings.CompleteList.Toilet, EmojiSymbols.CompleteList.Toilet },
-                { EmojiCustomStrings.CompleteList.TokyoTower, EmojiSymbols.CompleteList.TokyoTower },
-                { EmojiCustomStrings.CompleteList.Tomato, EmojiSymbols.CompleteList.Tomato },
-                { EmojiCustomStrings.CompleteList.Tongue, EmojiSymbols.CompleteList.Tongue },
-                { EmojiCustomStrings.CompleteList.Toolbox, EmojiSymbols.CompleteList.Toolbox },
-                { EmojiCustomStrings.CompleteList.Tooth, EmojiSymbols.CompleteList.Tooth },
-                { EmojiCustomStrings.CompleteList.Toothbrush, EmojiSymbols.CompleteList.Toothbrush },
-                { EmojiCustomStrings.CompleteList.TopArrow, EmojiSymbols.CompleteList.TopArrow },
-                { EmojiCustomStrings.CompleteList.TopHat, EmojiSymbols.CompleteList.TopHat },
-                { EmojiCustomStrings.CompleteList.Tornado, EmojiSymbols.CompleteList.Tornado },
-                { EmojiCustomStrings.CompleteList.Trackball, EmojiSymbols.CompleteList.Trackball },
-                { EmojiCustomStrings.CompleteList.Tractor, EmojiSymbols.CompleteList.Tractor },
-                { EmojiCustomStrings.CompleteList.TradeMark, EmojiSymbols.CompleteList.TradeMark },
-                { EmojiCustomStrings.CompleteList.Train, EmojiSymbols.CompleteList.Train },
-                { EmojiCustomStrings.CompleteList.Tram, EmojiSymbols.CompleteList.Tram },
-                { EmojiCustomStrings.CompleteList.TramCar, EmojiSymbols.CompleteList.TramCar },
-                { EmojiCustomStrings.CompleteList.TRex, EmojiSymbols.CompleteList.TRex },
-                { EmojiCustomStrings.CompleteList.TriangularFlag, EmojiSymbols.CompleteList.TriangularFlag },
-                { EmojiCustomStrings.CompleteList.TriangularRuler, EmojiSymbols.CompleteList.TriangularRuler },
-                { EmojiCustomStrings.CompleteList.TridentEmblem, EmojiSymbols.CompleteList.TridentEmblem },
-                { EmojiCustomStrings.CompleteList.Trolleybus, EmojiSymbols.CompleteList.Trolleybus },
-                { EmojiCustomStrings.CompleteList.Trophy, EmojiSymbols.CompleteList.Trophy },
-                { EmojiCustomStrings.CompleteList.TropicalDrink, EmojiSymbols.CompleteList.TropicalDrink },
-                { EmojiCustomStrings.CompleteList.TropicalFish, EmojiSymbols.CompleteList.TropicalFish },
-                { EmojiCustomStrings.CompleteList.Trumpet, EmojiSymbols.CompleteList.Trumpet },
-                { EmojiCustomStrings.CompleteList.TShirt, EmojiSymbols.CompleteList.TShirt },
-                { EmojiCustomStrings.CompleteList.Tulip, EmojiSymbols.CompleteList.Tulip },
-                { EmojiCustomStrings.CompleteList.TumblerGlass, EmojiSymbols.CompleteList.TumblerGlass },
-                { EmojiCustomStrings.CompleteList.Turkey, EmojiSymbols.CompleteList.Turkey },
-                { EmojiCustomStrings.CompleteList.Turtle, EmojiSymbols.CompleteList.Turtle },
-                { EmojiCustomStrings.CompleteList.TwelveOClock, EmojiSymbols.CompleteList.TwelveOClock },
-                { EmojiCustomStrings.CompleteList.TwelveThirty, EmojiSymbols.CompleteList.TwelveThirty },
-                { EmojiCustomStrings.CompleteList.TwoHearts, EmojiSymbols.CompleteList.TwoHearts },
-                { EmojiCustomStrings.CompleteList.TwoHumpCamel, EmojiSymbols.CompleteList.TwoHumpCamel },
-                { EmojiCustomStrings.CompleteList.TwoOClock, EmojiSymbols.CompleteList.TwoOClock },
-                { EmojiCustomStrings.CompleteList.TwoThirty, EmojiSymbols.CompleteList.TwoThirty },
-                { EmojiCustomStrings.CompleteList.Umbrella, EmojiSymbols.CompleteList.Umbrella },
-                { EmojiCustomStrings.CompleteList.UmbrellaOnGround, EmojiSymbols.CompleteList.UmbrellaOnGround },
-                { EmojiCustomStrings.CompleteList.UmbrellaWithRainDrops, EmojiSymbols.CompleteList.UmbrellaWithRainDrops },
-                { EmojiCustomStrings.CompleteList.UnamusedFace, EmojiSymbols.CompleteList.UnamusedFace },
-                { EmojiCustomStrings.CompleteList.Unicorn, EmojiSymbols.CompleteList.Unicorn },
-                { EmojiCustomStrings.CompleteList.Unlocked, EmojiSymbols.CompleteList.Unlocked },
-                { EmojiCustomStrings.CompleteList.UpArrow, EmojiSymbols.CompleteList.UpArrow },
-                { EmojiCustomStrings.CompleteList.UpButton, EmojiSymbols.CompleteList.UpButton },
-                { EmojiCustomStrings.CompleteList.UpDownArrow, EmojiSymbols.CompleteList.UpDownArrow },
-                { EmojiCustomStrings.CompleteList.UpLeftArrow, EmojiSymbols.CompleteList.UpLeftArrow },
-                { EmojiCustomStrings.CompleteList.UpRightArrow, EmojiSymbols.CompleteList.UpRightArrow },
-                { EmojiCustomStrings.CompleteList.UpsideDownFace, EmojiSymbols.CompleteList.UpsideDownFace },
-                { EmojiCustomStrings.CompleteList.UpwardsButton, EmojiSymbols.CompleteList.UpwardsButton },
-                { EmojiCustomStrings.CompleteList.Vampire, EmojiSymbols.CompleteList.Vampire },
-                { EmojiCustomStrings.CompleteList.VerticalTrafficLight, EmojiSymbols.CompleteList.VerticalTrafficLight },
-                { EmojiCustomStrings.CompleteList.VibrationMode, EmojiSymbols.CompleteList.VibrationMode },
-                { EmojiCustomStrings.CompleteList.VictoryHand, EmojiSymbols.CompleteList.VictoryHand },
-                { EmojiCustomStrings.CompleteList.VideoCamera, EmojiSymbols.CompleteList.VideoCamera },
-                { EmojiCustomStrings.CompleteList.Videocassette, EmojiSymbols.CompleteList.Videocassette },
-                { EmojiCustomStrings.CompleteList.VideoGame, EmojiSymbols.CompleteList.VideoGame },
-                { EmojiCustomStrings.CompleteList.Violin, EmojiSymbols.CompleteList.Violin },
-                { EmojiCustomStrings.CompleteList.Virgo, EmojiSymbols.CompleteList.Virgo },
-                { EmojiCustomStrings.CompleteList.Volcano, EmojiSymbols.CompleteList.Volcano },
-                { EmojiCustomStrings.CompleteList.Volleyball, EmojiSymbols.CompleteList.Volleyball },
-                { EmojiCustomStrings.CompleteList.VsButton, EmojiSymbols.CompleteList.VsButton },
-                { EmojiCustomStrings.CompleteList.VulcanSalute, EmojiSymbols.CompleteList.VulcanSalute },
-                { EmojiCustomStrings.CompleteList.Waffle, EmojiSymbols.CompleteList.Waffle },
-                { EmojiCustomStrings.CompleteList.WaningCrescentMoon, EmojiSymbols.CompleteList.WaningCrescentMoon },
-                { EmojiCustomStrings.CompleteList.WaningGibbousMoon, EmojiSymbols.CompleteList.WaningGibbousMoon },
-                { EmojiCustomStrings.CompleteList.Warning, EmojiSymbols.CompleteList.Warning },
-                { EmojiCustomStrings.CompleteList.Wastebasket, EmojiSymbols.CompleteList.Wastebasket },
-                { EmojiCustomStrings.CompleteList.Watch, EmojiSymbols.CompleteList.Watch },
-                { EmojiCustomStrings.CompleteList.WaterBuffalo, EmojiSymbols.CompleteList.WaterBuffalo },
-                { EmojiCustomStrings.CompleteList.WaterCloset, EmojiSymbols.CompleteList.WaterCloset },
-                { EmojiCustomStrings.CompleteList.Watermelon, EmojiSymbols.CompleteList.Watermelon },
-                { EmojiCustomStrings.CompleteList.WaterPistol, EmojiSymbols.CompleteList.WaterPistol },
-                { EmojiCustomStrings.CompleteList.WaterWave, EmojiSymbols.CompleteList.WaterWave },
-                { EmojiCustomStrings.CompleteList.WavingHand, EmojiSymbols.CompleteList.WavingHand },
-                { EmojiCustomStrings.CompleteList.WavyDash, EmojiSymbols.CompleteList.WavyDash },
-                { EmojiCustomStrings.CompleteList.WaxingCrescentMoon, EmojiSymbols.CompleteList.WaxingCrescentMoon },
-                { EmojiCustomStrings.CompleteList.WaxingGibbousMoon, EmojiSymbols.CompleteList.WaxingGibbousMoon },
-                { EmojiCustomStrings.CompleteList.WearyCat, EmojiSymbols.CompleteList.WearyCat },
-                { EmojiCustomStrings.CompleteList.WearyFace, EmojiSymbols.CompleteList.WearyFace },
-                { EmojiCustomStrings.CompleteList.Wedding, EmojiSymbols.CompleteList.Wedding },
-                { EmojiCustomStrings.CompleteList.Whale, EmojiSymbols.CompleteList.Whale },
-                { EmojiCustomStrings.CompleteList.WheelchairSymbol, EmojiSymbols.CompleteList.WheelchairSymbol },
-                { EmojiCustomStrings.CompleteList.WheelOfDharma, EmojiSymbols.CompleteList.WheelOfDharma },
-                { EmojiCustomStrings.CompleteList.WhiteCane, EmojiSymbols.CompleteList.WhiteCane },
-                { EmojiCustomStrings.CompleteList.WhiteCircle, EmojiSymbols.CompleteList.WhiteCircle },
-                { EmojiCustomStrings.CompleteList.WhiteExclamationMark, EmojiSymbols.CompleteList.WhiteExclamationMark },
-                { EmojiCustomStrings.CompleteList.WhiteFlag, EmojiSymbols.CompleteList.WhiteFlag },
-                { EmojiCustomStrings.CompleteList.WhiteFlower, EmojiSymbols.CompleteList.WhiteFlower },
-                { EmojiCustomStrings.CompleteList.WhiteHair, EmojiSymbols.CompleteList.WhiteHair },
-                { EmojiCustomStrings.CompleteList.WhiteHeart, EmojiSymbols.CompleteList.WhiteHeart },
-                { EmojiCustomStrings.CompleteList.WhiteLargeSquare, EmojiSymbols.CompleteList.WhiteLargeSquare },
-                { EmojiCustomStrings.CompleteList.WhiteMediumSmallSquare, EmojiSymbols.CompleteList.WhiteMediumSmallSquare },
-                { EmojiCustomStrings.CompleteList.WhiteMediumSquare, EmojiSymbols.CompleteList.WhiteMediumSquare },
-                { EmojiCustomStrings.CompleteList.WhiteQuestionMark, EmojiSymbols.CompleteList.WhiteQuestionMark },
-                { EmojiCustomStrings.CompleteList.WhiteSmallSquare, EmojiSymbols.CompleteList.WhiteSmallSquare },
-                { EmojiCustomStrings.CompleteList.WhiteSquareButton, EmojiSymbols.CompleteList.WhiteSquareButton },
-                { EmojiCustomStrings.CompleteList.WiltedFlower, EmojiSymbols.CompleteList.WiltedFlower },
-                { EmojiCustomStrings.CompleteList.WindChime, EmojiSymbols.CompleteList.WindChime },
-                { EmojiCustomStrings.CompleteList.WindFace, EmojiSymbols.CompleteList.WindFace },
-                { EmojiCustomStrings.CompleteList.Window, EmojiSymbols.CompleteList.Window },
-                { EmojiCustomStrings.CompleteList.WineGlass, EmojiSymbols.CompleteList.WineGlass },
-                { EmojiCustomStrings.CompleteList.WinkingFace, EmojiSymbols.CompleteList.WinkingFace },
-                { EmojiCustomStrings.CompleteList.WinkingFaceWithTongue, EmojiSymbols.CompleteList.WinkingFaceWithTongue },
-                { EmojiCustomStrings.CompleteList.Wolf, EmojiSymbols.CompleteList.Wolf },
-                { EmojiCustomStrings.CompleteList.Woman, EmojiSymbols.CompleteList.Woman },
-                { EmojiCustomStrings.CompleteList.WomanAndManHoldingHands, EmojiSymbols.CompleteList.WomanAndManHoldingHands },
-                { EmojiCustomStrings.CompleteList.WomanDancing, EmojiSymbols.CompleteList.WomanDancing },
-                { EmojiCustomStrings.CompleteList.WomansBoot, EmojiSymbols.CompleteList.WomansBoot },
-                { EmojiCustomStrings.CompleteList.WomansClothes, EmojiSymbols.CompleteList.WomansClothes },
-                { EmojiCustomStrings.CompleteList.WomansHat, EmojiSymbols.CompleteList.WomansHat },
-                { EmojiCustomStrings.CompleteList.WomansSandal, EmojiSymbols.CompleteList.WomansSandal },
-                { EmojiCustomStrings.CompleteList.WomanWithHeadscarf, EmojiSymbols.CompleteList.WomanWithHeadscarf },
-                { EmojiCustomStrings.CompleteList.WomenHoldingHands, EmojiSymbols.CompleteList.WomenHoldingHands },
-                { EmojiCustomStrings.CompleteList.WomensRoom, EmojiSymbols.CompleteList.WomensRoom },
-                { EmojiCustomStrings.CompleteList.Wood, EmojiSymbols.CompleteList.Wood },
-                { EmojiCustomStrings.CompleteList.WoozyFace, EmojiSymbols.CompleteList.WoozyFace },
-                { EmojiCustomStrings.CompleteList.WorldMap, EmojiSymbols.CompleteList.WorldMap },
-                { EmojiCustomStrings.CompleteList.Worm, EmojiSymbols.CompleteList.Worm },
-                { EmojiCustomStrings.CompleteList.WorriedFace, EmojiSymbols.CompleteList.WorriedFace },
-                { EmojiCustomStrings.CompleteList.WrappedGift, EmojiSymbols.CompleteList.WrappedGift },
-                { EmojiCustomStrings.CompleteList.Wrench, EmojiSymbols.CompleteList.Wrench },
-                { EmojiCustomStrings.CompleteList.WritingHand, EmojiSymbols.CompleteList.WritingHand },
-                { EmojiCustomStrings.CompleteList.Yarn, EmojiSymbols.CompleteList.Yarn },
-                { EmojiCustomStrings.CompleteList.YawningFace, EmojiSymbols.CompleteList.YawningFace },
-                { EmojiCustomStrings.CompleteList.YellowCircle, EmojiSymbols.CompleteList.YellowCircle },
-                { EmojiCustomStrings.CompleteList.YellowHeart, EmojiSymbols.CompleteList.YellowHeart },
-                { EmojiCustomStrings.CompleteList.YellowSquare, EmojiSymbols.CompleteList.YellowSquare },
-                { EmojiCustomStrings.CompleteList.YenBanknote, EmojiSymbols.CompleteList.YenBanknote },
-                { EmojiCustomStrings.CompleteList.YinYang, EmojiSymbols.CompleteList.YinYang },
-                { EmojiCustomStrings.CompleteList.YoYo, EmojiSymbols.CompleteList.YoYo },
-                { EmojiCustomStrings.CompleteList.ZanyFace, EmojiSymbols.CompleteList.ZanyFace },
-                { EmojiCustomStrings.CompleteList.Zebra, EmojiSymbols.CompleteList.Zebra },
-                { EmojiCustomStrings.CompleteList.ZipperMouthFace, EmojiSymbols.CompleteList.ZipperMouthFace },
-                { EmojiCustomStrings.CompleteList.Zombie, EmojiSymbols.CompleteList.Zombie },
-                { EmojiCustomStrings.CompleteList.Zzz, EmojiSymbols.CompleteList.Zzz }
-            };
-
-        _emojiToName = _nameToEmoji.ToDictionary(kvp => kvp.Value, kvp => kvp.Key);
-
+                _emojiToName[kvp.Value] = kvp.Key;
+            }
+        }
         _allNames = [.. _nameToEmoji.Keys];
         _allEmojis = [.. _nameToEmoji.Values];
+    }
+    static void TryAdd(string key, string value)
+    {
+        if (!_nameToEmoji.TryAdd(key, value))
+        {
+            Console.WriteLine($"Duplicate key found: {key}");
+        }
     }
 
     // Public accessors (fast, backed by cached data)
